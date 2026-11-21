@@ -1,0 +1,468 @@
+/**
+ * WM Sovereign Consent Vault — front-end sheet: consent dialog, click-to-load placeholder, settings button.
+ *
+ * Replaces the inline styles with fixed colours the banner and the placeholder carried until 2026-09-17. Every colour
+ * and dimension is a custom property on the component root (`.wm-consent`, `.wm-2click-wrapper`,
+ * `.wm-consent-settings-trigger`); the rules below only use var(), so a theme restyles the dialog by redefining the
+ * properties (for example overriding `--wm-consent-surface` and `--wm-consent-text` on `.wm-consent`).
+ *
+ * Contrast of the defaults, measured by tests/test-suite.php (group 20) with the WCAG 2.2 formula: every text/
+ * background pair at least 4.5:1, focus ring and control borders at least 3:1. Interactive targets are at least
+ * 44 × 44 CSS pixels.
+ */
+
+.wm-consent,
+.wm-2click-wrapper,
+.wm-consent-settings-trigger {
+	--wm-consent-surface: #0f172a;
+	--wm-consent-surface-raised: #1e293b;
+	--wm-consent-text: #f8fafc;
+	--wm-consent-text-muted: #cbd5e1;
+	--wm-consent-link: #7dd3fc;
+	--wm-consent-border: #94a3b8;
+	--wm-consent-choice-bg: #f8fafc;
+	--wm-consent-choice-text: #0f172a;
+	--wm-consent-accent: #38bdf8;
+	--wm-consent-accent-text: #0f172a;
+	--wm-consent-switch-off: #475569;
+	--wm-consent-focus: #fbbf24;
+	--wm-consent-backdrop: rgba(2, 6, 23, 0.72);
+	--wm-consent-shadow: 0 20px 40px rgba(2, 6, 23, 0.6);
+	--wm-consent-radius: 12px;
+	--wm-consent-radius-sm: 8px;
+	--wm-consent-radius-pill: 999px;
+	--wm-consent-border-width: 1px;
+	--wm-consent-focus-width: 3px;
+	--wm-consent-space-1: 4px;
+	--wm-consent-space-2: 8px;
+	--wm-consent-space-3: 12px;
+	--wm-consent-space-4: 16px;
+	--wm-consent-space-6: 24px;
+	--wm-consent-target: 44px;
+	--wm-consent-switch-width: 52px;
+	--wm-consent-track-width: 44px;
+	--wm-consent-track-height: 24px;
+	--wm-consent-thumb: 18px;
+	--wm-consent-thumb-inset: 3px;
+	--wm-consent-thumb-travel: 20px;
+	--wm-consent-icon: 20px;
+	--wm-consent-dialog-width: 40rem;
+	--wm-consent-text-sm: 0.875rem;
+	--wm-consent-text-base: 1rem;
+	--wm-consent-text-lg: 1.25rem;
+	--wm-consent-line-height: 1.5;
+	--wm-consent-weight-strong: 700;
+	--wm-consent-z: 2147483000;
+	--wm-consent-transition: 150ms ease-out;
+}
+
+/* ------------------------------------------------------------------ dialog */
+
+.wm-consent {
+	position: fixed;
+	inset: 0;
+	z-index: var(--wm-consent-z);
+	display: grid;
+	align-items: end;
+	justify-items: center;
+	font-family: inherit;
+	font-size: var(--wm-consent-text-base);
+	line-height: var(--wm-consent-line-height);
+}
+
+.wm-consent[hidden],
+.wm-consent [hidden] {
+	display: none;
+}
+
+.wm-consent *,
+.wm-consent *::before,
+.wm-consent *::after {
+	box-sizing: border-box;
+}
+
+.wm-consent__backdrop {
+	position: absolute;
+	inset: 0;
+	background: var(--wm-consent-backdrop);
+}
+
+.wm-consent__dialog {
+	position: relative;
+	width: calc(100% - 2 * var(--wm-consent-space-4));
+	max-width: var(--wm-consent-dialog-width);
+	max-height: calc(100% - 2 * var(--wm-consent-space-4));
+	margin: var(--wm-consent-space-4);
+	padding: var(--wm-consent-space-6);
+	overflow: auto;
+	background: var(--wm-consent-surface);
+	color: var(--wm-consent-text);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-border);
+	border-radius: var(--wm-consent-radius);
+	box-shadow: var(--wm-consent-shadow);
+}
+
+.wm-consent__dialog:focus {
+	outline: var(--wm-consent-focus-width) solid var(--wm-consent-focus);
+	outline-offset: calc(-1 * var(--wm-consent-focus-width));
+}
+
+.wm-consent__title {
+	display: flex;
+	align-items: center;
+	gap: var(--wm-consent-space-2);
+	margin: 0 0 var(--wm-consent-space-3);
+	padding-right: var(--wm-consent-target);
+	font-size: var(--wm-consent-text-lg);
+	font-weight: var(--wm-consent-weight-strong);
+	line-height: var(--wm-consent-line-height);
+	color: var(--wm-consent-text);
+}
+
+.wm-consent__icon {
+	flex: none;
+	width: var(--wm-consent-icon);
+	height: var(--wm-consent-icon);
+}
+
+.wm-consent__text {
+	margin: 0 0 var(--wm-consent-space-4);
+	color: var(--wm-consent-text-muted);
+}
+
+.wm-consent__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--wm-consent-space-3);
+	margin-top: var(--wm-consent-space-4);
+}
+
+.wm-consent__button {
+	flex: 1 1 auto;
+	min-width: var(--wm-consent-target);
+	min-height: var(--wm-consent-target);
+	margin: 0;
+	padding: var(--wm-consent-space-3) var(--wm-consent-space-4);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-border);
+	border-radius: var(--wm-consent-radius-sm);
+	font: inherit;
+	font-weight: var(--wm-consent-weight-strong);
+	text-align: center;
+	cursor: pointer;
+}
+
+/* "Alle akzeptieren", "Nur notwendige" and "Auswahl speichern" share one style: the same visual weight. */
+.wm-consent__button--choice {
+	background: var(--wm-consent-choice-bg);
+	color: var(--wm-consent-choice-text);
+	border-color: var(--wm-consent-choice-bg);
+}
+
+.wm-consent__button--secondary {
+	background: transparent;
+	color: var(--wm-consent-text);
+}
+
+.wm-consent__close {
+	position: absolute;
+	top: var(--wm-consent-space-2);
+	right: var(--wm-consent-space-2);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--wm-consent-target);
+	height: var(--wm-consent-target);
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: var(--wm-consent-text);
+	border: var(--wm-consent-border-width) solid transparent;
+	border-radius: var(--wm-consent-radius-sm);
+	cursor: pointer;
+}
+
+.wm-consent__categories,
+.wm-consent__service-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wm-consent__category {
+	margin: 0 0 var(--wm-consent-space-3);
+	padding: var(--wm-consent-space-4);
+	background: var(--wm-consent-surface-raised);
+	border-radius: var(--wm-consent-radius-sm);
+}
+
+.wm-consent__category .wm-consent__text {
+	margin-bottom: var(--wm-consent-space-2);
+}
+
+.wm-consent__category-head {
+	display: flex;
+	align-items: center;
+	gap: var(--wm-consent-space-3);
+	min-height: var(--wm-consent-target);
+}
+
+.wm-consent__category-label {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: var(--wm-consent-space-2);
+	min-height: var(--wm-consent-target);
+	font-weight: var(--wm-consent-weight-strong);
+	color: var(--wm-consent-text);
+	cursor: pointer;
+}
+
+/* The checkbox covers the whole 52 × 44 target and is transparent; the track beside it in the DOM is the picture. */
+.wm-consent__switch-wrap {
+	position: relative;
+	display: inline-flex;
+	flex: none;
+	align-items: center;
+	justify-content: center;
+	width: var(--wm-consent-switch-width);
+	height: var(--wm-consent-target);
+}
+
+.wm-consent__switch {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.wm-consent__switch:disabled {
+	cursor: not-allowed;
+}
+
+.wm-consent__switch-track {
+	position: relative;
+	width: var(--wm-consent-track-width);
+	height: var(--wm-consent-track-height);
+	background: var(--wm-consent-switch-off);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-border);
+	border-radius: var(--wm-consent-radius-pill);
+	pointer-events: none;
+	transition: background-color var(--wm-consent-transition);
+}
+
+.wm-consent__switch-track::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: var(--wm-consent-thumb-inset);
+	width: var(--wm-consent-thumb);
+	height: var(--wm-consent-thumb);
+	background: var(--wm-consent-text);
+	border-radius: 50%;
+	transform: translate(0, -50%);
+	transition: transform var(--wm-consent-transition);
+}
+
+.wm-consent__switch:checked + .wm-consent__switch-track {
+	background: var(--wm-consent-accent);
+	border-color: var(--wm-consent-accent);
+}
+
+.wm-consent__switch:checked + .wm-consent__switch-track::after {
+	background: var(--wm-consent-accent-text);
+	transform: translate(var(--wm-consent-thumb-travel), -50%);
+}
+
+.wm-consent__switch:focus-visible + .wm-consent__switch-track {
+	outline: var(--wm-consent-focus-width) solid var(--wm-consent-focus);
+	outline-offset: var(--wm-consent-focus-width);
+}
+
+.wm-consent__badge {
+	display: inline-block;
+	padding: 0 var(--wm-consent-space-2);
+	background: var(--wm-consent-surface);
+	color: var(--wm-consent-text-muted);
+	border-radius: var(--wm-consent-radius-pill);
+	font-size: var(--wm-consent-text-sm);
+	font-weight: normal;
+}
+
+.wm-consent__services summary {
+	display: flex;
+	align-items: center;
+	min-height: var(--wm-consent-target);
+	color: var(--wm-consent-link);
+	cursor: pointer;
+}
+
+.wm-consent__service {
+	margin: 0 0 var(--wm-consent-space-3);
+	padding-top: var(--wm-consent-space-2);
+	border-top: var(--wm-consent-border-width) solid var(--wm-consent-switch-off);
+}
+
+.wm-consent__service-name {
+	margin: 0 0 var(--wm-consent-space-1);
+	font-weight: var(--wm-consent-weight-strong);
+}
+
+.wm-consent__service-facts {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	gap: var(--wm-consent-space-1) var(--wm-consent-space-3);
+	margin: 0;
+	font-size: var(--wm-consent-text-sm);
+	color: var(--wm-consent-text-muted);
+}
+
+.wm-consent__service-facts dd {
+	margin: 0;
+	overflow-wrap: anywhere;
+}
+
+.wm-consent__links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--wm-consent-space-4);
+	margin: var(--wm-consent-space-4) 0 0;
+}
+
+.wm-consent a {
+	color: var(--wm-consent-link);
+	text-decoration: underline;
+}
+
+.wm-consent__link {
+	display: inline-flex;
+	align-items: center;
+	min-height: var(--wm-consent-target);
+}
+
+.wm-consent :is(a, button, summary, [tabindex]):focus-visible {
+	outline: var(--wm-consent-focus-width) solid var(--wm-consent-focus);
+	outline-offset: var(--wm-consent-focus-width);
+}
+
+.wm-consent__sr-only {
+	position: absolute;
+	width: var(--wm-consent-border-width);
+	height: var(--wm-consent-border-width);
+	margin: calc(-1 * var(--wm-consent-border-width));
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+html.wm-consent-is-open {
+	overflow: hidden;
+}
+
+@media (min-width: 48rem) {
+	.wm-consent {
+		align-items: center;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wm-consent__switch-track,
+	.wm-consent__switch-track::after {
+		transition: none;
+	}
+}
+
+/* ------------------------------------------------------------------ click-to-load placeholder */
+
+.wm-2click-wrapper {
+	margin: var(--wm-consent-space-6) 0;
+	padding: var(--wm-consent-space-6);
+	background: var(--wm-consent-surface);
+	color: var(--wm-consent-text);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-border);
+	border-radius: var(--wm-consent-radius);
+	text-align: center;
+	line-height: var(--wm-consent-line-height);
+}
+
+.wm-2click-icon {
+	display: inline-flex;
+	margin-bottom: var(--wm-consent-space-2);
+}
+
+.wm-2click-title {
+	margin: 0 0 var(--wm-consent-space-2);
+	font-weight: var(--wm-consent-weight-strong);
+	color: var(--wm-consent-text);
+}
+
+.wm-2click-text {
+	margin: 0 auto var(--wm-consent-space-4);
+	max-width: var(--wm-consent-dialog-width);
+	font-size: var(--wm-consent-text-sm);
+	color: var(--wm-consent-text-muted);
+}
+
+.wm-2click-actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: var(--wm-consent-space-3);
+}
+
+.wm-2click-wrapper .wm-2click-unlock,
+.wm-2click-wrapper .wm-2click-settings {
+	min-height: var(--wm-consent-target);
+	margin: 0;
+	padding: var(--wm-consent-space-2) var(--wm-consent-space-4);
+	border-radius: var(--wm-consent-radius-sm);
+	font: inherit;
+	cursor: pointer;
+}
+
+.wm-2click-wrapper .wm-2click-unlock {
+	background: var(--wm-consent-accent);
+	color: var(--wm-consent-accent-text);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-accent);
+	font-weight: var(--wm-consent-weight-strong);
+}
+
+.wm-2click-wrapper .wm-2click-settings {
+	background: transparent;
+	color: var(--wm-consent-link);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-border);
+}
+
+.wm-2click-wrapper button:focus-visible {
+	outline: var(--wm-consent-focus-width) solid var(--wm-consent-focus);
+	outline-offset: var(--wm-consent-focus-width);
+}
+
+/* The iframe that replaces a placeholder; its height is set per embed by the script. */
+.wm-2click-frame {
+	display: block;
+	width: 100%;
+	border: 0;
+}
+
+/* ------------------------------------------------------------------ [wm_consent_settings] */
+
+.wm-consent-settings-trigger .wm-consent-settings-button {
+	min-height: var(--wm-consent-target);
+	padding: var(--wm-consent-space-2) var(--wm-consent-space-4);
+	background: var(--wm-consent-surface);
+	color: var(--wm-consent-text);
+	border: var(--wm-consent-border-width) solid var(--wm-consent-border);
+	border-radius: var(--wm-consent-radius-sm);
+	font: inherit;
+	cursor: pointer;
+}
+
+.wm-consent-settings-trigger .wm-consent-settings-button:focus-visible {
+	outline: var(--wm-consent-focus-width) solid var(--wm-consent-focus);
+	outline-offset: var(--wm-consent-focus-width);
+}

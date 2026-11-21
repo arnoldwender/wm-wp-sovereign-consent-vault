@@ -1,0 +1,28 @@
+# WM Sovereign Consent Vault
+
+> WordPress plugin with a consent dialog by category (necessary, statistics, marketing, external media) that holds back the scripts and iframes of the services an administrator registers until their category is accepted, click-to-load placeholders for YouTube, Vimeo and Google Maps, and an HMAC-chained log of the decisions with their categories in the site's own database. The plugin makes no legal assessment.
+
+## Overview
+
+
+- Shortcode: `[wm_consent_settings]` (reopens the dialog); a link to `#wm-consent-settings` does the same
+- Block Bindings & Dynamic Tags: WordPress 6.5+ `wm-consent/status`, GenerateBlocks 2.x `{{wm_consent_status}}`
+- REST: `wm-consent/v1` — `GET /nonce` (rate-limited), `POST /record` (uuid, three flags, optional categories and policy version), `GET /verify-merkle` (administrators)
+- WP-CLI: `wp consent audit_merkle`
+- PHP API: `wm_consent_has( 'statistics' )`; JavaScript: `window.wmConsent`, event `wm-consent:decision`
+- Filters: `wm_consent_services`, `wm_consent_script_handles`, `wm_consent_script_category`, `wm_consent_blocking_enabled`, `wm_consent_has`, `wm_consent_has_nocache`, `wm_consent_rest_rate_limit`, `wm_consent_status_label`; actions: `wm_consent_ready`, `wm_consent_decision_recorded`
+- Storage: `wp_wm_consent_records` (with categories, policy version and signature format), `wp_wm_consent_merkle_nodes`, options `wm_consent_chain_tip`, `wm_consent_settings`, `wm_consent_services`, `wm_consent_delete_data_on_uninstall`, cookie `wm_consent`
+- Documentation measured against the code: README.md, DEVELOPERS.md
+- Version 1.2.2.
+
+## Standards
+
+- PHP 8.2+ / Strict Types / PSR-12 / WPCS
+- Zero-CDN Invariant (self-hosted assets in `/assets/`)
+- Nonce, rate limit and capability checks / Late Escaping
+
+## Official Links
+
+- Plugin Page: https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/
+- GitHub Repository: https://github.com/arnoldwender/wm-wp-sovereign-consent-vault
+- Support & Liability: Zero support — reproducible bugs on https://github.com/arnoldwender/wm-wp-sovereign-consent-vault/issues only · no private support · AS IS / no liability (SUPPORT.md)

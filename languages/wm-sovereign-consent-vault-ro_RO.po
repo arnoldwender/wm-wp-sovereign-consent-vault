@@ -1,0 +1,1285 @@
+# Translation of wm-sovereign-consent-vault in ro_RO
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-sovereign-consent-vault 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-sovereign-"
+"consent-vault\n"
+"POT-Creation-Date: 2026-11-21T12:37:00+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && "
+"n%100<20)) ? 1 : 2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-sovereign-consent-vault\n"
+
+#. Plugin Name of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "WM Sovereign Consent Vault (TDDDG § 25 & DSGVO)"
+msgstr "WM Sovereign Consent Vault (TDDDG § 25 și GDPR)"
+
+#. Plugin URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+
+#. Description of the plugin
+#: wm-sovereign-consent-vault.php
+msgid ""
+"Einwilligungsdialog nach Kategorien, der Skripte und iframes eingetragener "
+"Dienste bis zur Einwilligung zurückhält, 2-Klick-Platzhalter für YouTube, "
+"Vimeo und Google Maps und HMAC-verkettetes Protokoll der Entscheidungen in "
+"der eigenen Datenbank. Keine rechtliche Bewertung."
+msgstr ""
+"Dialog de consimțământ pe categorii care reține scripturile și iframe-urile "
+"serviciilor înregistrate până la consimțământ, substituente în 2 clicuri "
+"pentru YouTube, Vimeo și Google Maps și jurnal înlănțuit HMAC în propria "
+"bază de date. Fără evaluare juridică."
+
+#. Author of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:89
+msgid "WM Consent Vault — protokollierte Entscheidungen"
+msgstr "WM Consent Vault — decizii înregistrate"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Tabelle für Entscheidungen fehlt"
+msgstr "Tabelul deciziilor lipsește"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid "Noch keine Entscheidung protokolliert"
+msgstr "Nicio decizie înregistrată încă"
+
+#. translators: %s: date and time of the newest decision
+#: includes/Admin/AdminDashboard.php:110
+#, php-format
+msgid "Letzte Entscheidung: %s"
+msgstr "Ultima decizie: %s"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Kettenprüfung im Tab „Protokoll“"
+msgstr "Verificarea lanțului în fila „Jurnal”"
+
+#: includes/Admin/AdminDashboard.php:121
+msgid "Entscheidungen"
+msgstr "Decizii"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "mit Statistik"
+msgstr "cu Statistici"
+
+#: includes/Admin/AdminDashboard.php:129
+msgid "mit Marketing"
+msgstr "cu Marketing"
+
+#: includes/Admin/AdminDashboard.php:135
+msgid "Consent Vault öffnen"
+msgstr "Deschide Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "WM Consent Vault"
+msgstr "WM Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:155
+msgid "Consent Vault"
+msgstr "Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Übersicht"
+msgstr "Prezentare generală"
+
+#: includes/Admin/AdminDashboard.php:194 includes/Frontend/ConsentBanner.php:60
+msgid "Einstellungen"
+msgstr "Setări"
+
+#: includes/Admin/AdminDashboard.php:195
+msgid "Dienste"
+msgstr "Servicii"
+
+#: includes/Admin/AdminDashboard.php:196
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/Admin/AdminDashboard.php:197
+msgid "Eingebettete Inhalte"
+msgstr "Conținut încorporat"
+
+#: includes/Admin/AdminDashboard.php:198
+msgid "Protokoll"
+msgstr "Jurnal"
+
+#: includes/Admin/AdminDashboard.php:199 includes/Admin/AdminDashboard.php:460
+msgid "Begriffe"
+msgstr "Glosar"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "WM Sovereign Consent Vault"
+msgstr "WM Sovereign Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Einwilligungsdialog nach Kategorien &bull; Blockieren eingetragener Dienste "
+"bis zur Einwilligung &bull; verkettetes Protokoll der Entscheidungen"
+msgstr ""
+"Dialog de consimțământ pe categorii &bull; Blocarea serviciilor înregistrate "
+"până la consimțământ &bull; Jurnal înlănțuit al deciziilor"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Part of the WM Suite plugin family"
+msgstr "Parte din familia de module WM Suite"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Hub"
+msgstr "Mod Hub"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Standalone"
+msgstr "Autonom"
+
+#: includes/Admin/AdminDashboard.php:242
+msgid "Was dieses Plugin tut"
+msgstr "Ce face acest modul"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid ""
+"Es zeigt Besuchern ohne gültige Entscheidung einen Dialog mit „Alle "
+"akzeptieren“, „Nur notwendige“ und einer Auswahl nach Kategorien (Statistik, "
+"Marketing, Externe Medien). Bis zur Einwilligung in die jeweilige Kategorie "
+"hält es Skripte und iframes der unter „Dienste“ eingetragenen Anbieter, mit "
+"data-wm-consent markiertes Markup und Videos und Karten von YouTube, Vimeo "
+"und Google Maps zurück; danach lädt der Browser sie ohne neuen Seitenaufruf. "
+"Jede Entscheidung wird mit ihren Kategorien und der Version der Richtlinie "
+"in zwei eigenen Tabellen protokolliert, deren Einträge per HMAC verkettet "
+"sind."
+msgstr ""
+"Afișează vizitatorilor fără o decizie validă un dialog cu „Acceptă toate”, "
+"„Doar necesare” și opțiuni pe categorii (Statistici, Marketing, Media "
+"externă). Până la consimțământul pentru categoria respectivă, reține "
+"scripturile și iframe-urile furnizorilor înregistrați în „Servicii”, "
+"marcajele cu data-wm-consent, precum și clipurile și hărțile YouTube, Vimeo "
+"și Google Maps; apoi browserul le încarcă fără reîncărcarea paginii. Fiecare "
+"decizie este consemnată cu categoriile și versiunea politicii în două tabele "
+"proprii înlănțuite prin HMAC."
+
+#: includes/Admin/AdminDashboard.php:249
+msgid "Module Tabs"
+msgstr "Filele modulului"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Die Tabelle für Entscheidungen existiert nicht. Plugin deaktivieren und "
+"wieder aktivieren legt sie an."
+msgstr ""
+"Tabelul pentru decizii nu există. Dezactivarea și reactivarea modulului îl "
+"creează."
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Protokollierte Entscheidungen"
+msgstr "Decizii înregistrate"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "je Klick im Banner ein Eintrag"
+msgstr "o înregistrare la fiecare alegere în banner"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid "Mit Statistik"
+msgstr "Cu Statistici"
+
+#: includes/Admin/AdminDashboard.php:271
+msgid "Kategorie Statistik gewählt"
+msgstr "categoria Statistici aleasă"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Mit Marketing"
+msgstr "Cu Marketing"
+
+#: includes/Admin/AdminDashboard.php:276
+msgid "Kategorie Marketing gewählt"
+msgstr "categoria Marketing aleasă"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "Mit externen Medien"
+msgstr "Cu Media externă"
+
+#: includes/Admin/AdminDashboard.php:281
+msgid "nur Entscheidungen mit Kategorien"
+msgstr "doar decizii cu categorii"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Zur aktuellen Richtlinie"
+msgstr "Politica actuală"
+
+#. translators: %s: current policy version
+#: includes/Admin/AdminDashboard.php:291
+#, php-format
+msgid "Version %s"
+msgstr "Versiunea %s"
+
+#: includes/Admin/AdminDashboard.php:296 includes/Admin/SettingsScreen.php:382
+#: includes/Admin/SettingsScreen.php:389
+msgid "Eingetragene Dienste"
+msgstr "Servicii înregistrate"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren eingeschaltet"
+msgstr "Blocare activată"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren ausgeschaltet"
+msgstr "Blocare dezactivată"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "Letzte Entscheidung"
+msgstr "Ultima decizie"
+
+#: includes/Admin/AdminDashboard.php:303
+msgid "Serverzeit"
+msgstr "Ora serverului"
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "Was nicht enthalten ist"
+msgstr "Ce nu este inclus"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid ""
+"Keine automatische Erkennung von Diensten: zurückgehalten wird, was unter "
+"„Dienste“ eingetragen oder mit data-wm-consent markiert ist, dazu iframes "
+"von YouTube, Vimeo und Google Maps."
+msgstr ""
+"Fără detectare automată a serviciilor: se reține doar ceea ce este "
+"înregistrat sub „Servicii” sau marcat cu data-wm-consent, plus iframe-urile "
+"YouTube, Vimeo și Google Maps."
+
+#: includes/Admin/AdminDashboard.php:311
+msgid ""
+"Nichts, was ein Skript erst nach dem Laden der Seite einfügt, und keine "
+"Bilder oder Pixel in noscript-Bereichen."
+msgstr ""
+"Nimic inserat de un script după încărcarea paginii și nicio imagine sau "
+"pixel din blocurile noscript."
+
+#: includes/Admin/AdminDashboard.php:312
+msgid ""
+"Keine Farbeinstellungen im Backend: das Aussehen folgt CSS-Variablen, die "
+"ein Theme überschreiben kann."
+msgstr ""
+"Fără setări de culoare în panou: aspectul urmează variabile CSS pe care tema "
+"le poate suprascrie."
+
+#: includes/Admin/AdminDashboard.php:313
+msgid ""
+"Kein Export und keine rechtliche Bewertung Ihres Einwilligungsverfahrens."
+msgstr ""
+"Fără export și fără evaluare juridică a procedurii dvs. de consimțământ."
+
+#: includes/Admin/AdminDashboard.php:327
+msgid "Das Banner, wie Besucher es sehen"
+msgstr "Bannerul așa cum îl văd vizitatorii"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid ""
+"Ein Dialog in der Mitte des Fensters (auf schmalen Bildschirmen unten), für "
+"jeden Besucher ohne gültige Entscheidung in diesem Browser. Die Texte "
+"stammen aus den Einstellungen:"
+msgstr ""
+"Un dialog în centrul ferestrei (jos pe ecrane înguste) pentru fiecare "
+"vizitator fără decizie validă în browser. Textele provin din setări:"
+
+#: includes/Admin/AdminDashboard.php:330 includes/Admin/SettingsScreen.php:247
+msgid "Überschrift"
+msgstr "Titlu"
+
+#: includes/Admin/AdminDashboard.php:332 includes/Admin/SettingsScreen.php:248
+msgid "Text"
+msgstr "Text"
+
+#: includes/Admin/AdminDashboard.php:334
+msgid "Schaltflächen"
+msgstr "Butoane"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Links"
+msgstr "Linkuri"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "keine Datenschutzerklärung"
+msgstr "fără politică de confidențialitate"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "kein Impressum"
+msgstr "fără mențiuni legale"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Was eine Entscheidung bewirkt"
+msgstr "Efectul unei decizii"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid ""
+"„Alle akzeptieren“ wählt alle Kategorien, „Nur notwendige“ keine "
+"zusätzliche; unter „Einstellungen“ schaltet der Besucher Statistik, "
+"Marketing und Externe Medien einzeln und sieht die eingetragenen Dienste je "
+"Kategorie. Beide Hauptschaltflächen sind gleich gestaltet."
+msgstr ""
+"„Acceptă toate” alege toate categoriile, „Doar necesare” niciuna "
+"suplimentară; la „Setări” vizitatorul comută individual Statistici, "
+"Marketing și Media externă și vede serviciile înregistrate pe categorii. "
+"Ambele butoane principale au același stil."
+
+#: includes/Admin/AdminDashboard.php:343
+msgid ""
+"Der Browser speichert eine zufällige Kennung, die Kategorien, die Version "
+"der Richtlinie und den Zeitpunkt in localStorage (wm_consent_uuid, "
+"wm_consent_categories, wm_consent_policy_version, wm_consent_decided_at, "
+"weiterhin auch wm_consent_analytics und wm_consent_marketing) und im Cookie "
+"wm_consent."
+msgstr ""
+"Browserul salvează un identificator aleatoriu, categoriile, versiunea "
+"politicii și momentul în localStorage (wm_consent_uuid, "
+"wm_consent_categories, wm_consent_policy_version, wm_consent_decided_at, "
+"precum și wm_consent_analytics și wm_consent_marketing) și în cookie-ul "
+"wm_consent."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid ""
+"Das Skript holt einen REST-Token und sendet die Entscheidung an wm-consent/"
+"v1/record; der Server speichert sie mit einem HMAC der IP-Adresse, dem User-"
+"Agent, den Kategorien, der Version der Richtlinie und einer Signatur und "
+"hängt sie an die Kette an."
+msgstr ""
+"Scriptul obține un token REST și trimite decizia către wm-consent/v1/record; "
+"serverul o salvează cu un HMAC al adresei IP, User-Agentul, categoriile, "
+"versiunea politicii și o semnătură, atașând-o lanțului."
+
+#: includes/Admin/AdminDashboard.php:345
+msgid ""
+"Zurückgehaltene Skripte und iframes der gewählten Kategorien laden sofort, "
+"ohne neuen Seitenaufruf. Wird eine Kategorie zurückgenommen, löscht das "
+"Skript die eingetragenen Cookies ihrer Dienste auf dieser Website und lädt "
+"die Seite neu."
+msgstr ""
+"Scripturile și iframe-urile reținute ale categoriilor acceptate se încarcă "
+"imediat fără reîncărcare. Dacă o categorie este retrasă, scriptul șterge "
+"cookie-urile înregistrate pe acest site și reîncarcă pagina."
+
+#: includes/Admin/AdminDashboard.php:346
+msgid ""
+"Nach Ablauf der Gültigkeit oder nach einer neuen Version der Richtlinie "
+"fragt der Dialog erneut."
+msgstr ""
+"La expirarea valabilității sau la o nouă versiune a politicii, dialogul "
+"întreabă din nou."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid ""
+"Erneut öffnen: Shortcode [wm_consent_settings], ein Link auf #wm-consent-"
+"settings (zum Beispiel im Menü) oder die zweite Schaltfläche jedes "
+"Platzhalters."
+msgstr ""
+"Redeschidere: shortcode [wm_consent_settings], link către #wm-consent-"
+"settings (de ex. în meniu) sau al doilea buton al fiecărui substituent."
+
+#: includes/Admin/AdminDashboard.php:349
+msgid ""
+"Der Dialog ist ein modaler Dialog: der Fokus springt hinein, bleibt beim "
+"Tabben darin und kehrt beim Schließen zurück. Beim ersten Besuch schließt "
+"ihn nur eine Wahl; geöffnet über einen Link schließen ihn auch Escape und "
+"die Schließen-Schaltfläche. Ob die Texte für Ihre Website rechtlich genügen, "
+"beantwortet das Plugin nicht."
+msgstr ""
+"Dialogul este modal: focalizarea intră în el, rămâne în interior cu Tab și "
+"revine la închidere. La prima vizită îl închide doar o alegere; deschis prin "
+"link îl închid și Escape sau butonul de închidere. Modulul nu evaluează "
+"suficiența juridică a textelor."
+
+#: includes/Admin/AdminDashboard.php:356 includes/Admin/AdminDashboard.php:479
+msgid "2-Klick-Platzhalter"
+msgstr "Substituente în 2 clicuri"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid ""
+"Auf jeder Seite der Website (Beitragsinhalt, Widgets, Theme-Vorlagen) wird "
+"jedes iframe dieser Anbieter durch einen Platzhalter ersetzt, solange das "
+"Blockieren eingeschaltet ist; im Beitragsinhalt auch dann:"
+msgstr ""
+"Pe fiecare pagină a site-ului (conținut, widgeturi, șabloane), fiecare "
+"iframe al acestor furnizori este înlocuit cu un substituent cât timp "
+"blocarea este activă — iar în conținutul articolelor chiar și fără:"
+
+#: includes/Admin/AdminDashboard.php:363
+msgid ""
+"Iframes eingetragener Dienste der Kategorie Externe Medien bekommen "
+"denselben Platzhalter, iframes anderer Kategorien warten ohne sichtbaren "
+"Platzhalter auf die Einwilligung."
+msgstr ""
+"Iframe-urile serviciilor înregistrate la Media externă primesc același "
+"substituent; celelalte categorii așteaptă consimțământul fără substituent "
+"vizibil."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Wie ein Platzhalter lädt"
+msgstr "Cum se încarcă un substituent"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid ""
+"Nach einer Einwilligung in Externe Medien laden alle Platzhalter der Seite "
+"von selbst."
+msgstr ""
+"După consimțământul pentru Media externă, toate substituentele din pagină se "
+"încarcă automat."
+
+#: includes/Admin/AdminDashboard.php:367
+msgid ""
+"Ohne diese Einwilligung lädt ein Klick auf „Inhalt entsperren“ nur diesen "
+"einen Inhalt; der Klick wird nicht protokolliert. Die zweite Schaltfläche "
+"öffnet den Dialog."
+msgstr ""
+"Fără acest consimțământ, un clic pe „Deblochează conținutul” încarcă doar "
+"acel element fără a fi înregistrat. Al doilea buton deschide dialogul."
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Nicht erfasst"
+msgstr "Neacoperit"
+
+#: includes/Admin/AdminDashboard.php:371
+msgid ""
+"Andere Anbieter und Länderdomains (z. B. google.de/maps), solange sie nicht "
+"als Dienst eingetragen sind."
+msgstr ""
+"Alți furnizori și domenii naționale (de ex. google.de/maps) cât timp nu sunt "
+"înregistrați ca serviciu."
+
+#: includes/Admin/AdminDashboard.php:372
+msgid "Player, die ein Skript erst nach dem Laden der Seite einfügt."
+msgstr "Playere inserate de un script abia după încărcarea paginii."
+
+#: includes/Admin/AdminDashboard.php:388
+msgid "Protokoll der Entscheidungen"
+msgstr "Jurnalul deciziilor"
+
+#: includes/Admin/AdminDashboard.php:389
+msgid ""
+"Jede Entscheidung wird mit einem HMAC-SHA256 signiert (Schlüssel: AUTH_KEY "
+"aus wp-config.php, sonst ein Salt aus der Datenbank) und mit dem vorherigen "
+"Eintrag verkettet; die Spitze der Kette steht zusätzlich signiert in einer "
+"Option. Die Prüfung erkennt geänderte, gelöschte, nachträglich eingefügte "
+"und abgeschnittene Einträge, solange der Schlüssel nicht bekannt ist. Sie "
+"beweist nicht, dass ein Eintrag von einem echten Besucher stammt: jeder kann "
+"den Token abrufen und eine Entscheidung senden."
+msgstr ""
+"Fiecare decizie este semnată cu HMAC-SHA256 (cheie: AUTH_KEY din wp-"
+"config.php, altfel un salt din baza de date) și înlănțuită cu intrarea "
+"precedentă; vârful lanțului este stocat suplimentar semnat într-o opțiune. "
+"Verificarea detectează rândurile modificate, șterse, inserate sau trunchiate "
+"cât timp cheia rămâne secretă. Nu dovedește că intrarea provine de la un "
+"vizitator real."
+
+#: includes/Admin/AdminDashboard.php:391
+msgid "Kette jetzt prüfen"
+msgstr "Verifică lanțul acum"
+
+#: includes/Admin/AdminDashboard.php:398
+msgid "Knoten"
+msgstr "Nod"
+
+#: includes/Admin/AdminDashboard.php:399
+msgid "Vorgänger"
+msgstr "Precedent"
+
+#: includes/Admin/AdminDashboard.php:400
+msgid "Signatur des Eintrags"
+msgstr "Semnătura intrării"
+
+#: includes/Admin/AdminDashboard.php:401
+msgid "Verkettung"
+msgstr "Înlănțuire"
+
+#: includes/Admin/AdminDashboard.php:402
+msgid "Zeitpunkt"
+msgstr "Momentul rulării"
+
+#: includes/Admin/AdminDashboard.php:408
+msgid "Noch keine Einträge."
+msgstr "Nicio intrare încă."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid "Prüfe die Kette …"
+msgstr "Se verifică lanțul …"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "Prüfung fehlgeschlagen:"
+msgstr "Verificare eșuată:"
+
+#: includes/Admin/AdminDashboard.php:446
+msgid "Noch keine Entscheidung protokolliert: nichts zu prüfen."
+msgstr "Nicio decizie înregistrată încă: nimic de verificat."
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Kette unverändert. Geprüfte Knoten:"
+msgstr "Lanț intact. Noduri verificate:"
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Schlüsselquelle:"
+msgstr "Sursa cheii:"
+
+#: includes/Admin/AdminDashboard.php:451
+msgid "Fehler:"
+msgstr "Eroare:"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "localStorage"
+msgstr "localStorage"
+
+#: includes/Admin/AdminDashboard.php:464
+msgid ""
+"Speicher im Browser des Besuchers. Das Plugin legt dort die Entscheidung ab; "
+"dazu setzt es ein einziges Cookie, wm_consent, damit auch PHP die "
+"Entscheidung lesen kann (wm_consent_has)."
+msgstr ""
+"Stocare în browserul vizitatorului. Modulul salvează acolo decizia și "
+"setează un singur cookie, wm_consent, pentru ca și PHP să poată citi "
+"alegerea (wm_consent_has)."
+
+#: includes/Admin/AdminDashboard.php:467 includes/Admin/SettingsScreen.php:184
+#: includes/Admin/SettingsScreen.php:393 includes/Admin/SettingsScreen.php:447
+#: includes/Admin/SettingsScreen.php:490
+msgid "Kategorie"
+msgstr "Categorie"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid ""
+"Notwendig (immer aktiv), Statistik, Marketing oder Externe Medien. Jeder "
+"eingetragene Dienst gehört zu genau einer; seine Skripte und iframes warten "
+"auf die Einwilligung in diese Kategorie."
+msgstr ""
+"Necesare (mereu activă), Statistici, Marketing sau Media externă. Fiecare "
+"serviciu înregistrat aparține unei singure categorii; scripturile și iframe-"
+"urile sale așteaptă consimțământul pentru acea categorie."
+
+#: includes/Admin/AdminDashboard.php:471 includes/Admin/SettingsScreen.php:181
+#: includes/Admin/SettingsScreen.php:330
+msgid "Version der Richtlinie"
+msgstr "Versiunea politicii"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid ""
+"Kennzeichen unter „Einstellungen“. Eine Entscheidung gilt nur für die "
+"Version, zu der sie gegeben wurde; eine neue Version fragt alle Besucher "
+"erneut."
+msgstr ""
+"Identificator în „Setări”. O decizie este valabilă doar pentru versiunea sub "
+"care a fost dată; o versiune nouă întreabă din nou toți vizitatorii."
+
+#: includes/Admin/AdminDashboard.php:475
+msgid "Signaturformat"
+msgstr "Formatul semnăturii"
+
+#: includes/Admin/AdminDashboard.php:476
+msgid ""
+"Einträge vor dem 17.09.2026 tragen Format 1 (Kennung, IP-Hash, drei Werte, "
+"Zeitpunkt). Neue Einträge tragen Format 2, das zusätzlich Kategorien, "
+"Version der Richtlinie und User-Agent signiert. Jeder Eintrag wird mit "
+"seinem Format geprüft."
+msgstr ""
+"Intrările anterioare datei de 17.09.2026 au formatul 1 (ID, hash IP, trei "
+"valori, moment). Intrările noi au formatul 2, care semnează și categoriile, "
+"versiunea politicii și User-Agentul. Fiecare intrare este verificată cu "
+"formatul ei."
+
+#: includes/Admin/AdminDashboard.php:480
+msgid ""
+"Ersetzt ein eingebettetes Video oder eine Karte, bis der Besucher klickt; "
+"vorher baut der Browser keine Verbindung zum Anbieter auf."
+msgstr ""
+"Înlocuiește un videoclip sau o hartă încorporată până când vizitatorul dă "
+"clic; înainte de aceasta browserul nu se conectează la furnizor."
+
+#: includes/Admin/AdminDashboard.php:483
+msgid "HMAC-Kette"
+msgstr "Lanț HMAC"
+
+#: includes/Admin/AdminDashboard.php:484
+msgid ""
+"Jeder Eintrag trägt eine Signatur mit einem geheimen Schlüssel und die des "
+"vorherigen. Wer die Daten ohne den Schlüssel ändert, fällt bei der Prüfung "
+"auf; wer den Schlüssel kennt, nicht. Trotz des Klassennamens ist es kein "
+"Merkle-Baum."
+msgstr ""
+"Fiecare intrare poartă o semnătură cu cheie secretă și semnătura "
+"precedentei. Modificările fără cheie sunt depistate la verificare. În ciuda "
+"numelui clasei, nu este un arbore Merkle."
+
+#: includes/Admin/SettingsScreen.php:66 includes/Admin/SettingsScreen.php:100
+#: includes/Admin/SettingsScreen.php:111 includes/Admin/SettingsScreen.php:137
+#: includes/Admin/SettingsScreen.php:147
+msgid "Keine Berechtigung."
+msgstr "Permisiuni insuficiente."
+
+#: includes/Admin/SettingsScreen.php:179 includes/Admin/SettingsScreen.php:289
+msgid "Datenschutzerklärung (URL)"
+msgstr "Politică de confidențialitate (URL)"
+
+#: includes/Admin/SettingsScreen.php:180 includes/Admin/SettingsScreen.php:303
+msgid "Impressum (URL)"
+msgstr "Mențiuni legale / Impressum (URL)"
+
+#: includes/Admin/SettingsScreen.php:182 includes/Admin/SettingsScreen.php:335
+msgid "Gültigkeit in Tagen"
+msgstr "Valabilitate în zile"
+
+#: includes/Admin/SettingsScreen.php:183 includes/Admin/SettingsScreen.php:433
+msgid "Name"
+msgstr "Nume"
+
+#: includes/Admin/SettingsScreen.php:185 includes/Admin/SettingsScreen.php:463
+msgid "Host- oder Dateimuster"
+msgstr "Tipare de gazdă sau fișier"
+
+#: includes/Admin/SettingsScreen.php:186 includes/Admin/SettingsScreen.php:468
+msgid "Cookie-Namen"
+msgstr "Nume de cookie-uri"
+
+#: includes/Admin/SettingsScreen.php:187 includes/Admin/SettingsScreen.php:437
+msgid "Kennung"
+msgstr "Identificator"
+
+#: includes/Admin/SettingsScreen.php:188
+msgid "Kennung (schon vergeben)"
+msgstr "Identificator (deja folosit)"
+
+#: includes/Admin/SettingsScreen.php:189
+msgid "Dienst (nicht mehr vorhanden)"
+msgstr "Serviciu (nu mai există)"
+
+#: includes/Admin/SettingsScreen.php:199
+msgid "Einstellungen gespeichert."
+msgstr "Setări salvate."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:202
+#, php-format
+msgid ""
+"Gespeichert, bis auf diese Felder, die ihren bisherigen Wert behalten: %s"
+msgstr ""
+"Salvat, cu excepția acestor câmpuri care își păstrează valoarea anterioară: "
+"%s"
+
+#. translators: %s: new policy version
+#: includes/Admin/SettingsScreen.php:205
+#, php-format
+msgid ""
+"Version der Richtlinie ist jetzt „%s“. Besucher sehen das Banner beim "
+"nächsten Seitenaufruf erneut."
+msgstr ""
+"Versiunea politicii este acum „%s”. Vizitatorii vor vedea din nou bannerul "
+"la următoarea afișare."
+
+#: includes/Admin/SettingsScreen.php:207
+msgid "Dienst hinzugefügt."
+msgstr "Serviciu adăugat."
+
+#: includes/Admin/SettingsScreen.php:209
+msgid "Dienst gespeichert."
+msgstr "Serviciu salvat."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:212
+#, php-format
+msgid "Der Dienst wurde nicht gespeichert. Bitte prüfen: %s"
+msgstr "Serviciul nu a fost salvat. Verificați: %s"
+
+#: includes/Admin/SettingsScreen.php:214
+msgid "Dienst entfernt."
+msgstr "Serviciu eliminat."
+
+#: includes/Admin/SettingsScreen.php:216
+msgid "Diesen Dienst gibt es nicht mehr."
+msgstr "Acest serviciu nu mai există."
+
+#: includes/Admin/SettingsScreen.php:218
+msgid ""
+"Vorlage als Dienst hinzugefügt. Bitte Anbieter und Angaben für Ihre Website "
+"prüfen."
+msgstr ""
+"Șablon adăugat ca serviciu. Verificați furnizorul și detaliile pentru site-"
+"ul dvs."
+
+#: includes/Admin/SettingsScreen.php:220
+msgid ""
+"Ein Dienst mit dieser Kennung ist schon eingetragen; er wurde nicht "
+"überschrieben."
+msgstr "Un serviciu cu acest identificator există deja; nu a fost suprascris."
+
+#: includes/Admin/SettingsScreen.php:222
+msgid "Unbekannte Vorlage."
+msgstr "Șablon necunoscut."
+
+#: includes/Admin/SettingsScreen.php:249
+msgid "Schaltfläche „alle akzeptieren“"
+msgstr "Buton „Acceptă toate”"
+
+#: includes/Admin/SettingsScreen.php:250
+msgid "Schaltfläche „nur notwendige“"
+msgstr "Buton „Doar necesare”"
+
+#: includes/Admin/SettingsScreen.php:251
+msgid "Schaltfläche „Einstellungen“"
+msgstr "Buton „Setări”"
+
+#: includes/Admin/SettingsScreen.php:252
+msgid "Schaltfläche „Auswahl speichern“"
+msgstr "Buton „Salvează selecția”"
+
+#: includes/Admin/SettingsScreen.php:253
+msgid "Linktext Datenschutzerklärung"
+msgstr "Text link politică de confidențialitate"
+
+#: includes/Admin/SettingsScreen.php:254
+msgid "Linktext Impressum"
+msgstr "Text link mențiuni legale"
+
+#: includes/Admin/SettingsScreen.php:265
+msgid "Texte des Banners"
+msgstr "Textele bannerului"
+
+#: includes/Admin/SettingsScreen.php:266
+msgid ""
+"Ein leeres Feld verwendet den Standardtext, der unter dem Feld steht und mit "
+"der Sprache der Website übersetzt wird. Die Standardtexte beschreiben, was "
+"das Plugin speichert; ob sie für Ihre Website rechtlich genügen, prüft das "
+"Plugin nicht."
+msgstr ""
+"Un câmp gol folosește textul implicit afișat dedesubt, tradus în limba site-"
+"ului. Textele implicite descriu ce stochează modulul fără evaluare juridică."
+
+#. translators: %s: default text
+#: includes/Admin/SettingsScreen.php:279 includes/Admin/SettingsScreen.php:320
+#, php-format
+msgid "Standard: %s"
+msgstr "Implicit: %s"
+
+#: includes/Admin/SettingsScreen.php:287
+msgid "Links im Banner"
+msgstr "Linkuri în banner"
+
+#. translators: %s: URL of the privacy policy page set in WordPress
+#: includes/Admin/SettingsScreen.php:296
+#, php-format
+msgid "Leer: die unter Einstellungen › Datenschutz gewählte Seite (%s)."
+msgstr "Gol: pagina selectată în Setări › Confidențialitate (%s)."
+
+#: includes/Admin/SettingsScreen.php:297
+msgid ""
+"Leer: die unter Einstellungen › Datenschutz gewählte Seite. Dort ist derzeit "
+"keine veröffentlichte Seite gewählt, also zeigt das Banner keinen Link."
+msgstr ""
+"Gol: pagina selectată în Setări › Confidențialitate. Momentan nu este "
+"selectată nicio pagină publicată acolo, deci nu se afișează link."
+
+#: includes/Admin/SettingsScreen.php:305
+msgid "Leer: kein Impressum-Link im Banner."
+msgstr "Gol: niciun link către mențiunile legale în banner."
+
+#: includes/Admin/SettingsScreen.php:307
+msgid ""
+"Auf diesen beiden Seiten öffnet sich das Banner nicht von selbst, damit "
+"Besucher sie vor ihrer Entscheidung lesen können."
+msgstr ""
+"Pe aceste două pagini bannerul nu se deschide automat pentru ca vizitatorii "
+"să le poată citi înainte de a decide."
+
+#: includes/Admin/SettingsScreen.php:311
+msgid "Beschreibungen der Kategorien"
+msgstr "Descrierile categoriilor"
+
+#: includes/Admin/SettingsScreen.php:328
+msgid "Einwilligung"
+msgstr "Consimțământ"
+
+#: includes/Admin/SettingsScreen.php:332
+msgid ""
+"Jede gespeicherte Entscheidung gilt für diese Version. Ändern Sie sie, sehen "
+"alle Besucher das Banner erneut, und das Protokoll hält fest, für welche "
+"Version entschieden wurde. Erlaubt: Buchstaben, Ziffern, Punkt, Bindestrich, "
+"Unterstrich (höchstens 32 Zeichen)."
+msgstr ""
+"Fiecare decizie salvată se aplică acestei versiuni. Dacă o modificați, toți "
+"vizitatorii revăd bannerul, iar jurnalul reține versiunea aleasă. Permise: "
+"litere, cifre, punct, cratimă, linie de subliniere (max. 32 caractere)."
+
+#: includes/Admin/SettingsScreen.php:337
+msgid ""
+"Nach so vielen Tagen fragt das Banner erneut; so lange lebt auch das Cookie "
+"wm_consent."
+msgstr ""
+"După acest număr de zile bannerul întreabă din nou; la fel de mult durează "
+"și cookie-ul wm_consent."
+
+#: includes/Admin/SettingsScreen.php:342
+msgid ""
+"Skripte und iframes eingetragener Dienste bis zur Einwilligung blockieren"
+msgstr ""
+"Blochează scripturile și iframe-urile serviciilor înregistrate până la "
+"consimțământ"
+
+#: includes/Admin/SettingsScreen.php:344
+msgid ""
+"Ausgeschaltet schreibt das Plugin die Seite nicht mehr um: eingetragene "
+"Dienste laden sofort, auch ohne Entscheidung. Banner, Protokoll und die "
+"Platzhalter im Beitragsinhalt bleiben aktiv."
+msgstr ""
+"Dezactivat, modulul nu mai rescrie pagina: serviciile înregistrate se "
+"încarcă imediat chiar și fără decizie. Bannerul, jurnalul și substituentele "
+"din conținut rămân active."
+
+#: includes/Admin/SettingsScreen.php:349
+msgid ""
+"Alle Protokolle, Tabellen und Einstellungen beim Löschen des Plugins "
+"entfernen"
+msgstr "Șterge toate jurnalele, tabelele și setările la ștergerea modulului"
+
+#: includes/Admin/SettingsScreen.php:351
+msgid ""
+"Standardmäßig bleiben das Einwilligungsprotokoll, die HMAC-Kette und alle "
+"Einstellungen bei der Deinstallation erhalten, damit dokumentierte "
+"Entscheidungen nicht unbeabsichtigt gelöscht werden."
+msgstr ""
+"Implicit, jurnalul de consimțământ, lanțul HMAC și setările sunt păstrate la "
+"dezinstalare pentru a nu șterge accidental deciziile documentate."
+
+#: includes/Admin/SettingsScreen.php:355
+msgid "Einstellungen speichern"
+msgstr "Salvează setările"
+
+#: includes/Admin/SettingsScreen.php:359
+msgid "Alle Besucher erneut fragen"
+msgstr "Întreabă din nou toți vizitatorii"
+
+#: includes/Admin/SettingsScreen.php:360
+msgid ""
+"Erhöht die Version der Richtlinie um einen Schritt (eine Zahl am Ende wird "
+"hochgezählt). Bestehende Entscheidungen bleiben im Protokoll, gelten im "
+"Browser aber nicht mehr."
+msgstr ""
+"Crește versiunea politicii cu un pas (numărul de la final este incrementat). "
+"Deciziile existente rămân în jurnal, dar nu mai sunt valabile în browser."
+
+#: includes/Admin/SettingsScreen.php:364
+msgid "Version erhöhen"
+msgstr "Crește versiunea"
+
+#: includes/Admin/SettingsScreen.php:383
+msgid ""
+"Skripte und iframes, deren Quelle oder Code eines der Muster enthält, warten "
+"auf die Einwilligung in die Kategorie des Dienstes. Das Banner listet die "
+"Dienste je Kategorie; beim Widerruf löscht es die angegebenen Cookies dieser "
+"Website."
+msgstr ""
+"Scripturile și iframe-urile a căror sursă sau cod conține unul dintre tipare "
+"așteaptă consimțământul categoriei serviciului. Bannerul listează serviciile "
+"pe categorii; la retragere șterge cookie-urile indicate pe acest site."
+
+#: includes/Admin/SettingsScreen.php:385
+msgid ""
+"Noch keine Dienste eingetragen: außer den Platzhaltern für YouTube, Vimeo "
+"und Google Maps und dem Markup mit data-wm-consent wird nichts blockiert."
+msgstr ""
+"Niciun serviciu înregistrat încă: în afara substituentelor pentru YouTube, "
+"Vimeo și Google Maps și a marcajului data-wm-consent, nimic nu este blocat."
+
+#: includes/Admin/SettingsScreen.php:392 includes/Admin/SettingsScreen.php:489
+msgid "Dienst"
+msgstr "Serviciu"
+
+#: includes/Admin/SettingsScreen.php:394 includes/Admin/SettingsScreen.php:491
+msgid "Muster"
+msgstr "Tipare"
+
+#: includes/Admin/SettingsScreen.php:395
+#: includes/Frontend/ConsentBanner.php:219
+msgid "Cookies"
+msgstr "Cookie-uri"
+
+#: includes/Admin/SettingsScreen.php:396 includes/Admin/SettingsScreen.php:526
+msgid "Aktionen"
+msgstr "Acțiuni"
+
+#: includes/Admin/SettingsScreen.php:408
+msgid "Bearbeiten"
+msgstr "Editează"
+
+#: includes/Admin/SettingsScreen.php:414
+msgid "Entfernen"
+msgstr "Elimină"
+
+#: includes/Admin/SettingsScreen.php:426
+msgid "Dienst bearbeiten"
+msgstr "Editează serviciul"
+
+#: includes/Admin/SettingsScreen.php:426 includes/Admin/SettingsScreen.php:473
+msgid "Dienst hinzufügen"
+msgstr "Adaugă serviciu"
+
+#: includes/Admin/SettingsScreen.php:439
+msgid ""
+"Kleinbuchstaben, Ziffern, Bindestrich und Unterstrich. Leer: aus dem Namen "
+"gebildet."
+msgstr ""
+"Litere mici, cifre, cratimă și linie de subliniere. Gol: generat din nume."
+
+#: includes/Admin/SettingsScreen.php:442
+#: includes/Frontend/ConsentBanner.php:211
+msgid "Anbieter"
+msgstr "Furnizor"
+
+#: includes/Admin/SettingsScreen.php:444
+msgid ""
+"Wie Besucher den Anbieter im Banner sehen, zum Beispiel mit Firma und Sitz."
+msgstr ""
+"Cum văd vizitatorii furnizorul în banner, de ex. denumirea companiei și "
+"sediul."
+
+#: includes/Admin/SettingsScreen.php:455
+#: includes/Frontend/ConsentBanner.php:215
+msgid "Zweck"
+msgstr "Scop"
+
+#: includes/Admin/SettingsScreen.php:459
+msgid "Datenschutzerklärung des Anbieters (URL)"
+msgstr "Politica de confidențialitate a furnizorului (URL)"
+
+#: includes/Admin/SettingsScreen.php:465
+msgid ""
+"Ein Muster je Zeile, zum Beispiel googletagmanager.com oder matomo.js: 4 bis "
+"100 Zeichen aus Kleinbuchstaben, Ziffern und . _ - /, mit mindestens einem "
+"Punkt oder Schrägstrich. Ein Muster trifft, wo es als ganzer Host- oder "
+"Dateiname in der Quelle eines Skripts oder iframes oder im Code eines Inline-"
+"Skripts steht. Pflicht, außer in der Kategorie Notwendig."
+msgstr ""
+"Un tipar pe linie, de ex. googletagmanager.com sau matomo.js: 4 până la 100 "
+"caractere din litere mici, cifre și . _ - /, cu cel puțin un punct sau o "
+"bară oblică. Obligatoriu cu excepția categoriei Necesare."
+
+#: includes/Admin/SettingsScreen.php:470
+msgid ""
+"Ein Name je Zeile; ein * am Ende steht für jede Fortsetzung (_ga_*). Werden "
+"beim Widerruf der Kategorie auf dieser Website gelöscht."
+msgstr ""
+"Un nume pe linie; * la final acoperă orice continuare (_ga_*). Se șterg de "
+"pe acest site la retragerea categoriei."
+
+#: includes/Admin/SettingsScreen.php:473
+msgid "Dienst speichern"
+msgstr "Salvează serviciul"
+
+#: includes/Admin/SettingsScreen.php:475
+msgid "Abbrechen"
+msgstr "Anulează"
+
+#: includes/Admin/SettingsScreen.php:482 includes/Admin/SettingsScreen.php:486
+msgid "Vorlagen"
+msgstr "Șabloane"
+
+#: includes/Admin/SettingsScreen.php:483
+msgid ""
+"Häufige Dienste mit den Hosts, Dateinamen und Cookies, die ihre Anbieter "
+"dokumentieren (geprüft am 17.09.2026). Eine Vorlage wird erst mit "
+"„Hinzufügen“ zum Dienst; tragen Sie nur Dienste ein, die Ihre Website "
+"tatsächlich verwendet, und ergänzen Sie den Anbieter."
+msgstr ""
+"Servicii frecvente cu gazdele, fișierele și cookie-urile documentate de "
+"furnizori (verificat la 17.09.2026). Un șablon devine serviciu abia prin "
+"„Adaugă”; adăugați doar serviciile folosite efectiv de site."
+
+#: includes/Admin/SettingsScreen.php:492
+msgid "Aktion"
+msgstr "Acțiune"
+
+#: includes/Admin/SettingsScreen.php:503
+msgid "eingetragen"
+msgstr "înregistrat"
+
+#: includes/Admin/SettingsScreen.php:509
+msgid "Hinzufügen"
+msgstr "Adaugă"
+
+#: includes/Admin/SettingsScreen.php:521
+msgid "Für Entwickler"
+msgstr "Pentru dezvoltatori"
+
+#: includes/Admin/SettingsScreen.php:523
+msgid "läuft erst nach Einwilligung in die Kategorie (auch mit src)."
+msgstr "rulează doar după consimțământul pentru categorie (inclusiv cu src)."
+
+#: includes/Admin/SettingsScreen.php:524
+msgid ""
+"PHP: ob der Besucher eingewilligt hat; die Antwort wird nicht "
+"zwischengespeichert."
+msgstr "PHP: dacă vizitatorul a consimțit; răspunsul nu este stocat în cache."
+
+#: includes/Admin/SettingsScreen.php:525
+msgid "Ereignis"
+msgstr "Eveniment"
+
+#: includes/Admin/SettingsScreen.php:526
+msgid "Filter"
+msgstr "Filtre"
+
+#: includes/Admin/SettingsScreen.php:527
+msgid "Block Bindings & Dynamic Tags"
+msgstr "Block Bindings și etichete dinamice"
+
+#: includes/API/RestController.php:121 includes/API/RestController.php:155
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Prea multe cereri. Încercați din nou peste un minut."
+
+#: includes/API/RestController.php:145
+msgid ""
+"Einwilligung nicht gespeichert: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr ""
+"Consimțământul nu a fost salvat: token de securitate lipsă sau expirat."
+
+#: includes/Blocker/OutputBlocker.php:392
+msgid "externer Anbieter"
+msgstr "furnizor extern"
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:79
+#, php-format
+msgid "Externer Inhalt blockiert (%s)"
+msgstr "Conținut extern blocat (%s)"
+
+#. translators: 1: provider name, 2: provider name
+#: includes/Blocker/ScriptIframeBlocker.php:85
+#, php-format
+msgid ""
+"Dieser Inhalt liegt bei %1$s. Erst ein Klick auf die Schaltfläche lädt ihn "
+"nach; dabei baut Ihr Browser eine Verbindung zu %2$s auf und übermittelt "
+"unter anderem Ihre IP-Adresse."
+msgstr ""
+"Acest conținut este găzduit de %1$s. Doar un clic pe buton îl încarcă; "
+"browserul stabilește atunci o conexiune cu %2$s și transmite, printre "
+"altele, adresa dvs. IP."
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:90
+#, php-format
+msgid "Inhalt entsperren & %s laden"
+msgstr "Deblochează conținutul și încarcă %s"
+
+#: includes/Blocker/ScriptIframeBlocker.php:91
+#: includes/Frontend/ConsentBanner.php:273
+msgid "Datenschutzeinstellungen anpassen"
+msgstr "Personalizează setările de confidențialitate"
+
+#: includes/Core/Categories.php:120
+msgid "Notwendig"
+msgstr "Necesare"
+
+#: includes/Core/Categories.php:121
+msgid ""
+"Für den Betrieb der Website erforderlich, zum Beispiel das Speichern dieser "
+"Auswahl. Diese Kategorie lässt sich nicht abschalten."
+msgstr ""
+"Necesare pentru funcționarea site-ului, de exemplu salvarea acestei alegeri. "
+"Această categorie nu poate fi dezactivată."
+
+#: includes/Core/Categories.php:124
+msgid "Statistik"
+msgstr "Statistici"
+
+#: includes/Core/Categories.php:125
+msgid ""
+"Dienste, die erfassen, wie die Website genutzt wird, um sie auszuwerten."
+msgstr ""
+"Servicii care măsoară modul de utilizare a site-ului pentru analizarea "
+"traficului."
+
+#: includes/Core/Categories.php:128
+msgid "Marketing"
+msgstr "Marketing"
+
+#: includes/Core/Categories.php:129
+msgid ""
+"Dienste, die Besuche für Werbung und deren Erfolgsmessung auswerten, auch "
+"über diese Website hinaus."
+msgstr ""
+"Servicii care evaluează vizitele pentru publicitate și măsurarea "
+"campaniilor, inclusiv în afara acestui site."
+
+#: includes/Core/Categories.php:132
+msgid "Externe Medien"
+msgstr "Media externă"
+
+#: includes/Core/Categories.php:133
+msgid ""
+"Eingebettete Inhalte anderer Anbieter wie Videos und Karten. Beim Laden baut "
+"Ihr Browser eine Verbindung zu diesem Anbieter auf."
+msgstr ""
+"Conținut încorporat de la alți furnizori, precum videoclipuri și hărți. La "
+"încărcare, browserul se conectează la acel furnizor."
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:49
+#, php-format
+msgid ""
+"WM Sovereign Consent Vault konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen fehlen: %s."
+msgstr ""
+"WM Sovereign Consent Vault nu a putut fi activat, deoarece lipsesc "
+"următoarele extensii PHP necesare: %s."
+
+#: includes/Database/Schema.php:53
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Extensie PHP lipsă"
+
+#: includes/Frontend/ConsentBanner.php:54
+msgid "Datenschutz-Einstellungen"
+msgstr "Setări de confidențialitate"
+
+#: includes/Frontend/ConsentBanner.php:57
+msgid ""
+"Sie entscheiden, welche Kategorien von Diensten diese Website verwenden "
+"darf. Ihre Auswahl wird in Ihrem Browser gespeichert und auf diesem Server "
+"protokolliert: mit einem Hash Ihrer IP-Adresse, der Kennung Ihres Browsers "
+"(User-Agent) im Klartext und dem Zeitpunkt."
+msgstr ""
+"Decideți ce categorii de servicii poate folosi acest site. Alegerea dvs. "
+"este salvată în browser și înregistrată pe acest server cu un hash al "
+"adresei IP, identificatorul browserului (User-Agent) în clar și momentul."
+
+#: includes/Frontend/ConsentBanner.php:58
+msgid "Alle akzeptieren"
+msgstr "Acceptă toate"
+
+#: includes/Frontend/ConsentBanner.php:59
+msgid "Nur notwendige"
+msgstr "Doar necesare"
+
+#: includes/Frontend/ConsentBanner.php:61
+msgid "Auswahl speichern"
+msgstr "Salvează selecția"
+
+#: includes/Frontend/ConsentBanner.php:62
+msgid "Datenschutzerklärung"
+msgstr "Politica de confidențialitate"
+
+#: includes/Frontend/ConsentBanner.php:63
+msgid "Impressum"
+msgstr "Mențiuni legale"
+
+#: includes/Frontend/ConsentBanner.php:156
+msgid "(öffnet in einem neuen Tab)"
+msgstr "(se deschide într-o filă nouă)"
+
+#: includes/Frontend/ConsentBanner.php:175
+msgid "Auswahl nach Kategorien"
+msgstr "Selecție pe categorii"
+
+#: includes/Frontend/ConsentBanner.php:192
+msgid "Immer aktiv"
+msgstr "Mereu activ"
+
+#. translators: %d: number of services in this category
+#: includes/Frontend/ConsentBanner.php:202
+#, php-format
+msgid "%d Dienst in dieser Kategorie"
+msgid_plural "%d Dienste in dieser Kategorie"
+msgstr[0] "%d serviciu în această categorie"
+msgstr[1] "%d servicii în această categorie"
+msgstr[2] "%d de servicii în această categorie"
+
+#: includes/Frontend/ConsentBanner.php:223
+msgid "Datenschutz"
+msgstr "Confidențialitate"
+
+#: includes/Frontend/ConsentBanner.php:224
+msgid "Datenschutzerklärung des Anbieters"
+msgstr "Politica de confidențialitate a furnizorului"
+
+#: includes/Frontend/ConsentBanner.php:238
+msgid "Zurück"
+msgstr "Înapoi"
+
+#: includes/Frontend/ConsentBanner.php:255
+msgid "Schließen, ohne die Auswahl zu ändern"
+msgstr "Închide fără a schimba alegerea"
+
+#: includes/Frontend/EcosystemIntegration.php:46
+#: includes/Frontend/EcosystemIntegration.php:63
+msgid "WM Consent Status"
+msgstr "Stare WM Consent"
+
+#: includes/Frontend/EcosystemIntegration.php:67
+msgid "Gibt die aktuelle Richtlinien-Version oder den Kategorien-Status aus."
+msgstr ""
+"Afișează versiunea activă a politicii sau starea categoriei de consimțământ."
+
+#: includes/Frontend/EcosystemIntegration.php:129
+msgid "Freigegeben"
+msgstr "Permis"
+
+#: includes/Frontend/EcosystemIntegration.php:130
+msgid "Blockiert"
+msgstr "Blocat"
+
+#. translators: %s: active consent policy version
+#: includes/Frontend/EcosystemIntegration.php:138
+#, php-format
+msgid "Richtlinie v%s"
+msgstr "Politica v%s"
+
+#: includes/Services/ServiceRegistry.php:99
+#: includes/Services/ServiceRegistry.php:117
+msgid "Auswertung der Nutzung der Website (Reichweitenmessung)."
+msgstr "Analiza utilizării site-ului web (măsurarea audienței)."
+
+#: includes/Services/ServiceRegistry.php:108
+msgid "Messung und Ausspielung von Werbung auf Plattformen von Meta."
+msgstr "Măsurarea și afișarea reclamelor pe platformele Meta."
+
+#: includes/Services/ServiceRegistry.php:126
+#: includes/Services/ServiceRegistry.php:135
+msgid ""
+"Auswertung, wie Besucher die Seiten nutzen (Heatmaps, "
+"Sitzungsaufzeichnungen)."
+msgstr ""
+"Analiza modului în care vizitatorii folosesc paginile (hărți termice, "
+"înregistrări de sesiuni)."
+
+#: includes/Services/ServiceRegistry.php:144
+msgid "Messung von Werbekampagnen auf LinkedIn."
+msgstr "Măsurarea campaniilor publicitare pe LinkedIn."
+
+#: includes/Services/ServiceRegistry.php:153
+msgid "Messung und Ausspielung von Werbung auf TikTok."
+msgstr "Măsurarea și afișarea reclamelor pe TikTok."
+
+#: includes/Services/ServiceRegistry.php:162
+#: includes/Services/ServiceRegistry.php:171
+msgid "Einbettung von Videos."
+msgstr "Încorporarea videoclipurilor."
+
+#: includes/Services/ServiceRegistry.php:180
+msgid "Einbettung von Karten."
+msgstr "Încorporarea hărților."

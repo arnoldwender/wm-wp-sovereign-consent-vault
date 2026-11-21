@@ -1,0 +1,1289 @@
+# Translation of wm-sovereign-consent-vault in nl_NL
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-sovereign-consent-vault 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-sovereign-"
+"consent-vault\n"
+"POT-Creation-Date: 2026-11-21T12:37:00+00:00\n"
+"PO-Revision-Date: 2026-11-21 13:37+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-sovereign-consent-vault\n"
+
+#. Plugin Name of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "WM Sovereign Consent Vault (TDDDG § 25 & DSGVO)"
+msgstr "WM Sovereign Consent Vault (TDDDG § 25 & AVG)"
+
+#. Plugin URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+
+#. Description of the plugin
+#: wm-sovereign-consent-vault.php
+msgid ""
+"Einwilligungsdialog nach Kategorien, der Skripte und iframes eingetragener "
+"Dienste bis zur Einwilligung zurückhält, 2-Klick-Platzhalter für YouTube, "
+"Vimeo und Google Maps und HMAC-verkettetes Protokoll der Entscheidungen in "
+"der eigenen Datenbank. Keine rechtliche Bewertung."
+msgstr ""
+"Toestemmingsdialoog per categorie die scripts en iframes van geregistreerde "
+"diensten tegenhoudt tot toestemming is gegeven, 2-klik-plaatshouders voor "
+"YouTube, Vimeo en Google Maps en een HMAC-geketend logboek in uw eigen "
+"database. Geen juridisch oordeel."
+
+#. Author of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:89
+msgid "WM Consent Vault — protokollierte Entscheidungen"
+msgstr "WM Consent Vault — vastgelegde keuzes"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Tabelle für Entscheidungen fehlt"
+msgstr "Tabel voor keuzes ontbreekt"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid "Noch keine Entscheidung protokolliert"
+msgstr "Nog geen keuze vastgelegd"
+
+#. translators: %s: date and time of the newest decision
+#: includes/Admin/AdminDashboard.php:110
+#, php-format
+msgid "Letzte Entscheidung: %s"
+msgstr "Laatste keuze: %s"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Kettenprüfung im Tab „Protokoll“"
+msgstr "Ketencontrole op het tabblad ‘Logboek’"
+
+#: includes/Admin/AdminDashboard.php:121
+msgid "Entscheidungen"
+msgstr "Keuzes"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "mit Statistik"
+msgstr "met Statistieken"
+
+#: includes/Admin/AdminDashboard.php:129
+msgid "mit Marketing"
+msgstr "met Marketing"
+
+#: includes/Admin/AdminDashboard.php:135
+msgid "Consent Vault öffnen"
+msgstr "Consent Vault openen"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "WM Consent Vault"
+msgstr "WM Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:155
+msgid "Consent Vault"
+msgstr "Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Übersicht"
+msgstr "Overzicht"
+
+#: includes/Admin/AdminDashboard.php:194 includes/Frontend/ConsentBanner.php:60
+msgid "Einstellungen"
+msgstr "Instellingen"
+
+#: includes/Admin/AdminDashboard.php:195
+msgid "Dienste"
+msgstr "Diensten"
+
+#: includes/Admin/AdminDashboard.php:196
+msgid "Banner"
+msgstr "Banner"
+
+#: includes/Admin/AdminDashboard.php:197
+msgid "Eingebettete Inhalte"
+msgstr "Ingesloten inhoud"
+
+#: includes/Admin/AdminDashboard.php:198
+msgid "Protokoll"
+msgstr "Logboek"
+
+#: includes/Admin/AdminDashboard.php:199 includes/Admin/AdminDashboard.php:460
+msgid "Begriffe"
+msgstr "Begrippen"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "WM Sovereign Consent Vault"
+msgstr "WM Sovereign Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Einwilligungsdialog nach Kategorien &bull; Blockieren eingetragener Dienste "
+"bis zur Einwilligung &bull; verkettetes Protokoll der Entscheidungen"
+msgstr ""
+"Toestemmingsdialoog per categorie &bull; Blokkeren van geregistreerde "
+"diensten tot toestemming &bull; Geketend logboek van keuzes"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Part of the WM Suite plugin family"
+msgstr "Onderdeel van de WM Suite-pluginfamilie"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Hub"
+msgstr "Hub-modus"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Standalone"
+msgstr "Zelfstandig"
+
+#: includes/Admin/AdminDashboard.php:242
+msgid "Was dieses Plugin tut"
+msgstr "Wat deze plugin doet"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid ""
+"Es zeigt Besuchern ohne gültige Entscheidung einen Dialog mit „Alle "
+"akzeptieren“, „Nur notwendige“ und einer Auswahl nach Kategorien (Statistik, "
+"Marketing, Externe Medien). Bis zur Einwilligung in die jeweilige Kategorie "
+"hält es Skripte und iframes der unter „Dienste“ eingetragenen Anbieter, mit "
+"data-wm-consent markiertes Markup und Videos und Karten von YouTube, Vimeo "
+"und Google Maps zurück; danach lädt der Browser sie ohne neuen Seitenaufruf. "
+"Jede Entscheidung wird mit ihren Kategorien und der Version der Richtlinie "
+"in zwei eigenen Tabellen protokolliert, deren Einträge per HMAC verkettet "
+"sind."
+msgstr ""
+"Toont bezoekers zonder geldige keuze een dialoog met ‘Alles accepteren’, "
+"‘Alleen noodzakelijke’ en schakelaars per categorie (Statistieken, "
+"Marketing, Externe media). Tot toestemming voor de categorie is gegeven, "
+"houdt de plugin scripts en iframes van onder ‘Diensten’ geregistreerde "
+"aanbieders, markup met data-wm-consent en video’s en kaarten van YouTube, "
+"Vimeo en Google Maps tegen; daarna laadt de browser ze zonder de pagina te "
+"herladen. Elke keuze wordt met categorieën en beleidsversie gelogd in twee "
+"eigen tabellen die met HMAC geketend zijn."
+
+#: includes/Admin/AdminDashboard.php:249
+msgid "Module Tabs"
+msgstr "Moduletabbladen"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Die Tabelle für Entscheidungen existiert nicht. Plugin deaktivieren und "
+"wieder aktivieren legt sie an."
+msgstr ""
+"De tabel voor keuzes bestaat niet. Deactiveer en heractiveer de plugin om "
+"deze aan te maken."
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Protokollierte Entscheidungen"
+msgstr "Vastgelegde keuzes"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "je Klick im Banner ein Eintrag"
+msgstr "één vermelding per klik in de banner"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid "Mit Statistik"
+msgstr "Met Statistieken"
+
+#: includes/Admin/AdminDashboard.php:271
+msgid "Kategorie Statistik gewählt"
+msgstr "categorie Statistieken gekozen"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Mit Marketing"
+msgstr "Met Marketing"
+
+#: includes/Admin/AdminDashboard.php:276
+msgid "Kategorie Marketing gewählt"
+msgstr "categorie Marketing gekozen"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "Mit externen Medien"
+msgstr "Met Externe media"
+
+#: includes/Admin/AdminDashboard.php:281
+msgid "nur Entscheidungen mit Kategorien"
+msgstr "alleen keuzes met categorieën"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Zur aktuellen Richtlinie"
+msgstr "Huidig beleid"
+
+#. translators: %s: current policy version
+#: includes/Admin/AdminDashboard.php:291
+#, php-format
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: includes/Admin/AdminDashboard.php:296 includes/Admin/SettingsScreen.php:382
+#: includes/Admin/SettingsScreen.php:389
+msgid "Eingetragene Dienste"
+msgstr "Geregistreerde diensten"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren eingeschaltet"
+msgstr "Blokkeren ingeschakeld"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren ausgeschaltet"
+msgstr "Blokkeren uitgeschakeld"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "Letzte Entscheidung"
+msgstr "Laatste keuze"
+
+#: includes/Admin/AdminDashboard.php:303
+msgid "Serverzeit"
+msgstr "Servertijd"
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "Was nicht enthalten ist"
+msgstr "Wat niet inbegrepen is"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid ""
+"Keine automatische Erkennung von Diensten: zurückgehalten wird, was unter "
+"„Dienste“ eingetragen oder mit data-wm-consent markiert ist, dazu iframes "
+"von YouTube, Vimeo und Google Maps."
+msgstr ""
+"Geen automatische detectie van diensten: tegengehouden wordt wat onder "
+"‘Diensten’ staat of met data-wm-consent is gemarkeerd, plus iframes van "
+"YouTube, Vimeo en Google Maps."
+
+#: includes/Admin/AdminDashboard.php:311
+msgid ""
+"Nichts, was ein Skript erst nach dem Laden der Seite einfügt, und keine "
+"Bilder oder Pixel in noscript-Bereichen."
+msgstr ""
+"Niets wat een script pas na het laden van de pagina invoegt, en geen "
+"afbeeldingen of pixels in noscript-blokken."
+
+#: includes/Admin/AdminDashboard.php:312
+msgid ""
+"Keine Farbeinstellungen im Backend: das Aussehen folgt CSS-Variablen, die "
+"ein Theme überschreiben kann."
+msgstr ""
+"Geen kleurinstellingen in de backend: de weergave volgt CSS-variabelen die "
+"een thema kan overschrijven."
+
+#: includes/Admin/AdminDashboard.php:313
+msgid ""
+"Kein Export und keine rechtliche Bewertung Ihres Einwilligungsverfahrens."
+msgstr ""
+"Geen export en geen juridische beoordeling van uw toestemmingsprocedure."
+
+#: includes/Admin/AdminDashboard.php:327
+msgid "Das Banner, wie Besucher es sehen"
+msgstr "De banner zoals bezoekers die zien"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid ""
+"Ein Dialog in der Mitte des Fensters (auf schmalen Bildschirmen unten), für "
+"jeden Besucher ohne gültige Entscheidung in diesem Browser. Die Texte "
+"stammen aus den Einstellungen:"
+msgstr ""
+"Een dialoog midden in het venster (onderaan op smalle schermen) voor elke "
+"bezoeker zonder geldige keuze in deze browser. De teksten komen uit de "
+"instellingen:"
+
+#: includes/Admin/AdminDashboard.php:330 includes/Admin/SettingsScreen.php:247
+msgid "Überschrift"
+msgstr "Koptekst"
+
+#: includes/Admin/AdminDashboard.php:332 includes/Admin/SettingsScreen.php:248
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/Admin/AdminDashboard.php:334
+msgid "Schaltflächen"
+msgstr "Knoppen"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Links"
+msgstr "Links"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "keine Datenschutzerklärung"
+msgstr "geen privacyverklaring"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "kein Impressum"
+msgstr "geen colofon / impressum"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Was eine Entscheidung bewirkt"
+msgstr "Wat een keuze doet"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid ""
+"„Alle akzeptieren“ wählt alle Kategorien, „Nur notwendige“ keine "
+"zusätzliche; unter „Einstellungen“ schaltet der Besucher Statistik, "
+"Marketing und Externe Medien einzeln und sieht die eingetragenen Dienste je "
+"Kategorie. Beide Hauptschaltflächen sind gleich gestaltet."
+msgstr ""
+"‘Alles accepteren’ kiest alle categorieën, ‘Alleen noodzakelijke’ geen extra "
+"categorie; onder ‘Instellingen’ schakelt de bezoeker Statistieken, Marketing "
+"en Externe media afzonderlijk in en ziet de geregistreerde diensten per "
+"categorie. Beide hoofdknoppen hebben dezelfde stijl."
+
+#: includes/Admin/AdminDashboard.php:343
+msgid ""
+"Der Browser speichert eine zufällige Kennung, die Kategorien, die Version "
+"der Richtlinie und den Zeitpunkt in localStorage (wm_consent_uuid, "
+"wm_consent_categories, wm_consent_policy_version, wm_consent_decided_at, "
+"weiterhin auch wm_consent_analytics und wm_consent_marketing) und im Cookie "
+"wm_consent."
+msgstr ""
+"De browser bewaart een willekeurige ID, de categorieën, de beleidsversie en "
+"het tijdstip in localStorage (wm_consent_uuid, wm_consent_categories, "
+"wm_consent_policy_version, wm_consent_decided_at, evenals "
+"wm_consent_analytics en wm_consent_marketing) en in de cookie wm_consent."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid ""
+"Das Skript holt einen REST-Token und sendet die Entscheidung an wm-consent/"
+"v1/record; der Server speichert sie mit einem HMAC der IP-Adresse, dem User-"
+"Agent, den Kategorien, der Version der Richtlinie und einer Signatur und "
+"hängt sie an die Kette an."
+msgstr ""
+"Het script haalt een REST-token op en stuurt de keuze naar wm-consent/v1/"
+"record; de server bewaart deze met een HMAC van het IP-adres, de User-Agent, "
+"de categorieën, de beleidsversie en een handtekening en voegt die toe aan de "
+"keten."
+
+#: includes/Admin/AdminDashboard.php:345
+msgid ""
+"Zurückgehaltene Skripte und iframes der gewählten Kategorien laden sofort, "
+"ohne neuen Seitenaufruf. Wird eine Kategorie zurückgenommen, löscht das "
+"Skript die eingetragenen Cookies ihrer Dienste auf dieser Website und lädt "
+"die Seite neu."
+msgstr ""
+"Tegengehouden scripts en iframes van gekozen categorieën laden direct zonder "
+"herladen. Wordt een categorie ingetrokken, dan verwijdert het script de "
+"geregistreerde cookies op deze site en herlaadt de pagina."
+
+#: includes/Admin/AdminDashboard.php:346
+msgid ""
+"Nach Ablauf der Gültigkeit oder nach einer neuen Version der Richtlinie "
+"fragt der Dialog erneut."
+msgstr ""
+"Na afloop van de geldigheid of bij een nieuwe beleidsversie vraagt de "
+"dialoog opnieuw."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid ""
+"Erneut öffnen: Shortcode [wm_consent_settings], ein Link auf #wm-consent-"
+"settings (zum Beispiel im Menü) oder die zweite Schaltfläche jedes "
+"Platzhalters."
+msgstr ""
+"Opnieuw openen: shortcode [wm_consent_settings], link naar #wm-consent-"
+"settings (bijv. in het menu) of de tweede knop van elke plaatshouder."
+
+#: includes/Admin/AdminDashboard.php:349
+msgid ""
+"Der Dialog ist ein modaler Dialog: der Fokus springt hinein, bleibt beim "
+"Tabben darin und kehrt beim Schließen zurück. Beim ersten Besuch schließt "
+"ihn nur eine Wahl; geöffnet über einen Link schließen ihn auch Escape und "
+"die Schließen-Schaltfläche. Ob die Texte für Ihre Website rechtlich genügen, "
+"beantwortet das Plugin nicht."
+msgstr ""
+"De dialoog is modaal: de focus springt erin, blijft er met Tab binnen en "
+"keert bij sluiten terug. Bij het eerste bezoek sluit alleen een keuze de "
+"dialoog; heropend via een link sluiten ook Escape en de sluitknop hem. De "
+"plugin beoordeelt niet of de teksten juridisch volstaan."
+
+#: includes/Admin/AdminDashboard.php:356 includes/Admin/AdminDashboard.php:479
+msgid "2-Klick-Platzhalter"
+msgstr "2-klik-plaatshouders"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid ""
+"Auf jeder Seite der Website (Beitragsinhalt, Widgets, Theme-Vorlagen) wird "
+"jedes iframe dieser Anbieter durch einen Platzhalter ersetzt, solange das "
+"Blockieren eingeschaltet ist; im Beitragsinhalt auch dann:"
+msgstr ""
+"Op elke pagina van de website (inhoud, widgets, themasjablonen) wordt elke "
+"iframe van deze aanbieders vervangen door een plaatshouder zolang blokkeren "
+"aanstaat; in berichtinhoud ook daarbuiten:"
+
+#: includes/Admin/AdminDashboard.php:363
+msgid ""
+"Iframes eingetragener Dienste der Kategorie Externe Medien bekommen "
+"denselben Platzhalter, iframes anderer Kategorien warten ohne sichtbaren "
+"Platzhalter auf die Einwilligung."
+msgstr ""
+"Iframes van geregistreerde diensten onder Externe media krijgen dezelfde "
+"plaatshouder; iframes van andere categorieën wachten zonder zichtbare "
+"plaatshouder op toestemming."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Wie ein Platzhalter lädt"
+msgstr "Hoe een plaatshouder laadt"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid ""
+"Nach einer Einwilligung in Externe Medien laden alle Platzhalter der Seite "
+"von selbst."
+msgstr ""
+"Na toestemming voor Externe media laden alle plaatshouders op de pagina "
+"automatisch."
+
+#: includes/Admin/AdminDashboard.php:367
+msgid ""
+"Ohne diese Einwilligung lädt ein Klick auf „Inhalt entsperren“ nur diesen "
+"einen Inhalt; der Klick wird nicht protokolliert. Die zweite Schaltfläche "
+"öffnet den Dialog."
+msgstr ""
+"Zonder die toestemming laadt een klik op ‘Inhoud ontgrendelen’ alleen dat "
+"onderdeel zonder registratie. De tweede knop opent de dialoog."
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Nicht erfasst"
+msgstr "Niet gedekt"
+
+#: includes/Admin/AdminDashboard.php:371
+msgid ""
+"Andere Anbieter und Länderdomains (z. B. google.de/maps), solange sie nicht "
+"als Dienst eingetragen sind."
+msgstr ""
+"Andere aanbieders en landdomeinen (bijv. google.de/maps) zolang ze niet als "
+"dienst zijn geregistreerd."
+
+#: includes/Admin/AdminDashboard.php:372
+msgid "Player, die ein Skript erst nach dem Laden der Seite einfügt."
+msgstr ""
+"Spelers die pas na het laden van de pagina via een script worden ingevoegd."
+
+#: includes/Admin/AdminDashboard.php:388
+msgid "Protokoll der Entscheidungen"
+msgstr "Logboek van keuzes"
+
+#: includes/Admin/AdminDashboard.php:389
+msgid ""
+"Jede Entscheidung wird mit einem HMAC-SHA256 signiert (Schlüssel: AUTH_KEY "
+"aus wp-config.php, sonst ein Salt aus der Datenbank) und mit dem vorherigen "
+"Eintrag verkettet; die Spitze der Kette steht zusätzlich signiert in einer "
+"Option. Die Prüfung erkennt geänderte, gelöschte, nachträglich eingefügte "
+"und abgeschnittene Einträge, solange der Schlüssel nicht bekannt ist. Sie "
+"beweist nicht, dass ein Eintrag von einem echten Besucher stammt: jeder kann "
+"den Token abrufen und eine Entscheidung senden."
+msgstr ""
+"Elke keuze wordt ondertekend met HMAC-SHA256 (sleutel: AUTH_KEY uit wp-"
+"config.php, anders een salt uit de database) en gekoppeld aan de vorige rij; "
+"de ketentop staat aanvullend ondertekend in een optie. Controle herkent "
+"gewijzigde, verwijderde, tussengevoegde en afgekapte rijen zolang de sleutel "
+"geheim blijft. Het bewijst niet dat een rij van een echte bezoeker afkomstig "
+"is."
+
+#: includes/Admin/AdminDashboard.php:391
+msgid "Kette jetzt prüfen"
+msgstr "Keten nu controleren"
+
+#: includes/Admin/AdminDashboard.php:398
+msgid "Knoten"
+msgstr "Knooppunt"
+
+#: includes/Admin/AdminDashboard.php:399
+msgid "Vorgänger"
+msgstr "Voorganger"
+
+#: includes/Admin/AdminDashboard.php:400
+msgid "Signatur des Eintrags"
+msgstr "Handtekening van item"
+
+#: includes/Admin/AdminDashboard.php:401
+msgid "Verkettung"
+msgstr "Koppeling"
+
+#: includes/Admin/AdminDashboard.php:402
+msgid "Zeitpunkt"
+msgstr "Tijdstip"
+
+#: includes/Admin/AdminDashboard.php:408
+msgid "Noch keine Einträge."
+msgstr "Nog geen vermeldingen."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid "Prüfe die Kette …"
+msgstr "Keten controleren …"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "Prüfung fehlgeschlagen:"
+msgstr "Controle mislukt:"
+
+#: includes/Admin/AdminDashboard.php:446
+msgid "Noch keine Entscheidung protokolliert: nichts zu prüfen."
+msgstr "Nog geen keuze vastgelegd: niets te controleren."
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Kette unverändert. Geprüfte Knoten:"
+msgstr "Keten intact. Gecontroleerde knooppunten:"
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Schlüsselquelle:"
+msgstr "Sleutelbron:"
+
+#: includes/Admin/AdminDashboard.php:451
+msgid "Fehler:"
+msgstr "Fout:"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "localStorage"
+msgstr "localStorage"
+
+#: includes/Admin/AdminDashboard.php:464
+msgid ""
+"Speicher im Browser des Besuchers. Das Plugin legt dort die Entscheidung ab; "
+"dazu setzt es ein einziges Cookie, wm_consent, damit auch PHP die "
+"Entscheidung lesen kann (wm_consent_has)."
+msgstr ""
+"Opslag in de browser van de bezoeker. De plugin bewaart daar de keuze en "
+"plaatst één cookie, wm_consent, zodat ook PHP de keuze kan lezen "
+"(wm_consent_has)."
+
+#: includes/Admin/AdminDashboard.php:467 includes/Admin/SettingsScreen.php:184
+#: includes/Admin/SettingsScreen.php:393 includes/Admin/SettingsScreen.php:447
+#: includes/Admin/SettingsScreen.php:490
+msgid "Kategorie"
+msgstr "Categorie"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid ""
+"Notwendig (immer aktiv), Statistik, Marketing oder Externe Medien. Jeder "
+"eingetragene Dienst gehört zu genau einer; seine Skripte und iframes warten "
+"auf die Einwilligung in diese Kategorie."
+msgstr ""
+"Noodzakelijk (altijd actief), Statistieken, Marketing of Externe media. Elke "
+"geregistreerde dienst hoort bij precies één categorie; scripts en iframes "
+"wachten op toestemming voor die categorie."
+
+#: includes/Admin/AdminDashboard.php:471 includes/Admin/SettingsScreen.php:181
+#: includes/Admin/SettingsScreen.php:330
+msgid "Version der Richtlinie"
+msgstr "Versie van het beleid"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid ""
+"Kennzeichen unter „Einstellungen“. Eine Entscheidung gilt nur für die "
+"Version, zu der sie gegeben wurde; eine neue Version fragt alle Besucher "
+"erneut."
+msgstr ""
+"Kenmerk onder ‘Instellingen’. Een keuze geldt alleen voor de versie waarvoor "
+"zij is gegeven; een nieuwe versie vraagt alle bezoekers opnieuw."
+
+#: includes/Admin/AdminDashboard.php:475
+msgid "Signaturformat"
+msgstr "Handtekeningformaat"
+
+#: includes/Admin/AdminDashboard.php:476
+msgid ""
+"Einträge vor dem 17.09.2026 tragen Format 1 (Kennung, IP-Hash, drei Werte, "
+"Zeitpunkt). Neue Einträge tragen Format 2, das zusätzlich Kategorien, "
+"Version der Richtlinie und User-Agent signiert. Jeder Eintrag wird mit "
+"seinem Format geprüft."
+msgstr ""
+"Items vóór 17-09-2026 dragen formaat 1 (ID, IP-hash, drie vlaggen, "
+"tijdstip). Nieuwe items dragen formaat 2, dat ook categorieën, beleidsversie "
+"en User-Agent ondertekent. Elk item wordt met zijn eigen formaat "
+"gecontroleerd."
+
+#: includes/Admin/AdminDashboard.php:480
+msgid ""
+"Ersetzt ein eingebettetes Video oder eine Karte, bis der Besucher klickt; "
+"vorher baut der Browser keine Verbindung zum Anbieter auf."
+msgstr ""
+"Vervangt een ingesloten video of kaart tot de bezoeker klikt; voordien maakt "
+"de browser geen verbinding met de aanbieder."
+
+#: includes/Admin/AdminDashboard.php:483
+msgid "HMAC-Kette"
+msgstr "HMAC-keten"
+
+#: includes/Admin/AdminDashboard.php:484
+msgid ""
+"Jeder Eintrag trägt eine Signatur mit einem geheimen Schlüssel und die des "
+"vorherigen. Wer die Daten ohne den Schlüssel ändert, fällt bei der Prüfung "
+"auf; wer den Schlüssel kennt, nicht. Trotz des Klassennamens ist es kein "
+"Merkle-Baum."
+msgstr ""
+"Elk item draagt een handtekening met geheime sleutel en die van de "
+"voorganger. Wie gegevens zonder sleutel wijzigt, valt bij controle op. "
+"Ondanks de klassenaam is het geen Merkle-boom."
+
+#: includes/Admin/SettingsScreen.php:66 includes/Admin/SettingsScreen.php:100
+#: includes/Admin/SettingsScreen.php:111 includes/Admin/SettingsScreen.php:137
+#: includes/Admin/SettingsScreen.php:147
+msgid "Keine Berechtigung."
+msgstr "Geen toestemming."
+
+#: includes/Admin/SettingsScreen.php:179 includes/Admin/SettingsScreen.php:289
+msgid "Datenschutzerklärung (URL)"
+msgstr "Privacyverklaring (URL)"
+
+#: includes/Admin/SettingsScreen.php:180 includes/Admin/SettingsScreen.php:303
+msgid "Impressum (URL)"
+msgstr "Colofon / Impressum (URL)"
+
+#: includes/Admin/SettingsScreen.php:182 includes/Admin/SettingsScreen.php:335
+msgid "Gültigkeit in Tagen"
+msgstr "Geldigheid in dagen"
+
+#: includes/Admin/SettingsScreen.php:183 includes/Admin/SettingsScreen.php:433
+msgid "Name"
+msgstr "Naam"
+
+#: includes/Admin/SettingsScreen.php:185 includes/Admin/SettingsScreen.php:463
+msgid "Host- oder Dateimuster"
+msgstr "Host- of bestandspatronen"
+
+#: includes/Admin/SettingsScreen.php:186 includes/Admin/SettingsScreen.php:468
+msgid "Cookie-Namen"
+msgstr "Cookienamen"
+
+#: includes/Admin/SettingsScreen.php:187 includes/Admin/SettingsScreen.php:437
+msgid "Kennung"
+msgstr "Code"
+
+#: includes/Admin/SettingsScreen.php:188
+msgid "Kennung (schon vergeben)"
+msgstr "ID (al in gebruik)"
+
+#: includes/Admin/SettingsScreen.php:189
+msgid "Dienst (nicht mehr vorhanden)"
+msgstr "Dienst (bestaat niet meer)"
+
+#: includes/Admin/SettingsScreen.php:199
+msgid "Einstellungen gespeichert."
+msgstr "Instellingen opgeslagen."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:202
+#, php-format
+msgid ""
+"Gespeichert, bis auf diese Felder, die ihren bisherigen Wert behalten: %s"
+msgstr "Opgeslagen, behalve deze velden die hun vorige waarde behouden: %s"
+
+#. translators: %s: new policy version
+#: includes/Admin/SettingsScreen.php:205
+#, php-format
+msgid ""
+"Version der Richtlinie ist jetzt „%s“. Besucher sehen das Banner beim "
+"nächsten Seitenaufruf erneut."
+msgstr ""
+"Versie van het beleid is nu ‘%s’. Bezoekers zien de banner bij hun volgende "
+"paginaweergave opnieuw."
+
+#: includes/Admin/SettingsScreen.php:207
+msgid "Dienst hinzugefügt."
+msgstr "Dienst toegevoegd."
+
+#: includes/Admin/SettingsScreen.php:209
+msgid "Dienst gespeichert."
+msgstr "Dienst opgeslagen."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:212
+#, php-format
+msgid "Der Dienst wurde nicht gespeichert. Bitte prüfen: %s"
+msgstr "De dienst is niet opgeslagen. Controleer: %s"
+
+#: includes/Admin/SettingsScreen.php:214
+msgid "Dienst entfernt."
+msgstr "Dienst verwijderd."
+
+#: includes/Admin/SettingsScreen.php:216
+msgid "Diesen Dienst gibt es nicht mehr."
+msgstr "Deze dienst bestaat niet meer."
+
+#: includes/Admin/SettingsScreen.php:218
+msgid ""
+"Vorlage als Dienst hinzugefügt. Bitte Anbieter und Angaben für Ihre Website "
+"prüfen."
+msgstr ""
+"Sjabloon als dienst toegevoegd. Controleer aanbieder en gegevens voor uw "
+"website."
+
+#: includes/Admin/SettingsScreen.php:220
+msgid ""
+"Ein Dienst mit dieser Kennung ist schon eingetragen; er wurde nicht "
+"überschrieben."
+msgstr "Een dienst met deze ID is al geregistreerd; deze is niet overschreven."
+
+#: includes/Admin/SettingsScreen.php:222
+msgid "Unbekannte Vorlage."
+msgstr "Onbekend sjabloon."
+
+#: includes/Admin/SettingsScreen.php:249
+msgid "Schaltfläche „alle akzeptieren“"
+msgstr "Knop ‘Alles accepteren’"
+
+#: includes/Admin/SettingsScreen.php:250
+msgid "Schaltfläche „nur notwendige“"
+msgstr "Knop ‘Alleen noodzakelijke’"
+
+#: includes/Admin/SettingsScreen.php:251
+msgid "Schaltfläche „Einstellungen“"
+msgstr "Knop ‘Instellingen’"
+
+#: includes/Admin/SettingsScreen.php:252
+msgid "Schaltfläche „Auswahl speichern“"
+msgstr "Knop ‘Selectie opslaan’"
+
+#: includes/Admin/SettingsScreen.php:253
+msgid "Linktext Datenschutzerklärung"
+msgstr "Linktekst privacyverklaring"
+
+#: includes/Admin/SettingsScreen.php:254
+msgid "Linktext Impressum"
+msgstr "Linktekst colofon"
+
+#: includes/Admin/SettingsScreen.php:265
+msgid "Texte des Banners"
+msgstr "Teksten van de banner"
+
+#: includes/Admin/SettingsScreen.php:266
+msgid ""
+"Ein leeres Feld verwendet den Standardtext, der unter dem Feld steht und mit "
+"der Sprache der Website übersetzt wird. Die Standardtexte beschreiben, was "
+"das Plugin speichert; ob sie für Ihre Website rechtlich genügen, prüft das "
+"Plugin nicht."
+msgstr ""
+"Een leeg veld gebruikt de standaardtekst eronder, vertaald in de taal van de "
+"website. Standaardteksten beschrijven wat de plugin opslaat zonder "
+"juridische toetsing."
+
+#. translators: %s: default text
+#: includes/Admin/SettingsScreen.php:279 includes/Admin/SettingsScreen.php:320
+#, php-format
+msgid "Standard: %s"
+msgstr "Standaard: %s"
+
+#: includes/Admin/SettingsScreen.php:287
+msgid "Links im Banner"
+msgstr "Links in de banner"
+
+#. translators: %s: URL of the privacy policy page set in WordPress
+#: includes/Admin/SettingsScreen.php:296
+#, php-format
+msgid "Leer: die unter Einstellungen › Datenschutz gewählte Seite (%s)."
+msgstr "Leeg: gebruikt de pagina gekozen onder Instellingen › Privacy (%s)."
+
+#: includes/Admin/SettingsScreen.php:297
+msgid ""
+"Leer: die unter Einstellungen › Datenschutz gewählte Seite. Dort ist derzeit "
+"keine veröffentlichte Seite gewählt, also zeigt das Banner keinen Link."
+msgstr ""
+"Leeg: gebruikt de pagina gekozen onder Instellingen › Privacy. Daar is "
+"momenteel geen gepubliceerde pagina gekozen, dus er verschijnt geen link."
+
+#: includes/Admin/SettingsScreen.php:305
+msgid "Leer: kein Impressum-Link im Banner."
+msgstr "Leeg: geen colofonlink in de banner."
+
+#: includes/Admin/SettingsScreen.php:307
+msgid ""
+"Auf diesen beiden Seiten öffnet sich das Banner nicht von selbst, damit "
+"Besucher sie vor ihrer Entscheidung lesen können."
+msgstr ""
+"Op deze twee pagina’s opent de banner niet vanzelf zodat bezoekers ze eerst "
+"kunnen lezen."
+
+#: includes/Admin/SettingsScreen.php:311
+msgid "Beschreibungen der Kategorien"
+msgstr "Categoriebeschrijvingen"
+
+#: includes/Admin/SettingsScreen.php:328
+msgid "Einwilligung"
+msgstr "Toestemming"
+
+#: includes/Admin/SettingsScreen.php:332
+msgid ""
+"Jede gespeicherte Entscheidung gilt für diese Version. Ändern Sie sie, sehen "
+"alle Besucher das Banner erneut, und das Protokoll hält fest, für welche "
+"Version entschieden wurde. Erlaubt: Buchstaben, Ziffern, Punkt, Bindestrich, "
+"Unterstrich (höchstens 32 Zeichen)."
+msgstr ""
+"Elke opgeslagen keuze geldt voor deze versie. Wijzigt u haar, dan zien alle "
+"bezoekers de banner opnieuw en legt het logboek vast voor welke versie is "
+"gekozen. Toegestaan: letters, cijfers, punt, koppelteken, liggend streepje "
+"(max. 32 tekens)."
+
+#: includes/Admin/SettingsScreen.php:337
+msgid ""
+"Nach so vielen Tagen fragt das Banner erneut; so lange lebt auch das Cookie "
+"wm_consent."
+msgstr ""
+"Na zoveel dagen vraagt de banner opnieuw; zolang leeft ook de cookie "
+"wm_consent."
+
+#: includes/Admin/SettingsScreen.php:342
+msgid ""
+"Skripte und iframes eingetragener Dienste bis zur Einwilligung blockieren"
+msgstr ""
+"Scripts en iframes van geregistreerde diensten blokkeren tot toestemming"
+
+#: includes/Admin/SettingsScreen.php:344
+msgid ""
+"Ausgeschaltet schreibt das Plugin die Seite nicht mehr um: eingetragene "
+"Dienste laden sofort, auch ohne Entscheidung. Banner, Protokoll und die "
+"Platzhalter im Beitragsinhalt bleiben aktiv."
+msgstr ""
+"Uitgeschakeld herschrijft de plugin de pagina niet meer: geregistreerde "
+"diensten laden direct, ook zonder keuze. Banner, logboek en plaatshouders in "
+"berichten blijven actief."
+
+#: includes/Admin/SettingsScreen.php:349
+msgid ""
+"Alle Protokolle, Tabellen und Einstellungen beim Löschen des Plugins "
+"entfernen"
+msgstr ""
+"Alle logboeken, tabellen en instellingen verwijderen bij het verwijderen van "
+"de plugin"
+
+#: includes/Admin/SettingsScreen.php:351
+msgid ""
+"Standardmäßig bleiben das Einwilligungsprotokoll, die HMAC-Kette und alle "
+"Einstellungen bei der Deinstallation erhalten, damit dokumentierte "
+"Entscheidungen nicht unbeabsichtigt gelöscht werden."
+msgstr ""
+"Standaard blijven het toestemmingslogboek, de HMAC-keten en alle "
+"instellingen behouden bij de-installatie om onbedoeld verlies van bewijs te "
+"voorkomen."
+
+#: includes/Admin/SettingsScreen.php:355
+msgid "Einstellungen speichern"
+msgstr "Instellingen opslaan"
+
+#: includes/Admin/SettingsScreen.php:359
+msgid "Alle Besucher erneut fragen"
+msgstr "Alle bezoekers opnieuw vragen"
+
+#: includes/Admin/SettingsScreen.php:360
+msgid ""
+"Erhöht die Version der Richtlinie um einen Schritt (eine Zahl am Ende wird "
+"hochgezählt). Bestehende Entscheidungen bleiben im Protokoll, gelten im "
+"Browser aber nicht mehr."
+msgstr ""
+"Verhoogt de beleidsversie met één stap (een getal aan het einde telt op). "
+"Bestaande keuzes blijven in het logboek maar tellen in de browser niet meer."
+
+#: includes/Admin/SettingsScreen.php:364
+msgid "Version erhöhen"
+msgstr "Versie verhogen"
+
+#: includes/Admin/SettingsScreen.php:383
+msgid ""
+"Skripte und iframes, deren Quelle oder Code eines der Muster enthält, warten "
+"auf die Einwilligung in die Kategorie des Dienstes. Das Banner listet die "
+"Dienste je Kategorie; beim Widerruf löscht es die angegebenen Cookies dieser "
+"Website."
+msgstr ""
+"Scripts en iframes waarvan bron of code een patroon bevat, wachten op "
+"toestemming voor de categorie van de dienst. De banner toont diensten per "
+"categorie; bij intrekking worden de opgegeven cookies op deze website gewist."
+
+#: includes/Admin/SettingsScreen.php:385
+msgid ""
+"Noch keine Dienste eingetragen: außer den Platzhaltern für YouTube, Vimeo "
+"und Google Maps und dem Markup mit data-wm-consent wird nichts blockiert."
+msgstr ""
+"Nog geen diensten geregistreerd: behalve plaatshouders voor YouTube, Vimeo "
+"en Google Maps en markup met data-wm-consent wordt niets geblokkeerd."
+
+#: includes/Admin/SettingsScreen.php:392 includes/Admin/SettingsScreen.php:489
+msgid "Dienst"
+msgstr "Dienst"
+
+#: includes/Admin/SettingsScreen.php:394 includes/Admin/SettingsScreen.php:491
+msgid "Muster"
+msgstr "Patronen"
+
+#: includes/Admin/SettingsScreen.php:395
+#: includes/Frontend/ConsentBanner.php:219
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/Admin/SettingsScreen.php:396 includes/Admin/SettingsScreen.php:526
+msgid "Aktionen"
+msgstr "Acties"
+
+#: includes/Admin/SettingsScreen.php:408
+msgid "Bearbeiten"
+msgstr "Bewerken"
+
+#: includes/Admin/SettingsScreen.php:414
+msgid "Entfernen"
+msgstr "Verwijderen"
+
+#: includes/Admin/SettingsScreen.php:426
+msgid "Dienst bearbeiten"
+msgstr "Dienst bewerken"
+
+#: includes/Admin/SettingsScreen.php:426 includes/Admin/SettingsScreen.php:473
+msgid "Dienst hinzufügen"
+msgstr "Dienst toevoegen"
+
+#: includes/Admin/SettingsScreen.php:439
+msgid ""
+"Kleinbuchstaben, Ziffern, Bindestrich und Unterstrich. Leer: aus dem Namen "
+"gebildet."
+msgstr ""
+"Kleine letters, cijfers, koppelteken en liggend streepje. Leeg: afgeleid uit "
+"de naam."
+
+#: includes/Admin/SettingsScreen.php:442
+#: includes/Frontend/ConsentBanner.php:211
+msgid "Anbieter"
+msgstr "Aanbieder"
+
+#: includes/Admin/SettingsScreen.php:444
+msgid ""
+"Wie Besucher den Anbieter im Banner sehen, zum Beispiel mit Firma und Sitz."
+msgstr ""
+"Hoe bezoekers de aanbieder in de banner zien, bijv. bedrijfsnaam en "
+"vestigingsplaats."
+
+#: includes/Admin/SettingsScreen.php:455
+#: includes/Frontend/ConsentBanner.php:215
+msgid "Zweck"
+msgstr "Doel"
+
+#: includes/Admin/SettingsScreen.php:459
+msgid "Datenschutzerklärung des Anbieters (URL)"
+msgstr "Privacyverklaring van de aanbieder (URL)"
+
+#: includes/Admin/SettingsScreen.php:465
+msgid ""
+"Ein Muster je Zeile, zum Beispiel googletagmanager.com oder matomo.js: 4 bis "
+"100 Zeichen aus Kleinbuchstaben, Ziffern und . _ - /, mit mindestens einem "
+"Punkt oder Schrägstrich. Ein Muster trifft, wo es als ganzer Host- oder "
+"Dateiname in der Quelle eines Skripts oder iframes oder im Code eines Inline-"
+"Skripts steht. Pflicht, außer in der Kategorie Notwendig."
+msgstr ""
+"Één patroon per regel, bijv. googletagmanager.com of matomo.js: 4 tot 100 "
+"tekens uit kleine letters, cijfers en . _ - /, met minstens één punt of "
+"schuine streep. Verplicht behalve bij Noodzakelijk."
+
+#: includes/Admin/SettingsScreen.php:470
+msgid ""
+"Ein Name je Zeile; ein * am Ende steht für jede Fortsetzung (_ga_*). Werden "
+"beim Widerruf der Kategorie auf dieser Website gelöscht."
+msgstr ""
+"Één naam per regel; een * aan het einde dekt elke vervolgnaam (_ga_*). "
+"Worden op deze website verwijderd bij intrekking van de categorie."
+
+#: includes/Admin/SettingsScreen.php:473
+msgid "Dienst speichern"
+msgstr "Dienst opslaan"
+
+#: includes/Admin/SettingsScreen.php:475
+msgid "Abbrechen"
+msgstr "Annuleren"
+
+#: includes/Admin/SettingsScreen.php:482 includes/Admin/SettingsScreen.php:486
+msgid "Vorlagen"
+msgstr "Sjablonen"
+
+#: includes/Admin/SettingsScreen.php:483
+msgid ""
+"Häufige Dienste mit den Hosts, Dateinamen und Cookies, die ihre Anbieter "
+"dokumentieren (geprüft am 17.09.2026). Eine Vorlage wird erst mit "
+"„Hinzufügen“ zum Dienst; tragen Sie nur Dienste ein, die Ihre Website "
+"tatsächlich verwendet, und ergänzen Sie den Anbieter."
+msgstr ""
+"Veelgebruikte diensten met hosts, bestandsnamen en cookies volgens hun "
+"aanbieders (gecontroleerd op 17-09-2026). Een sjabloon wordt pas een dienst "
+"na klikken op ‘Toevoegen’; voeg alleen daadwerkelijk gebruikte diensten toe."
+
+#: includes/Admin/SettingsScreen.php:492
+msgid "Aktion"
+msgstr "Actie"
+
+#: includes/Admin/SettingsScreen.php:503
+msgid "eingetragen"
+msgstr "geregistreerd"
+
+#: includes/Admin/SettingsScreen.php:509
+msgid "Hinzufügen"
+msgstr "Toevoegen"
+
+#: includes/Admin/SettingsScreen.php:521
+msgid "Für Entwickler"
+msgstr "Voor ontwikkelaars"
+
+#: includes/Admin/SettingsScreen.php:523
+msgid "läuft erst nach Einwilligung in die Kategorie (auch mit src)."
+msgstr "wordt pas uitgevoerd na toestemming voor de categorie (ook met src)."
+
+#: includes/Admin/SettingsScreen.php:524
+msgid ""
+"PHP: ob der Besucher eingewilligt hat; die Antwort wird nicht "
+"zwischengespeichert."
+msgstr ""
+"PHP: controleert of de bezoeker toestemming gaf; het antwoord wordt niet "
+"gecachet."
+
+#: includes/Admin/SettingsScreen.php:525
+msgid "Ereignis"
+msgstr "Gebeurtenis"
+
+#: includes/Admin/SettingsScreen.php:526
+msgid "Filter"
+msgstr "Filters"
+
+#: includes/Admin/SettingsScreen.php:527
+msgid "Block Bindings & Dynamic Tags"
+msgstr "Block Bindings & dynamische tags"
+
+#: includes/API/RestController.php:121 includes/API/RestController.php:155
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Te veel aanvragen. Probeer het over een minuut opnieuw."
+
+#: includes/API/RestController.php:145
+msgid ""
+"Einwilligung nicht gespeichert: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr "Toestemming niet opgeslagen: ontbrekend of verlopen beveiligingstoken."
+
+#: includes/Blocker/OutputBlocker.php:392
+msgid "externer Anbieter"
+msgstr "externe aanbieder"
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:79
+#, php-format
+msgid "Externer Inhalt blockiert (%s)"
+msgstr "Externe inhoud geblokkeerd (%s)"
+
+#. translators: 1: provider name, 2: provider name
+#: includes/Blocker/ScriptIframeBlocker.php:85
+#, php-format
+msgid ""
+"Dieser Inhalt liegt bei %1$s. Erst ein Klick auf die Schaltfläche lädt ihn "
+"nach; dabei baut Ihr Browser eine Verbindung zu %2$s auf und übermittelt "
+"unter anderem Ihre IP-Adresse."
+msgstr ""
+"Deze inhoud staat bij %1$s. Pas na een klik op de knop wordt hij geladen; uw "
+"browser maakt dan verbinding met %2$s en geeft onder meer uw IP-adres door."
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:90
+#, php-format
+msgid "Inhalt entsperren & %s laden"
+msgstr "Inhoud ontgrendelen & %s laden"
+
+#: includes/Blocker/ScriptIframeBlocker.php:91
+#: includes/Frontend/ConsentBanner.php:273
+msgid "Datenschutzeinstellungen anpassen"
+msgstr "Privacy-instellingen aanpassen"
+
+#: includes/Core/Categories.php:120
+msgid "Notwendig"
+msgstr "Noodzakelijk"
+
+#: includes/Core/Categories.php:121
+msgid ""
+"Für den Betrieb der Website erforderlich, zum Beispiel das Speichern dieser "
+"Auswahl. Diese Kategorie lässt sich nicht abschalten."
+msgstr ""
+"Vereist voor de werking van de website, zoals het bewaren van deze keuze. "
+"Deze categorie kan niet worden uitgeschakeld."
+
+#: includes/Core/Categories.php:124
+msgid "Statistik"
+msgstr "Statistieken"
+
+#: includes/Core/Categories.php:125
+msgid ""
+"Dienste, die erfassen, wie die Website genutzt wird, um sie auszuwerten."
+msgstr ""
+"Diensten die meten hoe de website wordt gebruikt om het gebruik te "
+"analyseren."
+
+#: includes/Core/Categories.php:128
+msgid "Marketing"
+msgstr "Marketing"
+
+#: includes/Core/Categories.php:129
+msgid ""
+"Dienste, die Besuche für Werbung und deren Erfolgsmessung auswerten, auch "
+"über diese Website hinaus."
+msgstr ""
+"Diensten die bezoeken analyseren voor advertenties en campagnemeting, ook "
+"buiten deze website."
+
+#: includes/Core/Categories.php:132
+msgid "Externe Medien"
+msgstr "Externe media"
+
+#: includes/Core/Categories.php:133
+msgid ""
+"Eingebettete Inhalte anderer Anbieter wie Videos und Karten. Beim Laden baut "
+"Ihr Browser eine Verbindung zu diesem Anbieter auf."
+msgstr ""
+"Ingesloten inhoud van derden zoals video’s en kaarten. Bij het laden maakt "
+"uw browser verbinding met deze aanbieder."
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:49
+#, php-format
+msgid ""
+"WM Sovereign Consent Vault konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen fehlen: %s."
+msgstr ""
+"WM Sovereign Consent Vault kon niet worden geactiveerd omdat de volgende "
+"vereiste PHP-extensies ontbreken: %s."
+
+#: includes/Database/Schema.php:53
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Ontbrekende PHP-extensie"
+
+#: includes/Frontend/ConsentBanner.php:54
+msgid "Datenschutz-Einstellungen"
+msgstr "Privacy-instellingen"
+
+#: includes/Frontend/ConsentBanner.php:57
+msgid ""
+"Sie entscheiden, welche Kategorien von Diensten diese Website verwenden "
+"darf. Ihre Auswahl wird in Ihrem Browser gespeichert und auf diesem Server "
+"protokolliert: mit einem Hash Ihrer IP-Adresse, der Kennung Ihres Browsers "
+"(User-Agent) im Klartext und dem Zeitpunkt."
+msgstr ""
+"U kiest welke categorieën diensten deze website mag gebruiken. Uw keuze "
+"wordt in uw browser bewaard en op deze server vastgelegd met een hash van uw "
+"IP-adres, de browserkenmerktekst (User-Agent) in platte tekst en het "
+"tijdstip."
+
+#: includes/Frontend/ConsentBanner.php:58
+msgid "Alle akzeptieren"
+msgstr "Alles accepteren"
+
+#: includes/Frontend/ConsentBanner.php:59
+msgid "Nur notwendige"
+msgstr "Alleen noodzakelijke"
+
+#: includes/Frontend/ConsentBanner.php:61
+msgid "Auswahl speichern"
+msgstr "Selectie opslaan"
+
+#: includes/Frontend/ConsentBanner.php:62
+msgid "Datenschutzerklärung"
+msgstr "Privacyverklaring"
+
+#: includes/Frontend/ConsentBanner.php:63
+msgid "Impressum"
+msgstr "Colofon"
+
+#: includes/Frontend/ConsentBanner.php:156
+msgid "(öffnet in einem neuen Tab)"
+msgstr "(opent in een nieuw tabblad)"
+
+#: includes/Frontend/ConsentBanner.php:175
+msgid "Auswahl nach Kategorien"
+msgstr "Keuze per categorie"
+
+#: includes/Frontend/ConsentBanner.php:192
+msgid "Immer aktiv"
+msgstr "Altijd actief"
+
+#. translators: %d: number of services in this category
+#: includes/Frontend/ConsentBanner.php:202
+#, php-format
+msgid "%d Dienst in dieser Kategorie"
+msgid_plural "%d Dienste in dieser Kategorie"
+msgstr[0] "%d dienst in deze categorie"
+msgstr[1] "%d diensten in deze categorie"
+
+#: includes/Frontend/ConsentBanner.php:223
+msgid "Datenschutz"
+msgstr "Privacy"
+
+#: includes/Frontend/ConsentBanner.php:224
+msgid "Datenschutzerklärung des Anbieters"
+msgstr "Privacyverklaring van de aanbieder"
+
+#: includes/Frontend/ConsentBanner.php:238
+msgid "Zurück"
+msgstr "Terug"
+
+#: includes/Frontend/ConsentBanner.php:255
+msgid "Schließen, ohne die Auswahl zu ändern"
+msgstr "Sluiten zonder de keuze te wijzigen"
+
+#: includes/Frontend/EcosystemIntegration.php:46
+#: includes/Frontend/EcosystemIntegration.php:63
+msgid "WM Consent Status"
+msgstr "WM Consent-status"
+
+#: includes/Frontend/EcosystemIntegration.php:67
+msgid "Gibt die aktuelle Richtlinien-Version oder den Kategorien-Status aus."
+msgstr ""
+"Geeft de actieve beleidsversie of de status van een toestemmingscategorie "
+"weer."
+
+#: includes/Frontend/EcosystemIntegration.php:129
+msgid "Freigegeben"
+msgstr "Toegestaan"
+
+#: includes/Frontend/EcosystemIntegration.php:130
+msgid "Blockiert"
+msgstr "Geblokkeerd"
+
+#. translators: %s: active consent policy version
+#: includes/Frontend/EcosystemIntegration.php:138
+#, php-format
+msgid "Richtlinie v%s"
+msgstr "Beleid v%s"
+
+#: includes/Services/ServiceRegistry.php:99
+#: includes/Services/ServiceRegistry.php:117
+msgid "Auswertung der Nutzung der Website (Reichweitenmessung)."
+msgstr "Analyse van het websitegebruik (bereikmeting)."
+
+#: includes/Services/ServiceRegistry.php:108
+msgid "Messung und Ausspielung von Werbung auf Plattformen von Meta."
+msgstr "Meting en weergave van advertenties op Meta-platforms."
+
+#: includes/Services/ServiceRegistry.php:126
+#: includes/Services/ServiceRegistry.php:135
+msgid ""
+"Auswertung, wie Besucher die Seiten nutzen (Heatmaps, "
+"Sitzungsaufzeichnungen)."
+msgstr ""
+"Analyse van hoe bezoekers pagina’s gebruiken (heatmaps, sessie-opnamen)."
+
+#: includes/Services/ServiceRegistry.php:144
+msgid "Messung von Werbekampagnen auf LinkedIn."
+msgstr "Meting van advertentiecampagnes op LinkedIn."
+
+#: includes/Services/ServiceRegistry.php:153
+msgid "Messung und Ausspielung von Werbung auf TikTok."
+msgstr "Meting en weergave van advertenties op TikTok."
+
+#: includes/Services/ServiceRegistry.php:162
+#: includes/Services/ServiceRegistry.php:171
+msgid "Einbettung von Videos."
+msgstr "Insluiten van video’s."
+
+#: includes/Services/ServiceRegistry.php:180
+msgid "Einbettung von Karten."
+msgstr "Insluiten van kaarten."
