@@ -1,0 +1,98 @@
+name: CI Test Suite
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # The header requires PHP 8.2; 8.1 was tested against a floor the plugin does not support.
+        php-version: ['8.2', '8.3']
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-version }}
+          extensions: dom, mbstring, json, openssl, libxml, simplexml
+
+      - name: Lint every shipped PHP file
+        # The suites load five of the ten shipped files; a syntax error in the others reached CI green.
+        run: find . -path ./vendor -prune -o -name '*.php' -print0 | xargs -0 -n1 -P4 php -l > /dev/null
+
+      - name: Run Standalone Test Suite
+        # test-consent-chain.php is a WP-CLI suite that truncates tables: not for CI.
+        run: |
+          php tests/test-suite.php
+
+      # `wp i18n make-pot` IS the definition of a fresh catalog in the step below, so wp-cli is a
+      # hard requirement there rather than something it shrugs off. Into $HOME/bin, not the
+      # workspace: an executable in the repo root would land in the copy the mutation runner makes.
+      # No workflow input reaches these commands; the URL is a literal.
+      - name: Install WP-CLI
+        if: matrix.php-version == '8.3'
+        run: |
+          mkdir -p "$HOME/bin"
+          curl -sSL https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar -o "$HOME/bin/wp"
+          chmod +x "$HOME/bin/wp"
+          echo "$HOME/bin" >> "$GITHUB_PATH"
+
+      # This catalog was current on 2026-09-20 (210 strings, 210 entries). Fifteen of the fleet's
+      # twenty-four were not, and none of them had a check that could notice.
+      - name: Translation catalog freshness
+        if: matrix.php-version == '8.3'
+        run: php tests/test-pot-freshness.php
+
+      - name: Mutation check
+        # Every correction in tests/mutations.php must turn the suite red when it is undone.
+        run: bash tests/run-mutations.sh
+
+      - name: Compliance & Security Audit
+        run: python3 .github/scripts/security-audit.py
+
+      - name: CRA / SBOM Validation
+        run: |
+          # El mandato SBOM del Cyber Resilience Act aplica desde el 2027-12-11.
+          # Hasta que la flota tenga SBOMs esto avisa, no rompe el build.
+          if [ ! -f "bom.json" ]; then
+            echo "::warning::bom.json (SBOM) ausente — pendiente para el CRA (2027-12-11)."
+          else
+            echo "bom.json presente."
+          fi
+
+  mysql-integration:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: wp_test
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -proot"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=10
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP 8.3 with mysqli
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: dom, mbstring, json, openssl, mysqli
+
+      - name: Verify MySQL 8.0 GET_LOCK contention on wm_consent_chain
+        run: |
+          php -r '$m1 = new mysqli("127.0.0.1", "root", "root", "wp_test", 3306); $m2 = new mysqli("127.0.0.1", "root", "root", "wp_test", 3306); $l1 = (int) $m1->query("SELECT GET_LOCK(\"wm_consent_chain\", 2)")->fetch_row()[0]; $l2 = (int) $m2->query("SELECT GET_LOCK(\"wm_consent_chain\", 0)")->fetch_row()[0]; $m1->query("SELECT RELEASE_LOCK(\"wm_consent_chain\")"); if ($l1 !== 1 || $l2 !== 0) { exit(1); } echo "MySQL 8.0 GET_LOCK verified: l1=1 l2=0\n";'

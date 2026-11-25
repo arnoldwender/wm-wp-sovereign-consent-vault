@@ -1,0 +1,1266 @@
+# Translation of wm-sovereign-consent-vault in lv
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-sovereign-consent-vault 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-sovereign-"
+"consent-vault\n"
+"POT-Creation-Date: 2026-11-21T12:37:00+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-sovereign-consent-vault\n"
+
+#. Plugin Name of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "WM Sovereign Consent Vault (TDDDG § 25 & DSGVO)"
+msgstr "WM Sovereign Consent Vault (TDDDG § 25 un VDAR)"
+
+#. Plugin URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+
+#. Description of the plugin
+#: wm-sovereign-consent-vault.php
+msgid ""
+"Einwilligungsdialog nach Kategorien, der Skripte und iframes eingetragener "
+"Dienste bis zur Einwilligung zurückhält, 2-Klick-Platzhalter für YouTube, "
+"Vimeo und Google Maps und HMAC-verkettetes Protokoll der Entscheidungen in "
+"der eigenen Datenbank. Keine rechtliche Bewertung."
+msgstr ""
+"Piekrišanas dialogs pa kategorijām, kas aiztur reģistrēto pakalpojumu "
+"skriptus un iframe līdz piekrišanai, 2 klikšķu vietturi YouTube, Vimeo un "
+"Google Maps saturam un ar HMAC saķēdēts lēmumu žurnāls savā datubāzē. Bez "
+"juridiska vērtējuma."
+
+#. Author of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:89
+msgid "WM Consent Vault — protokollierte Entscheidungen"
+msgstr "WM Consent Vault — reģistrētie lēmumi"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Tabelle für Entscheidungen fehlt"
+msgstr "Trūkst lēmumu tabulas"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid "Noch keine Entscheidung protokolliert"
+msgstr "Vēl nav reģistrēts neviens lēmums"
+
+#. translators: %s: date and time of the newest decision
+#: includes/Admin/AdminDashboard.php:110
+#, php-format
+msgid "Letzte Entscheidung: %s"
+msgstr "Pēdējais lēmums: %s"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Kettenprüfung im Tab „Protokoll“"
+msgstr "Ķēdes pārbaude cilnē “Žurnāls”"
+
+#: includes/Admin/AdminDashboard.php:121
+msgid "Entscheidungen"
+msgstr "Lēmumi"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "mit Statistik"
+msgstr "ar Statistiku"
+
+#: includes/Admin/AdminDashboard.php:129
+msgid "mit Marketing"
+msgstr "ar Mārketingu"
+
+#: includes/Admin/AdminDashboard.php:135
+msgid "Consent Vault öffnen"
+msgstr "Atvērt Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "WM Consent Vault"
+msgstr "WM Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:155
+msgid "Consent Vault"
+msgstr "Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Übersicht"
+msgstr "Pārskats"
+
+#: includes/Admin/AdminDashboard.php:194 includes/Frontend/ConsentBanner.php:60
+msgid "Einstellungen"
+msgstr "Iestatījumi"
+
+#: includes/Admin/AdminDashboard.php:195
+msgid "Dienste"
+msgstr "Pakalpojumi"
+
+#: includes/Admin/AdminDashboard.php:196
+msgid "Banner"
+msgstr "Baneris"
+
+#: includes/Admin/AdminDashboard.php:197
+msgid "Eingebettete Inhalte"
+msgstr "Iegultais saturs"
+
+#: includes/Admin/AdminDashboard.php:198
+msgid "Protokoll"
+msgstr "Žurnāls"
+
+#: includes/Admin/AdminDashboard.php:199 includes/Admin/AdminDashboard.php:460
+msgid "Begriffe"
+msgstr "Termini"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "WM Sovereign Consent Vault"
+msgstr "WM Sovereign Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Einwilligungsdialog nach Kategorien &bull; Blockieren eingetragener Dienste "
+"bis zur Einwilligung &bull; verkettetes Protokoll der Entscheidungen"
+msgstr ""
+"Piekrišanas dialogs pa kategorijām &bull; Reģistrēto pakalpojumu bloķēšana "
+"līdz piekrišanai &bull; Saķēdēts lēmumu žurnāls"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Part of the WM Suite plugin family"
+msgstr "Daļa no WM Suite spraudņu saimes"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Hub"
+msgstr "Hub režīms"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Standalone"
+msgstr "Patstāvīgs"
+
+#: includes/Admin/AdminDashboard.php:242
+msgid "Was dieses Plugin tut"
+msgstr "Ko dara šis spraudnis"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid ""
+"Es zeigt Besuchern ohne gültige Entscheidung einen Dialog mit „Alle "
+"akzeptieren“, „Nur notwendige“ und einer Auswahl nach Kategorien (Statistik, "
+"Marketing, Externe Medien). Bis zur Einwilligung in die jeweilige Kategorie "
+"hält es Skripte und iframes der unter „Dienste“ eingetragenen Anbieter, mit "
+"data-wm-consent markiertes Markup und Videos und Karten von YouTube, Vimeo "
+"und Google Maps zurück; danach lädt der Browser sie ohne neuen Seitenaufruf. "
+"Jede Entscheidung wird mit ihren Kategorien und der Version der Richtlinie "
+"in zwei eigenen Tabellen protokolliert, deren Einträge per HMAC verkettet "
+"sind."
+msgstr ""
+"Apmeklētājiem bez derīga lēmuma parāda dialogu ar “Pieņemt visus”, “Tikai "
+"nepieciešamie” un izvēli pa kategorijām (Statistika, Mārketings, Ārējie "
+"mediji). Līdz piekrišanai attiecīgajai kategorijai aiztur sadaļā "
+"“Pakalpojumi” norādīto pakalpojumu skriptus un iframe, ar data-wm-consent "
+"marķētu kodu un YouTube, Vimeo un Google Maps iegulumus; pēc tam pārlūks tos "
+"ielādē bez lapas pārlādes. Katrs lēmums tiek reģistrēts ar kategorijām un "
+"politikas versiju divās HMAC saķēdētās tabulās."
+
+#: includes/Admin/AdminDashboard.php:249
+msgid "Module Tabs"
+msgstr "Moduļa cilnes"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Die Tabelle für Entscheidungen existiert nicht. Plugin deaktivieren und "
+"wieder aktivieren legt sie an."
+msgstr ""
+"Lēmumu tabula neeksistē. Spraudņa deaktivizēšana un atkārtota aktivizēšana "
+"to izveidos."
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Protokollierte Entscheidungen"
+msgstr "Reģistrētie lēmumi"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "je Klick im Banner ein Eintrag"
+msgstr "viens ieraksts par izvēli banerī"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid "Mit Statistik"
+msgstr "Ar Statistiku"
+
+#: includes/Admin/AdminDashboard.php:271
+msgid "Kategorie Statistik gewählt"
+msgstr "izvēlēta kategorija Statistika"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Mit Marketing"
+msgstr "Ar Mārketingu"
+
+#: includes/Admin/AdminDashboard.php:276
+msgid "Kategorie Marketing gewählt"
+msgstr "izvēlēta kategorija Mārketings"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "Mit externen Medien"
+msgstr "Ar Ārējiem medijiem"
+
+#: includes/Admin/AdminDashboard.php:281
+msgid "nur Entscheidungen mit Kategorien"
+msgstr "tikai lēmumi ar kategorijām"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Zur aktuellen Richtlinie"
+msgstr "Pašreizējā politika"
+
+#. translators: %s: current policy version
+#: includes/Admin/AdminDashboard.php:291
+#, php-format
+msgid "Version %s"
+msgstr "Versija %s"
+
+#: includes/Admin/AdminDashboard.php:296 includes/Admin/SettingsScreen.php:382
+#: includes/Admin/SettingsScreen.php:389
+msgid "Eingetragene Dienste"
+msgstr "Reģistrētie pakalpojumi"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren eingeschaltet"
+msgstr "Bloķēšana ieslēgta"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren ausgeschaltet"
+msgstr "Bloķēšana izslēgta"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "Letzte Entscheidung"
+msgstr "Pēdējais lēmums"
+
+#: includes/Admin/AdminDashboard.php:303
+msgid "Serverzeit"
+msgstr "Servera laiks"
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "Was nicht enthalten ist"
+msgstr "Kas nav iekļauts"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid ""
+"Keine automatische Erkennung von Diensten: zurückgehalten wird, was unter "
+"„Dienste“ eingetragen oder mit data-wm-consent markiert ist, dazu iframes "
+"von YouTube, Vimeo und Google Maps."
+msgstr ""
+"Nav automātiskas pakalpojumu noteikšanas: aizturēts tiek tikai sadaļā "
+"“Pakalpojumi” pievienotais vai ar data-wm-consent marķētais, kā arī YouTube, "
+"Vimeo un Google Maps iframe."
+
+#: includes/Admin/AdminDashboard.php:311
+msgid ""
+"Nichts, was ein Skript erst nach dem Laden der Seite einfügt, und keine "
+"Bilder oder Pixel in noscript-Bereichen."
+msgstr ""
+"Nekas tāds, ko skripts ievieto tikai pēc lapas ielādes, un nekādi attēli vai "
+"pikseļi noscript blokos."
+
+#: includes/Admin/AdminDashboard.php:312
+msgid ""
+"Keine Farbeinstellungen im Backend: das Aussehen folgt CSS-Variablen, die "
+"ein Theme überschreiben kann."
+msgstr ""
+"Administrācijā nav krāsu iestatījumu: izskats izmanto CSS mainīgos, kurus "
+"tēma var pārrakstīt."
+
+#: includes/Admin/AdminDashboard.php:313
+msgid ""
+"Kein Export und keine rechtliche Bewertung Ihres Einwilligungsverfahrens."
+msgstr "Nav eksporta un nav jūsu piekrišanas procesa juridiska novērtējuma."
+
+#: includes/Admin/AdminDashboard.php:327
+msgid "Das Banner, wie Besucher es sehen"
+msgstr "Baneris apmeklētāju skatījumā"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid ""
+"Ein Dialog in der Mitte des Fensters (auf schmalen Bildschirmen unten), für "
+"jeden Besucher ohne gültige Entscheidung in diesem Browser. Die Texte "
+"stammen aus den Einstellungen:"
+msgstr ""
+"Dialogs loga vidū (šauros ekrānos apakšā) katram apmeklētājam bez derīga "
+"lēmuma šajā pārlūkā. Teksti nāk no iestatījumiem:"
+
+#: includes/Admin/AdminDashboard.php:330 includes/Admin/SettingsScreen.php:247
+msgid "Überschrift"
+msgstr "Virsraksts"
+
+#: includes/Admin/AdminDashboard.php:332 includes/Admin/SettingsScreen.php:248
+msgid "Text"
+msgstr "Teksts"
+
+#: includes/Admin/AdminDashboard.php:334
+msgid "Schaltflächen"
+msgstr "Pogas"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Links"
+msgstr "Saites"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "keine Datenschutzerklärung"
+msgstr "nav privātuma politikas"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "kein Impressum"
+msgstr "nav juridiskās informācijas"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Was eine Entscheidung bewirkt"
+msgstr "Ko izdara lēmums"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid ""
+"„Alle akzeptieren“ wählt alle Kategorien, „Nur notwendige“ keine "
+"zusätzliche; unter „Einstellungen“ schaltet der Besucher Statistik, "
+"Marketing und Externe Medien einzeln und sieht die eingetragenen Dienste je "
+"Kategorie. Beide Hauptschaltflächen sind gleich gestaltet."
+msgstr ""
+"“Pieņemt visus” atlasa visas kategorijas, “Tikai nepieciešamie” — nevienu "
+"papildu; zem “Iestatījumi” apmeklētājs atsevišķi pārslēdz Statistiku, "
+"Mārketingu un Ārējos medijus un redz pakalpojumus pa kategorijām. Abām "
+"galvenajām pogām ir vienāds stils."
+
+#: includes/Admin/AdminDashboard.php:343
+msgid ""
+"Der Browser speichert eine zufällige Kennung, die Kategorien, die Version "
+"der Richtlinie und den Zeitpunkt in localStorage (wm_consent_uuid, "
+"wm_consent_categories, wm_consent_policy_version, wm_consent_decided_at, "
+"weiterhin auch wm_consent_analytics und wm_consent_marketing) und im Cookie "
+"wm_consent."
+msgstr ""
+"Pārlūks saglabā nejaušu ID, kategorijas, politikas versiju un laiku "
+"localStorage (wm_consent_uuid, wm_consent_categories, "
+"wm_consent_policy_version, wm_consent_decided_at, kā arī "
+"wm_consent_analytics un wm_consent_marketing) un sīkdatnē wm_consent."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid ""
+"Das Skript holt einen REST-Token und sendet die Entscheidung an wm-consent/"
+"v1/record; der Server speichert sie mit einem HMAC der IP-Adresse, dem User-"
+"Agent, den Kategorien, der Version der Richtlinie und einer Signatur und "
+"hängt sie an die Kette an."
+msgstr ""
+"Skripts saņem REST marķieri un nosūta lēmumu uz wm-consent/v1/record; "
+"serveris to saglabā ar IP adreses HMAC, User-Agent, kategorijām, politikas "
+"versiju un parakstu un pievieno ķēdei."
+
+#: includes/Admin/AdminDashboard.php:345
+msgid ""
+"Zurückgehaltene Skripte und iframes der gewählten Kategorien laden sofort, "
+"ohne neuen Seitenaufruf. Wird eine Kategorie zurückgenommen, löscht das "
+"Skript die eingetragenen Cookies ihrer Dienste auf dieser Website und lädt "
+"die Seite neu."
+msgstr ""
+"Izvēlēto kategoriju aizturētie skripti un iframe ielādējas uzreiz bez lapas "
+"pārlādes. Ja kategorija tiek atsaukta, skripts dzēš šajā vietnē reģistrētās "
+"sīkdatnes un pārlādē lapu."
+
+#: includes/Admin/AdminDashboard.php:346
+msgid ""
+"Nach Ablauf der Gültigkeit oder nach einer neuen Version der Richtlinie "
+"fragt der Dialog erneut."
+msgstr ""
+"Beidzoties derīgumam vai mainoties politikas versijai, dialogs jautā "
+"atkārtoti."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid ""
+"Erneut öffnen: Shortcode [wm_consent_settings], ein Link auf #wm-consent-"
+"settings (zum Beispiel im Menü) oder die zweite Schaltfläche jedes "
+"Platzhalters."
+msgstr ""
+"Atvērt vēlreiz: īskods [wm_consent_settings], saite uz #wm-consent-settings "
+"(piem., izvēlnē) vai katra viettura otrā poga."
+
+#: includes/Admin/AdminDashboard.php:349
+msgid ""
+"Der Dialog ist ein modaler Dialog: der Fokus springt hinein, bleibt beim "
+"Tabben darin und kehrt beim Schließen zurück. Beim ersten Besuch schließt "
+"ihn nur eine Wahl; geöffnet über einen Link schließen ihn auch Escape und "
+"die Schließen-Schaltfläche. Ob die Texte für Ihre Website rechtlich genügen, "
+"beantwortet das Plugin nicht."
+msgstr ""
+"Dialogs ir modāls: fokuss pāriet iekšā, ar Tab paliek iekšpusē un aizverot "
+"atgriežas. Pirmajā apmeklējumā to aizver tikai izvēle; atvērtu caur saiti "
+"aizver arī Escape un aizvēršanas poga. Tekstu juridisko atbilstību spraudnis "
+"nevērtē."
+
+#: includes/Admin/AdminDashboard.php:356 includes/Admin/AdminDashboard.php:479
+msgid "2-Klick-Platzhalter"
+msgstr "2 klikšķu vietturi"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid ""
+"Auf jeder Seite der Website (Beitragsinhalt, Widgets, Theme-Vorlagen) wird "
+"jedes iframe dieser Anbieter durch einen Platzhalter ersetzt, solange das "
+"Blockieren eingeschaltet ist; im Beitragsinhalt auch dann:"
+msgstr ""
+"Katrā vietnes lapā (saturā, logrīkos, veidnēs) katrs šo pakalpojumu "
+"sniedzēju iframe tiek aizstāts ar vietturi, kamēr bloķēšana ir ieslēgta — "
+"bet rakstu saturā arī tad, ja tā ir izslēgta:"
+
+#: includes/Admin/AdminDashboard.php:363
+msgid ""
+"Iframes eingetragener Dienste der Kategorie Externe Medien bekommen "
+"denselben Platzhalter, iframes anderer Kategorien warten ohne sichtbaren "
+"Platzhalter auf die Einwilligung."
+msgstr ""
+"Ārējo mediju reģistrēto pakalpojumu iframe saņem to pašu vietturi; citu "
+"kategoriju iframe gaida piekrišanu bez redzama viettura."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Wie ein Platzhalter lädt"
+msgstr "Kā ielādējas vietturis"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid ""
+"Nach einer Einwilligung in Externe Medien laden alle Platzhalter der Seite "
+"von selbst."
+msgstr ""
+"Pēc piekrišanas Ārējiem medijiem visi lapas vietturi ielādējas automātiski."
+
+#: includes/Admin/AdminDashboard.php:367
+msgid ""
+"Ohne diese Einwilligung lädt ein Klick auf „Inhalt entsperren“ nur diesen "
+"einen Inhalt; der Klick wird nicht protokolliert. Die zweite Schaltfläche "
+"öffnet den Dialog."
+msgstr ""
+"Bez šīs piekrišanas klikšķis uz “Atbloķēt saturu” ielādē tikai šo vienu "
+"elementu bez reģistrēšanas. Otrā poga atver dialogu."
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Nicht erfasst"
+msgstr "Nav aptverts"
+
+#: includes/Admin/AdminDashboard.php:371
+msgid ""
+"Andere Anbieter und Länderdomains (z. B. google.de/maps), solange sie nicht "
+"als Dienst eingetragen sind."
+msgstr ""
+"Citi pakalpojumu sniedzēji un valstu domēni (piem., google.de/maps), kamēr "
+"tie nav reģistrēti kā pakalpojums."
+
+#: includes/Admin/AdminDashboard.php:372
+msgid "Player, die ein Skript erst nach dem Laden der Seite einfügt."
+msgstr "Atskaņotāji, kurus skripts ievieto tikai pēc lapas ielādes."
+
+#: includes/Admin/AdminDashboard.php:388
+msgid "Protokoll der Entscheidungen"
+msgstr "Lēmumu žurnāls"
+
+#: includes/Admin/AdminDashboard.php:389
+msgid ""
+"Jede Entscheidung wird mit einem HMAC-SHA256 signiert (Schlüssel: AUTH_KEY "
+"aus wp-config.php, sonst ein Salt aus der Datenbank) und mit dem vorherigen "
+"Eintrag verkettet; die Spitze der Kette steht zusätzlich signiert in einer "
+"Option. Die Prüfung erkennt geänderte, gelöschte, nachträglich eingefügte "
+"und abgeschnittene Einträge, solange der Schlüssel nicht bekannt ist. Sie "
+"beweist nicht, dass ein Eintrag von einem echten Besucher stammt: jeder kann "
+"den Token abrufen und eine Entscheidung senden."
+msgstr ""
+"Katrs lēmums tiek parakstīts ar HMAC-SHA256 (atslēga: AUTH_KEY no wp-"
+"config.php, citādi datubāzes sāls) un saķēdēts ar iepriekšējo ierakstu; "
+"ķēdes virsotne papildus glabājas parakstīta opcijā. Pārbaude atklāj "
+"mainītus, dzēstus, iespraustus un apcirstus ierakstus, kamēr atslēga nav "
+"zināma. Tā nepierāda, ka ieraksts nācis no īsta apmeklētāja."
+
+#: includes/Admin/AdminDashboard.php:391
+msgid "Kette jetzt prüfen"
+msgstr "Pārbaudīt ķēdi tagad"
+
+#: includes/Admin/AdminDashboard.php:398
+msgid "Knoten"
+msgstr "Mezgls"
+
+#: includes/Admin/AdminDashboard.php:399
+msgid "Vorgänger"
+msgstr "Iepriekšējais"
+
+#: includes/Admin/AdminDashboard.php:400
+msgid "Signatur des Eintrags"
+msgstr "Ieraksta paraksts"
+
+#: includes/Admin/AdminDashboard.php:401
+msgid "Verkettung"
+msgstr "Saķēdējums"
+
+#: includes/Admin/AdminDashboard.php:402
+msgid "Zeitpunkt"
+msgstr "Laiks"
+
+#: includes/Admin/AdminDashboard.php:408
+msgid "Noch keine Einträge."
+msgstr "Vēl nav ierakstu."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid "Prüfe die Kette …"
+msgstr "Pārbauda ķēdi …"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "Prüfung fehlgeschlagen:"
+msgstr "Pārbaude neizdevās:"
+
+#: includes/Admin/AdminDashboard.php:446
+msgid "Noch keine Entscheidung protokolliert: nichts zu prüfen."
+msgstr "Vēl nav reģistrēts neviens lēmums: nav ko pārbaudīt."
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Kette unverändert. Geprüfte Knoten:"
+msgstr "Ķēde nemainīta. Pārbaudītie mezgli:"
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Schlüsselquelle:"
+msgstr "Atslēgas avots:"
+
+#: includes/Admin/AdminDashboard.php:451
+msgid "Fehler:"
+msgstr "Kļūda:"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "localStorage"
+msgstr "localStorage"
+
+#: includes/Admin/AdminDashboard.php:464
+msgid ""
+"Speicher im Browser des Besuchers. Das Plugin legt dort die Entscheidung ab; "
+"dazu setzt es ein einziges Cookie, wm_consent, damit auch PHP die "
+"Entscheidung lesen kann (wm_consent_has)."
+msgstr ""
+"Krātuve apmeklētāja pārlūkā. Spraudnis tur saglabā lēmumu un iestata vienu "
+"sīkdatni wm_consent, lai arī PHP varētu nolasīt izvēli (wm_consent_has)."
+
+#: includes/Admin/AdminDashboard.php:467 includes/Admin/SettingsScreen.php:184
+#: includes/Admin/SettingsScreen.php:393 includes/Admin/SettingsScreen.php:447
+#: includes/Admin/SettingsScreen.php:490
+msgid "Kategorie"
+msgstr "Kategorija"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid ""
+"Notwendig (immer aktiv), Statistik, Marketing oder Externe Medien. Jeder "
+"eingetragene Dienst gehört zu genau einer; seine Skripte und iframes warten "
+"auf die Einwilligung in diese Kategorie."
+msgstr ""
+"Nepieciešamie (vienmēr aktīvi), Statistika, Mārketings vai Ārējie mediji. "
+"Katrs reģistrētais pakalpojums pieder tieši vienai kategorijai; tā skripti "
+"un iframe gaida šīs kategorijas piekrišanu."
+
+#: includes/Admin/AdminDashboard.php:471 includes/Admin/SettingsScreen.php:181
+#: includes/Admin/SettingsScreen.php:330
+msgid "Version der Richtlinie"
+msgstr "Politikas versija"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid ""
+"Kennzeichen unter „Einstellungen“. Eine Entscheidung gilt nur für die "
+"Version, zu der sie gegeben wurde; eine neue Version fragt alle Besucher "
+"erneut."
+msgstr ""
+"Apzīmējums sadaļā “Iestatījumi”. Lēmums ir spēkā tikai tai versijai, kurai "
+"tas sniegts; jauna versija atkārtoti jautā visiem apmeklētājiem."
+
+#: includes/Admin/AdminDashboard.php:475
+msgid "Signaturformat"
+msgstr "Paraksta formāts"
+
+#: includes/Admin/AdminDashboard.php:476
+msgid ""
+"Einträge vor dem 17.09.2026 tragen Format 1 (Kennung, IP-Hash, drei Werte, "
+"Zeitpunkt). Neue Einträge tragen Format 2, das zusätzlich Kategorien, "
+"Version der Richtlinie und User-Agent signiert. Jeder Eintrag wird mit "
+"seinem Format geprüft."
+msgstr ""
+"Ierakstiem pirms 17.09.2026. ir 1. formāts (ID, IP jaucējvērtība, trīs "
+"vērtības, laiks). Jaunajiem ir 2. formāts, kas paraksta arī kategorijas, "
+"politikas versiju un User-Agent. Katrs ieraksts tiek pārbaudīts savā formātā."
+
+#: includes/Admin/AdminDashboard.php:480
+msgid ""
+"Ersetzt ein eingebettetes Video oder eine Karte, bis der Besucher klickt; "
+"vorher baut der Browser keine Verbindung zum Anbieter auf."
+msgstr ""
+"Aizstāj iegultu video vai karti līdz apmeklētāja klikšķim; pirms tam pārlūks "
+"neveido savienojumu ar pakalpojumu sniedzēju."
+
+#: includes/Admin/AdminDashboard.php:483
+msgid "HMAC-Kette"
+msgstr "HMAC ķēde"
+
+#: includes/Admin/AdminDashboard.php:484
+msgid ""
+"Jeder Eintrag trägt eine Signatur mit einem geheimen Schlüssel und die des "
+"vorherigen. Wer die Daten ohne den Schlüssel ändert, fällt bei der Prüfung "
+"auf; wer den Schlüssel kennt, nicht. Trotz des Klassennamens ist es kein "
+"Merkle-Baum."
+msgstr ""
+"Katrs ieraksts satur slepenas atslēgas parakstu un iepriekšējā parakstu. "
+"Datu maiņa bez atslēgas tiek atklāta pārbaudē. Neraugoties uz klases "
+"nosaukumu, tas nav Merkles koks."
+
+#: includes/Admin/SettingsScreen.php:66 includes/Admin/SettingsScreen.php:100
+#: includes/Admin/SettingsScreen.php:111 includes/Admin/SettingsScreen.php:137
+#: includes/Admin/SettingsScreen.php:147
+msgid "Keine Berechtigung."
+msgstr "Nav piekļuves tiesību."
+
+#: includes/Admin/SettingsScreen.php:179 includes/Admin/SettingsScreen.php:289
+msgid "Datenschutzerklärung (URL)"
+msgstr "Privātuma politika (URL)"
+
+#: includes/Admin/SettingsScreen.php:180 includes/Admin/SettingsScreen.php:303
+msgid "Impressum (URL)"
+msgstr "Impressum / juridiskā informācija (URL)"
+
+#: includes/Admin/SettingsScreen.php:182 includes/Admin/SettingsScreen.php:335
+msgid "Gültigkeit in Tagen"
+msgstr "Derīgums dienās"
+
+#: includes/Admin/SettingsScreen.php:183 includes/Admin/SettingsScreen.php:433
+msgid "Name"
+msgstr "Nosaukums"
+
+#: includes/Admin/SettingsScreen.php:185 includes/Admin/SettingsScreen.php:463
+msgid "Host- oder Dateimuster"
+msgstr "Resursdatora vai faila paraugi"
+
+#: includes/Admin/SettingsScreen.php:186 includes/Admin/SettingsScreen.php:468
+msgid "Cookie-Namen"
+msgstr "Sīkdatņu nosaukumi"
+
+#: includes/Admin/SettingsScreen.php:187 includes/Admin/SettingsScreen.php:437
+msgid "Kennung"
+msgstr "Identifikators"
+
+#: includes/Admin/SettingsScreen.php:188
+msgid "Kennung (schon vergeben)"
+msgstr "Identifikators (jau aizņemts)"
+
+#: includes/Admin/SettingsScreen.php:189
+msgid "Dienst (nicht mehr vorhanden)"
+msgstr "Pakalpojums (vairs neeksistē)"
+
+#: includes/Admin/SettingsScreen.php:199
+msgid "Einstellungen gespeichert."
+msgstr "Iestatījumi saglabāti."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:202
+#, php-format
+msgid ""
+"Gespeichert, bis auf diese Felder, die ihren bisherigen Wert behalten: %s"
+msgstr "Saglabāts, izņemot šos laukus, kas saglabāja iepriekšējo vērtību: %s"
+
+#. translators: %s: new policy version
+#: includes/Admin/SettingsScreen.php:205
+#, php-format
+msgid ""
+"Version der Richtlinie ist jetzt „%s“. Besucher sehen das Banner beim "
+"nächsten Seitenaufruf erneut."
+msgstr ""
+"Politikas versija tagad ir “%s”. Apmeklētāji nākamajā lapas skatījumā atkal "
+"redzēs baneri."
+
+#: includes/Admin/SettingsScreen.php:207
+msgid "Dienst hinzugefügt."
+msgstr "Pakalpojums pievienots."
+
+#: includes/Admin/SettingsScreen.php:209
+msgid "Dienst gespeichert."
+msgstr "Pakalpojums saglabāts."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:212
+#, php-format
+msgid "Der Dienst wurde nicht gespeichert. Bitte prüfen: %s"
+msgstr "Pakalpojums netika saglabāts. Lūdzu, pārbaudiet: %s"
+
+#: includes/Admin/SettingsScreen.php:214
+msgid "Dienst entfernt."
+msgstr "Pakalpojums noņemts."
+
+#: includes/Admin/SettingsScreen.php:216
+msgid "Diesen Dienst gibt es nicht mehr."
+msgstr "Šis pakalpojums vairs neeksistē."
+
+#: includes/Admin/SettingsScreen.php:218
+msgid ""
+"Vorlage als Dienst hinzugefügt. Bitte Anbieter und Angaben für Ihre Website "
+"prüfen."
+msgstr ""
+"Veidne pievienota kā pakalpojums. Pārbaudiet pakalpojumu sniedzēju un datus "
+"savai vietnei."
+
+#: includes/Admin/SettingsScreen.php:220
+msgid ""
+"Ein Dienst mit dieser Kennung ist schon eingetragen; er wurde nicht "
+"überschrieben."
+msgstr ""
+"Pakalpojums ar šo identifikatoru jau ir reģistrēts; tas netika pārrakstīts."
+
+#: includes/Admin/SettingsScreen.php:222
+msgid "Unbekannte Vorlage."
+msgstr "Nezināma veidne."
+
+#: includes/Admin/SettingsScreen.php:249
+msgid "Schaltfläche „alle akzeptieren“"
+msgstr "Poga “Pieņemt visus”"
+
+#: includes/Admin/SettingsScreen.php:250
+msgid "Schaltfläche „nur notwendige“"
+msgstr "Poga “Tikai nepieciešamie”"
+
+#: includes/Admin/SettingsScreen.php:251
+msgid "Schaltfläche „Einstellungen“"
+msgstr "Poga “Iestatījumi”"
+
+#: includes/Admin/SettingsScreen.php:252
+msgid "Schaltfläche „Auswahl speichern“"
+msgstr "Poga “Saglabāt izvēli”"
+
+#: includes/Admin/SettingsScreen.php:253
+msgid "Linktext Datenschutzerklärung"
+msgstr "Privātuma politikas saites teksts"
+
+#: includes/Admin/SettingsScreen.php:254
+msgid "Linktext Impressum"
+msgstr "Impressum saites teksts"
+
+#: includes/Admin/SettingsScreen.php:265
+msgid "Texte des Banners"
+msgstr "Banera teksti"
+
+#: includes/Admin/SettingsScreen.php:266
+msgid ""
+"Ein leeres Feld verwendet den Standardtext, der unter dem Feld steht und mit "
+"der Sprache der Website übersetzt wird. Die Standardtexte beschreiben, was "
+"das Plugin speichert; ob sie für Ihre Website rechtlich genügen, prüft das "
+"Plugin nicht."
+msgstr ""
+"Tukšs lauks izmanto zemāk redzamo noklusējuma tekstu vietnes valodā. "
+"Noklusējuma teksti apraksta, ko spraudnis glabā, bez juridiska vērtējuma."
+
+#. translators: %s: default text
+#: includes/Admin/SettingsScreen.php:279 includes/Admin/SettingsScreen.php:320
+#, php-format
+msgid "Standard: %s"
+msgstr "Noklusējums: %s"
+
+#: includes/Admin/SettingsScreen.php:287
+msgid "Links im Banner"
+msgstr "Saites banerī"
+
+#. translators: %s: URL of the privacy policy page set in WordPress
+#: includes/Admin/SettingsScreen.php:296
+#, php-format
+msgid "Leer: die unter Einstellungen › Datenschutz gewählte Seite (%s)."
+msgstr "Tukšs: lapa, kas izvēlēta Iestatījumi › Privātums (%s)."
+
+#: includes/Admin/SettingsScreen.php:297
+msgid ""
+"Leer: die unter Einstellungen › Datenschutz gewählte Seite. Dort ist derzeit "
+"keine veröffentlichte Seite gewählt, also zeigt das Banner keinen Link."
+msgstr ""
+"Tukšs: lapa, kas izvēlēta Iestatījumi › Privātums. Pašlaik tur nav izvēlēta "
+"publicēta lapa, tāpēc saite netiek rādīta."
+
+#: includes/Admin/SettingsScreen.php:305
+msgid "Leer: kein Impressum-Link im Banner."
+msgstr "Tukšs: banerī nav impressum saites."
+
+#: includes/Admin/SettingsScreen.php:307
+msgid ""
+"Auf diesen beiden Seiten öffnet sich das Banner nicht von selbst, damit "
+"Besucher sie vor ihrer Entscheidung lesen können."
+msgstr ""
+"Šajās divās lapās baneris neatveras pats, lai apmeklētāji tās varētu izlasīt "
+"pirms lēmuma."
+
+#: includes/Admin/SettingsScreen.php:311
+msgid "Beschreibungen der Kategorien"
+msgstr "Kategoriju apraksti"
+
+#: includes/Admin/SettingsScreen.php:328
+msgid "Einwilligung"
+msgstr "Piekrišana"
+
+#: includes/Admin/SettingsScreen.php:332
+msgid ""
+"Jede gespeicherte Entscheidung gilt für diese Version. Ändern Sie sie, sehen "
+"alle Besucher das Banner erneut, und das Protokoll hält fest, für welche "
+"Version entschieden wurde. Erlaubt: Buchstaben, Ziffern, Punkt, Bindestrich, "
+"Unterstrich (höchstens 32 Zeichen)."
+msgstr ""
+"Katrs saglabātais lēmums attiecas uz šo versiju. Nomainot to, visi "
+"apmeklētāji atkal redzēs baneri un žurnāls fiksēs izvēlēto versiju. Atļauts: "
+"burti, cipari, punkts, defise, pasvītra (maks. 32 rakstzīmes)."
+
+#: includes/Admin/SettingsScreen.php:337
+msgid ""
+"Nach so vielen Tagen fragt das Banner erneut; so lange lebt auch das Cookie "
+"wm_consent."
+msgstr ""
+"Pēc tik dienām baneris jautā atkal; tikpat ilgi darbojas arī sīkdatne "
+"wm_consent."
+
+#: includes/Admin/SettingsScreen.php:342
+msgid ""
+"Skripte und iframes eingetragener Dienste bis zur Einwilligung blockieren"
+msgstr "Bloķēt reģistrēto pakalpojumu skriptus un iframe līdz piekrišanai"
+
+#: includes/Admin/SettingsScreen.php:344
+msgid ""
+"Ausgeschaltet schreibt das Plugin die Seite nicht mehr um: eingetragene "
+"Dienste laden sofort, auch ohne Entscheidung. Banner, Protokoll und die "
+"Platzhalter im Beitragsinhalt bleiben aktiv."
+msgstr ""
+"Izslēgtā veidā spraudnis vairs nepārraksta lapu: reģistrētie pakalpojumi "
+"ielādējas uzreiz arī bez lēmuma. Baneris, žurnāls un satura vietturi paliek "
+"aktīvi."
+
+#: includes/Admin/SettingsScreen.php:349
+msgid ""
+"Alle Protokolle, Tabellen und Einstellungen beim Löschen des Plugins "
+"entfernen"
+msgstr "Dzēst visus žurnālus, tabulas un iestatījumus, dzēšot spraudni"
+
+#: includes/Admin/SettingsScreen.php:351
+msgid ""
+"Standardmäßig bleiben das Einwilligungsprotokoll, die HMAC-Kette und alle "
+"Einstellungen bei der Deinstallation erhalten, damit dokumentierte "
+"Entscheidungen nicht unbeabsichtigt gelöscht werden."
+msgstr ""
+"Pēc noklusējuma piekrišanas žurnāls, HMAC ķēde un visi iestatījumi "
+"atinstalējot tiek saglabāti, lai nejauši neizdzēstu dokumentētus lēmumus."
+
+#: includes/Admin/SettingsScreen.php:355
+msgid "Einstellungen speichern"
+msgstr "Saglabāt iestatījumus"
+
+#: includes/Admin/SettingsScreen.php:359
+msgid "Alle Besucher erneut fragen"
+msgstr "Pajautāt visiem apmeklētājiem vēlreiz"
+
+#: includes/Admin/SettingsScreen.php:360
+msgid ""
+"Erhöht die Version der Richtlinie um einen Schritt (eine Zahl am Ende wird "
+"hochgezählt). Bestehende Entscheidungen bleiben im Protokoll, gelten im "
+"Browser aber nicht mehr."
+msgstr ""
+"Palielina politikas versiju par vienu soli (skaitlis beigās palielinās). "
+"Esošie lēmumi paliek žurnālā, bet pārlūkā vairs neskaitās."
+
+#: includes/Admin/SettingsScreen.php:364
+msgid "Version erhöhen"
+msgstr "Palielināt versiju"
+
+#: includes/Admin/SettingsScreen.php:383
+msgid ""
+"Skripte und iframes, deren Quelle oder Code eines der Muster enthält, warten "
+"auf die Einwilligung in die Kategorie des Dienstes. Das Banner listet die "
+"Dienste je Kategorie; beim Widerruf löscht es die angegebenen Cookies dieser "
+"Website."
+msgstr ""
+"Skripti un iframe, kuru avots vai kods satur kādu no paraugiem, gaida "
+"pakalpojuma kategorijas piekrišanu. Baneris uzskaita pakalpojumus pa "
+"kategorijām; atsaucot dzēš norādītās sīkdatnes šajā vietnē."
+
+#: includes/Admin/SettingsScreen.php:385
+msgid ""
+"Noch keine Dienste eingetragen: außer den Platzhaltern für YouTube, Vimeo "
+"und Google Maps und dem Markup mit data-wm-consent wird nichts blockiert."
+msgstr ""
+"Vēl nav reģistrētu pakalpojumu: izņemot YouTube, Vimeo un Google Maps "
+"vietturus un data-wm-consent marķējumu, nekas netiek bloķēts."
+
+#: includes/Admin/SettingsScreen.php:392 includes/Admin/SettingsScreen.php:489
+msgid "Dienst"
+msgstr "Pakalpojums"
+
+#: includes/Admin/SettingsScreen.php:394 includes/Admin/SettingsScreen.php:491
+msgid "Muster"
+msgstr "Paraugi"
+
+#: includes/Admin/SettingsScreen.php:395
+#: includes/Frontend/ConsentBanner.php:219
+msgid "Cookies"
+msgstr "Sīkdatnes"
+
+#: includes/Admin/SettingsScreen.php:396 includes/Admin/SettingsScreen.php:526
+msgid "Aktionen"
+msgstr "Darbības"
+
+#: includes/Admin/SettingsScreen.php:408
+msgid "Bearbeiten"
+msgstr "Rediģēt"
+
+#: includes/Admin/SettingsScreen.php:414
+msgid "Entfernen"
+msgstr "Noņemt"
+
+#: includes/Admin/SettingsScreen.php:426
+msgid "Dienst bearbeiten"
+msgstr "Rediģēt pakalpojumu"
+
+#: includes/Admin/SettingsScreen.php:426 includes/Admin/SettingsScreen.php:473
+msgid "Dienst hinzufügen"
+msgstr "Pievienot pakalpojumu"
+
+#: includes/Admin/SettingsScreen.php:439
+msgid ""
+"Kleinbuchstaben, Ziffern, Bindestrich und Unterstrich. Leer: aus dem Namen "
+"gebildet."
+msgstr "Mazie burti, cipari, defise un pasvītra. Tukšs: izveido no nosaukuma."
+
+#: includes/Admin/SettingsScreen.php:442
+#: includes/Frontend/ConsentBanner.php:211
+msgid "Anbieter"
+msgstr "Pakalpojumu sniedzējs"
+
+#: includes/Admin/SettingsScreen.php:444
+msgid ""
+"Wie Besucher den Anbieter im Banner sehen, zum Beispiel mit Firma und Sitz."
+msgstr ""
+"Kā apmeklētāji redz pakalpojumu sniedzēju banerī, piem., uzņēmums un "
+"atrašanās vieta."
+
+#: includes/Admin/SettingsScreen.php:455
+#: includes/Frontend/ConsentBanner.php:215
+msgid "Zweck"
+msgstr "Mērķis"
+
+#: includes/Admin/SettingsScreen.php:459
+msgid "Datenschutzerklärung des Anbieters (URL)"
+msgstr "Pakalpojumu sniedzēja privātuma politika (URL)"
+
+#: includes/Admin/SettingsScreen.php:465
+msgid ""
+"Ein Muster je Zeile, zum Beispiel googletagmanager.com oder matomo.js: 4 bis "
+"100 Zeichen aus Kleinbuchstaben, Ziffern und . _ - /, mit mindestens einem "
+"Punkt oder Schrägstrich. Ein Muster trifft, wo es als ganzer Host- oder "
+"Dateiname in der Quelle eines Skripts oder iframes oder im Code eines Inline-"
+"Skripts steht. Pflicht, außer in der Kategorie Notwendig."
+msgstr ""
+"Viens paraugs rindā, piem., googletagmanager.com vai matomo.js: 4 līdz 100 "
+"rakstzīmes no mazajiem burtiem, cipariem un . _ - /, ar vismaz vienu punktu "
+"vai slīpsvītru. Obligāti, izņemot kategoriju Nepieciešamie."
+
+#: includes/Admin/SettingsScreen.php:470
+msgid ""
+"Ein Name je Zeile; ein * am Ende steht für jede Fortsetzung (_ga_*). Werden "
+"beim Widerruf der Kategorie auf dieser Website gelöscht."
+msgstr ""
+"Viens nosaukums rindā; * beigās sedz jebkuru turpinājumu (_ga_*). Tiek "
+"dzēstas šajā vietnē, atsaucot kategoriju."
+
+#: includes/Admin/SettingsScreen.php:473
+msgid "Dienst speichern"
+msgstr "Saglabāt pakalpojumu"
+
+#: includes/Admin/SettingsScreen.php:475
+msgid "Abbrechen"
+msgstr "Atcelt"
+
+#: includes/Admin/SettingsScreen.php:482 includes/Admin/SettingsScreen.php:486
+msgid "Vorlagen"
+msgstr "Veidnes"
+
+#: includes/Admin/SettingsScreen.php:483
+msgid ""
+"Häufige Dienste mit den Hosts, Dateinamen und Cookies, die ihre Anbieter "
+"dokumentieren (geprüft am 17.09.2026). Eine Vorlage wird erst mit "
+"„Hinzufügen“ zum Dienst; tragen Sie nur Dienste ein, die Ihre Website "
+"tatsächlich verwendet, und ergänzen Sie den Anbieter."
+msgstr ""
+"Bieži pakalpojumi ar pakalpojumu sniedzēju dokumentētajiem resursdatoriem, "
+"failiem un sīkdatnēm (pārbaudīts 17.09.2026.). Veidne kļūst par pakalpojumu "
+"tikai ar “Pievienot”; pievienojiet tikai faktiski izmantotos pakalpojumus."
+
+#: includes/Admin/SettingsScreen.php:492
+msgid "Aktion"
+msgstr "Darbība"
+
+#: includes/Admin/SettingsScreen.php:503
+msgid "eingetragen"
+msgstr "reģistrēts"
+
+#: includes/Admin/SettingsScreen.php:509
+msgid "Hinzufügen"
+msgstr "Pievienot"
+
+#: includes/Admin/SettingsScreen.php:521
+msgid "Für Entwickler"
+msgstr "Izstrādātājiem"
+
+#: includes/Admin/SettingsScreen.php:523
+msgid "läuft erst nach Einwilligung in die Kategorie (auch mit src)."
+msgstr "izpildās tikai pēc piekrišanas kategorijai (arī ar src)."
+
+#: includes/Admin/SettingsScreen.php:524
+msgid ""
+"PHP: ob der Besucher eingewilligt hat; die Antwort wird nicht "
+"zwischengespeichert."
+msgstr "PHP: vai apmeklētājs ir piekritis; atbilde netiek kešota."
+
+#: includes/Admin/SettingsScreen.php:525
+msgid "Ereignis"
+msgstr "Notikums"
+
+#: includes/Admin/SettingsScreen.php:526
+msgid "Filter"
+msgstr "Filtri"
+
+#: includes/Admin/SettingsScreen.php:527
+msgid "Block Bindings & Dynamic Tags"
+msgstr "Block Bindings un dinamiskie tagi"
+
+#: includes/API/RestController.php:121 includes/API/RestController.php:155
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Pārāk daudz pieprasījumu. Lūdzu, mēģiniet vēlreiz pēc minūtes."
+
+#: includes/API/RestController.php:145
+msgid ""
+"Einwilligung nicht gespeichert: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr "Piekrišana nav saglabāta: trūkst vai beidzies drošības marķieris."
+
+#: includes/Blocker/OutputBlocker.php:392
+msgid "externer Anbieter"
+msgstr "ārējs pakalpojumu sniedzējs"
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:79
+#, php-format
+msgid "Externer Inhalt blockiert (%s)"
+msgstr "Ārējs saturs bloķēts (%s)"
+
+#. translators: 1: provider name, 2: provider name
+#: includes/Blocker/ScriptIframeBlocker.php:85
+#, php-format
+msgid ""
+"Dieser Inhalt liegt bei %1$s. Erst ein Klick auf die Schaltfläche lädt ihn "
+"nach; dabei baut Ihr Browser eine Verbindung zu %2$s auf und übermittelt "
+"unter anderem Ihre IP-Adresse."
+msgstr ""
+"Šis saturs atrodas pie %1$s. Tikai klikšķis uz pogas to ielādē; jūsu pārlūks "
+"tad izveido savienojumu ar %2$s un cita starpā nosūta jūsu IP adresi."
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:90
+#, php-format
+msgid "Inhalt entsperren & %s laden"
+msgstr "Atbloķēt saturu un ielādēt %s"
+
+#: includes/Blocker/ScriptIframeBlocker.php:91
+#: includes/Frontend/ConsentBanner.php:273
+msgid "Datenschutzeinstellungen anpassen"
+msgstr "Pielāgot privātuma iestatījumus"
+
+#: includes/Core/Categories.php:120
+msgid "Notwendig"
+msgstr "Nepieciešamie"
+
+#: includes/Core/Categories.php:121
+msgid ""
+"Für den Betrieb der Website erforderlich, zum Beispiel das Speichern dieser "
+"Auswahl. Diese Kategorie lässt sich nicht abschalten."
+msgstr ""
+"Nepieciešams vietnes darbībai, piemēram, šīs izvēles saglabāšanai. Šo "
+"kategoriju nevar izslēgt."
+
+#: includes/Core/Categories.php:124
+msgid "Statistik"
+msgstr "Statistika"
+
+#: includes/Core/Categories.php:125
+msgid ""
+"Dienste, die erfassen, wie die Website genutzt wird, um sie auszuwerten."
+msgstr "Pakalpojumi, kas uzskaita vietnes lietojumu, lai to analizētu."
+
+#: includes/Core/Categories.php:128
+msgid "Marketing"
+msgstr "Mārketings"
+
+#: includes/Core/Categories.php:129
+msgid ""
+"Dienste, die Besuche für Werbung und deren Erfolgsmessung auswerten, auch "
+"über diese Website hinaus."
+msgstr ""
+"Pakalpojumi, kas izvērtē apmeklējumus reklāmai un kampaņu mērīšanai arī "
+"ārpus šīs vietnes."
+
+#: includes/Core/Categories.php:132
+msgid "Externe Medien"
+msgstr "Ārējie mediji"
+
+#: includes/Core/Categories.php:133
+msgid ""
+"Eingebettete Inhalte anderer Anbieter wie Videos und Karten. Beim Laden baut "
+"Ihr Browser eine Verbindung zu diesem Anbieter auf."
+msgstr ""
+"Citu pakalpojumu sniedzēju iegultais saturs, piemēram, video un kartes. "
+"Ielādējot pārlūks savienojas ar šo sniedzēju."
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:49
+#, php-format
+msgid ""
+"WM Sovereign Consent Vault konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen fehlen: %s."
+msgstr ""
+"WM Sovereign Consent Vault nevarēja aktivizēt, jo trūkst šādu nepieciešamo "
+"PHP paplašinājumu: %s."
+
+#: includes/Database/Schema.php:53
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Trūkst PHP paplašinājuma"
+
+#: includes/Frontend/ConsentBanner.php:54
+msgid "Datenschutz-Einstellungen"
+msgstr "Privātuma iestatījumi"
+
+#: includes/Frontend/ConsentBanner.php:57
+msgid ""
+"Sie entscheiden, welche Kategorien von Diensten diese Website verwenden "
+"darf. Ihre Auswahl wird in Ihrem Browser gespeichert und auf diesem Server "
+"protokolliert: mit einem Hash Ihrer IP-Adresse, der Kennung Ihres Browsers "
+"(User-Agent) im Klartext und dem Zeitpunkt."
+msgstr ""
+"Jūs izlemjat, kuras pakalpojumu kategorijas šī vietne drīkst izmantot. Jūsu "
+"izvēle tiek saglabāta pārlūkā un reģistrēta šajā serverī ar IP adreses "
+"jaucējvērtību, pārlūka User-Agent atklātā tekstā un laiku."
+
+#: includes/Frontend/ConsentBanner.php:58
+msgid "Alle akzeptieren"
+msgstr "Pieņemt visus"
+
+#: includes/Frontend/ConsentBanner.php:59
+msgid "Nur notwendige"
+msgstr "Tikai nepieciešamie"
+
+#: includes/Frontend/ConsentBanner.php:61
+msgid "Auswahl speichern"
+msgstr "Saglabāt izvēli"
+
+#: includes/Frontend/ConsentBanner.php:62
+msgid "Datenschutzerklärung"
+msgstr "Privātuma politika"
+
+#: includes/Frontend/ConsentBanner.php:63
+msgid "Impressum"
+msgstr "Juridiskā informācija"
+
+#: includes/Frontend/ConsentBanner.php:156
+msgid "(öffnet in einem neuen Tab)"
+msgstr "(atveras jaunā cilnē)"
+
+#: includes/Frontend/ConsentBanner.php:175
+msgid "Auswahl nach Kategorien"
+msgstr "Izvēle pa kategorijām"
+
+#: includes/Frontend/ConsentBanner.php:192
+msgid "Immer aktiv"
+msgstr "Vienmēr aktīvs"
+
+#. translators: %d: number of services in this category
+#: includes/Frontend/ConsentBanner.php:202
+#, php-format
+msgid "%d Dienst in dieser Kategorie"
+msgid_plural "%d Dienste in dieser Kategorie"
+msgstr[0] "%d pakalpojums šajā kategorijā"
+msgstr[1] "%d pakalpojumi šajā kategorijā"
+msgstr[2] "%d pakalpojumu šajā kategorijā"
+
+#: includes/Frontend/ConsentBanner.php:223
+msgid "Datenschutz"
+msgstr "Privātums"
+
+#: includes/Frontend/ConsentBanner.php:224
+msgid "Datenschutzerklärung des Anbieters"
+msgstr "Pakalpojumu sniedzēja privātuma politika"
+
+#: includes/Frontend/ConsentBanner.php:238
+msgid "Zurück"
+msgstr "Atpakaļ"
+
+#: includes/Frontend/ConsentBanner.php:255
+msgid "Schließen, ohne die Auswahl zu ändern"
+msgstr "Aizvērt, nemainot izvēli"
+
+#: includes/Frontend/EcosystemIntegration.php:46
+#: includes/Frontend/EcosystemIntegration.php:63
+msgid "WM Consent Status"
+msgstr "WM Consent statuss"
+
+#: includes/Frontend/EcosystemIntegration.php:67
+msgid "Gibt die aktuelle Richtlinien-Version oder den Kategorien-Status aus."
+msgstr "Parāda aktīvo politikas versiju vai piekrišanas kategorijas statusu."
+
+#: includes/Frontend/EcosystemIntegration.php:129
+msgid "Freigegeben"
+msgstr "Atļauts"
+
+#: includes/Frontend/EcosystemIntegration.php:130
+msgid "Blockiert"
+msgstr "Bloķēts"
+
+#. translators: %s: active consent policy version
+#: includes/Frontend/EcosystemIntegration.php:138
+#, php-format
+msgid "Richtlinie v%s"
+msgstr "Politika v%s"
+
+#: includes/Services/ServiceRegistry.php:99
+#: includes/Services/ServiceRegistry.php:117
+msgid "Auswertung der Nutzung der Website (Reichweitenmessung)."
+msgstr "Vietnes lietojuma analīze (auditorijas mērīšana)."
+
+#: includes/Services/ServiceRegistry.php:108
+msgid "Messung und Ausspielung von Werbung auf Plattformen von Meta."
+msgstr "Reklāmas mērīšana un rādīšana Meta platformās."
+
+#: includes/Services/ServiceRegistry.php:126
+#: includes/Services/ServiceRegistry.php:135
+msgid ""
+"Auswertung, wie Besucher die Seiten nutzen (Heatmaps, "
+"Sitzungsaufzeichnungen)."
+msgstr "Lapu lietojuma analīze (siltumkartes, sesiju ieraksti)."
+
+#: includes/Services/ServiceRegistry.php:144
+msgid "Messung von Werbekampagnen auf LinkedIn."
+msgstr "Reklāmas kampaņu mērīšana LinkedIn platformā."
+
+#: includes/Services/ServiceRegistry.php:153
+msgid "Messung und Ausspielung von Werbung auf TikTok."
+msgstr "Reklāmas mērīšana un rādīšana TikTok platformā."
+
+#: includes/Services/ServiceRegistry.php:162
+#: includes/Services/ServiceRegistry.php:171
+msgid "Einbettung von Videos."
+msgstr "Video iegulšana."
+
+#: includes/Services/ServiceRegistry.php:180
+msgid "Einbettung von Karten."
+msgstr "Karšu iegulšana."

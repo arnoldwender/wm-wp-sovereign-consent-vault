@@ -1,0 +1,1283 @@
+# Translation of wm-sovereign-consent-vault in fi
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-sovereign-consent-vault 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-sovereign-"
+"consent-vault\n"
+"POT-Creation-Date: 2026-11-21T12:37:00+00:00\n"
+"PO-Revision-Date: 2026-11-21 13:37+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-sovereign-consent-vault\n"
+
+#. Plugin Name of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "WM Sovereign Consent Vault (TDDDG § 25 & DSGVO)"
+msgstr "WM Sovereign Consent Vault (TDDDG § 25 & GDPR)"
+
+#. Plugin URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+
+#. Description of the plugin
+#: wm-sovereign-consent-vault.php
+msgid ""
+"Einwilligungsdialog nach Kategorien, der Skripte und iframes eingetragener "
+"Dienste bis zur Einwilligung zurückhält, 2-Klick-Platzhalter für YouTube, "
+"Vimeo und Google Maps und HMAC-verkettetes Protokoll der Entscheidungen in "
+"der eigenen Datenbank. Keine rechtliche Bewertung."
+msgstr ""
+"Luokittainen suostumusikkuna, joka pidättää rekisteröityjen palveluiden "
+"komentosarjat ja iframet suostumukseen asti, 2 napsautuksen paikkamerkit "
+"YouTubelle, Vimeolle ja Google Mapsille sekä HMAC-ketjutettu päätösloki "
+"omassa tietokannassa. Ei oikeudellista arviointia."
+
+#. Author of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:89
+msgid "WM Consent Vault — protokollierte Entscheidungen"
+msgstr "WM Consent Vault — kirjatut päätökset"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Tabelle für Entscheidungen fehlt"
+msgstr "Päätöstaulu puuttuu"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid "Noch keine Entscheidung protokolliert"
+msgstr "Yhtään päätöstä ei ole vielä kirjattu"
+
+#. translators: %s: date and time of the newest decision
+#: includes/Admin/AdminDashboard.php:110
+#, php-format
+msgid "Letzte Entscheidung: %s"
+msgstr "Viimeisin päätös: %s"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Kettenprüfung im Tab „Protokoll“"
+msgstr "Ketjun tarkistus ”Loki”-välilehdellä"
+
+#: includes/Admin/AdminDashboard.php:121
+msgid "Entscheidungen"
+msgstr "Päätökset"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "mit Statistik"
+msgstr "Tilastot mukana"
+
+#: includes/Admin/AdminDashboard.php:129
+msgid "mit Marketing"
+msgstr "Markkinointi mukana"
+
+#: includes/Admin/AdminDashboard.php:135
+msgid "Consent Vault öffnen"
+msgstr "Avaa Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "WM Consent Vault"
+msgstr "WM Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:155
+msgid "Consent Vault"
+msgstr "Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Übersicht"
+msgstr "Yleiskatsaus"
+
+#: includes/Admin/AdminDashboard.php:194 includes/Frontend/ConsentBanner.php:60
+msgid "Einstellungen"
+msgstr "Asetukset"
+
+#: includes/Admin/AdminDashboard.php:195
+msgid "Dienste"
+msgstr "Palvelut"
+
+#: includes/Admin/AdminDashboard.php:196
+msgid "Banner"
+msgstr "Banneri"
+
+#: includes/Admin/AdminDashboard.php:197
+msgid "Eingebettete Inhalte"
+msgstr "Upotettu sisältö"
+
+#: includes/Admin/AdminDashboard.php:198
+msgid "Protokoll"
+msgstr "Loki"
+
+#: includes/Admin/AdminDashboard.php:199 includes/Admin/AdminDashboard.php:460
+msgid "Begriffe"
+msgstr "Sanasto"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "WM Sovereign Consent Vault"
+msgstr "WM Sovereign Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Einwilligungsdialog nach Kategorien &bull; Blockieren eingetragener Dienste "
+"bis zur Einwilligung &bull; verkettetes Protokoll der Entscheidungen"
+msgstr ""
+"Suostumusikkuna luokittain &bull; Rekisteröityjen palveluiden esto "
+"suostumukseen asti &bull; Ketjutettu päätösloki"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Part of the WM Suite plugin family"
+msgstr "Osa WM Suiten lisäosaperhettä"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Hub"
+msgstr "Hub-tila"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Standalone"
+msgstr "Itsenäinen"
+
+#: includes/Admin/AdminDashboard.php:242
+msgid "Was dieses Plugin tut"
+msgstr "Mitä tämä lisäosa tekee"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid ""
+"Es zeigt Besuchern ohne gültige Entscheidung einen Dialog mit „Alle "
+"akzeptieren“, „Nur notwendige“ und einer Auswahl nach Kategorien (Statistik, "
+"Marketing, Externe Medien). Bis zur Einwilligung in die jeweilige Kategorie "
+"hält es Skripte und iframes der unter „Dienste“ eingetragenen Anbieter, mit "
+"data-wm-consent markiertes Markup und Videos und Karten von YouTube, Vimeo "
+"und Google Maps zurück; danach lädt der Browser sie ohne neuen Seitenaufruf. "
+"Jede Entscheidung wird mit ihren Kategorien und der Version der Richtlinie "
+"in zwei eigenen Tabellen protokolliert, deren Einträge per HMAC verkettet "
+"sind."
+msgstr ""
+"Näyttää kävijöille, joilla ei ole voimassa olevaa päätöstä, valintaikkunan "
+"painikkeilla ”Hyväksy kaikki”, ”Vain välttämättömät” sekä luokkakohtaisilla "
+"valinnoilla (Tilastot, Markkinointi, Ulkoinen media). Kunnes suostumus "
+"annetaan luokkaan, lisäosa pidättää ”Palvelut”-kohdassa listattujen "
+"tarjoajien skriptit ja iframet, data-wm-consent-merkityn koodin sekä "
+"YouTuben, Vimeon ja Google Mapsin upotukset; hyväksynnän jälkeen selain "
+"lataa ne ilman sivun uudelleenlatausta. Jokainen päätös kirjataan luokkineen "
+"ja käytäntöversioineen kahteen HMAC-ketjutettuun tauluun."
+
+#: includes/Admin/AdminDashboard.php:249
+msgid "Module Tabs"
+msgstr "Moduulin välilehdet"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Die Tabelle für Entscheidungen existiert nicht. Plugin deaktivieren und "
+"wieder aktivieren legt sie an."
+msgstr ""
+"Päätöstaulua ei ole olemassa. Lisäosan poistaminen käytöstä ja aktivointi "
+"uudelleen luo sen."
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Protokollierte Entscheidungen"
+msgstr "Kirjatut päätökset"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "je Klick im Banner ein Eintrag"
+msgstr "yksi merkintä bannerin valintaa kohti"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid "Mit Statistik"
+msgstr "Tilastojen kanssa"
+
+#: includes/Admin/AdminDashboard.php:271
+msgid "Kategorie Statistik gewählt"
+msgstr "Tilastot-luokka valittu"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Mit Marketing"
+msgstr "Markkinoinnin kanssa"
+
+#: includes/Admin/AdminDashboard.php:276
+msgid "Kategorie Marketing gewählt"
+msgstr "Markkinointi-luokka valittu"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "Mit externen Medien"
+msgstr "Ulkoisen median kanssa"
+
+#: includes/Admin/AdminDashboard.php:281
+msgid "nur Entscheidungen mit Kategorien"
+msgstr "vain luokat sisältävät päätökset"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Zur aktuellen Richtlinie"
+msgstr "Nykyinen käytäntö"
+
+#. translators: %s: current policy version
+#: includes/Admin/AdminDashboard.php:291
+#, php-format
+msgid "Version %s"
+msgstr "Versio %s"
+
+#: includes/Admin/AdminDashboard.php:296 includes/Admin/SettingsScreen.php:382
+#: includes/Admin/SettingsScreen.php:389
+msgid "Eingetragene Dienste"
+msgstr "Rekisteröidyt palvelut"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren eingeschaltet"
+msgstr "Esto käytössä"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren ausgeschaltet"
+msgstr "Esto pois käytöstä"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "Letzte Entscheidung"
+msgstr "Viimeisin päätös"
+
+#: includes/Admin/AdminDashboard.php:303
+msgid "Serverzeit"
+msgstr "Palvelimen aika"
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "Was nicht enthalten ist"
+msgstr "Mitä ei sisälly"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid ""
+"Keine automatische Erkennung von Diensten: zurückgehalten wird, was unter "
+"„Dienste“ eingetragen oder mit data-wm-consent markiert ist, dazu iframes "
+"von YouTube, Vimeo und Google Maps."
+msgstr ""
+"Ei automaattista palveluiden tunnistusta: pidätetään vain ”Palvelut”-kohtaan "
+"lisätyt tai data-wm-consent-merkityt kohteet sekä YouTube-, Vimeo- ja Google "
+"Maps -iframet."
+
+#: includes/Admin/AdminDashboard.php:311
+msgid ""
+"Nichts, was ein Skript erst nach dem Laden der Seite einfügt, und keine "
+"Bilder oder Pixel in noscript-Bereichen."
+msgstr ""
+"Ei mitään, minkä komentosarja lisää vasta sivun latauduttua, eikä noscript-"
+"lohkojen kuvia tai pikseleitä."
+
+#: includes/Admin/AdminDashboard.php:312
+msgid ""
+"Keine Farbeinstellungen im Backend: das Aussehen folgt CSS-Variablen, die "
+"ein Theme überschreiben kann."
+msgstr ""
+"Ei väriasetuksia ylläpidossa: ulkoasu noudattaa CSS-muuttujia, jotka teema "
+"voi korvata."
+
+#: includes/Admin/AdminDashboard.php:313
+msgid ""
+"Kein Export und keine rechtliche Bewertung Ihres Einwilligungsverfahrens."
+msgstr "Ei vientitoimintoa eikä suostumusmenettelysi oikeudellista arviointia."
+
+#: includes/Admin/AdminDashboard.php:327
+msgid "Das Banner, wie Besucher es sehen"
+msgstr "Banneri kävijän näkemänä"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid ""
+"Ein Dialog in der Mitte des Fensters (auf schmalen Bildschirmen unten), für "
+"jeden Besucher ohne gültige Entscheidung in diesem Browser. Die Texte "
+"stammen aus den Einstellungen:"
+msgstr ""
+"Ikkunan keskellä (kapeilla näytöillä alareunassa) avautuva valintaikkuna "
+"jokaiselle kävijälle, jolla ei ole voimassa olevaa valintaa selaimessa. "
+"Tekstit tulevat asetuksista:"
+
+#: includes/Admin/AdminDashboard.php:330 includes/Admin/SettingsScreen.php:247
+msgid "Überschrift"
+msgstr "Otsikko"
+
+#: includes/Admin/AdminDashboard.php:332 includes/Admin/SettingsScreen.php:248
+msgid "Text"
+msgstr "Teksti"
+
+#: includes/Admin/AdminDashboard.php:334
+msgid "Schaltflächen"
+msgstr "Painikkeet"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Links"
+msgstr "Linkit"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "keine Datenschutzerklärung"
+msgstr "ei tietosuojaselostetta"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "kein Impressum"
+msgstr "ei julkaisutietoja"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Was eine Entscheidung bewirkt"
+msgstr "Mitä päätös tekee"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid ""
+"„Alle akzeptieren“ wählt alle Kategorien, „Nur notwendige“ keine "
+"zusätzliche; unter „Einstellungen“ schaltet der Besucher Statistik, "
+"Marketing und Externe Medien einzeln und sieht die eingetragenen Dienste je "
+"Kategorie. Beide Hauptschaltflächen sind gleich gestaltet."
+msgstr ""
+"”Hyväksy kaikki” valitsee kaikki luokat, ”Vain välttämättömät” ei "
+"valinnaisia; ”Asetukset”-kohdassa kävijä kytkee Tilastot, Markkinoinnin ja "
+"Ulkoisen median erikseen ja näkee rekisteröidyt palvelut luokittain. "
+"Molemmat pääpainikkeet ovat samannäköisiä."
+
+#: includes/Admin/AdminDashboard.php:343
+msgid ""
+"Der Browser speichert eine zufällige Kennung, die Kategorien, die Version "
+"der Richtlinie und den Zeitpunkt in localStorage (wm_consent_uuid, "
+"wm_consent_categories, wm_consent_policy_version, wm_consent_decided_at, "
+"weiterhin auch wm_consent_analytics und wm_consent_marketing) und im Cookie "
+"wm_consent."
+msgstr ""
+"Selain tallentaa satunnaisen tunnisteen, luokat, käytäntöversion ja ajan "
+"localStorageen (wm_consent_uuid, wm_consent_categories, "
+"wm_consent_policy_version, wm_consent_decided_at sekä wm_consent_analytics "
+"ja wm_consent_marketing) ja wm_consent-evästeeseen."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid ""
+"Das Skript holt einen REST-Token und sendet die Entscheidung an wm-consent/"
+"v1/record; der Server speichert sie mit einem HMAC der IP-Adresse, dem User-"
+"Agent, den Kategorien, der Version der Richtlinie und einer Signatur und "
+"hängt sie an die Kette an."
+msgstr ""
+"Skripti noutaa REST-tunnisteen ja lähettää päätöksen osoitteeseen wm-consent/"
+"v1/record; palvelin tallentaa sen IP-osoitteen HMAC-tiivisteen, User-"
+"Agentin, luokkien, käytäntöversion ja allekirjoituksen kanssa ja liittää sen "
+"ketjuun."
+
+#: includes/Admin/AdminDashboard.php:345
+msgid ""
+"Zurückgehaltene Skripte und iframes der gewählten Kategorien laden sofort, "
+"ohne neuen Seitenaufruf. Wird eine Kategorie zurückgenommen, löscht das "
+"Skript die eingetragenen Cookies ihrer Dienste auf dieser Website und lädt "
+"die Seite neu."
+msgstr ""
+"Hyväksyttyjen luokkien pidätetyt skriptit ja iframet latautuvat heti ilman "
+"sivun päivitystä. Jos luokka perutaan, skripti poistaa sen palveluiden "
+"rekisteröidyt evästeet tältä sivustolta ja lataa sivun uudelleen."
+
+#: includes/Admin/AdminDashboard.php:346
+msgid ""
+"Nach Ablauf der Gültigkeit oder nach einer neuen Version der Richtlinie "
+"fragt der Dialog erneut."
+msgstr ""
+"Voimassaoloajan päätyttyä tai käytäntöversion vaihtuessa ikkuna kysyy "
+"uudelleen."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid ""
+"Erneut öffnen: Shortcode [wm_consent_settings], ein Link auf #wm-consent-"
+"settings (zum Beispiel im Menü) oder die zweite Schaltfläche jedes "
+"Platzhalters."
+msgstr ""
+"Avaa uudelleen: lyhytkoodi [wm_consent_settings], linkki kohteeseen #wm-"
+"consent-settings (esim. valikossa) tai paikkamerkin toinen painike."
+
+#: includes/Admin/AdminDashboard.php:349
+msgid ""
+"Der Dialog ist ein modaler Dialog: der Fokus springt hinein, bleibt beim "
+"Tabben darin und kehrt beim Schließen zurück. Beim ersten Besuch schließt "
+"ihn nur eine Wahl; geöffnet über einen Link schließen ihn auch Escape und "
+"die Schließen-Schaltfläche. Ob die Texte für Ihre Website rechtlich genügen, "
+"beantwortet das Plugin nicht."
+msgstr ""
+"Valintaikkuna on modaalinen: kohdistus siirtyy sisään, pysyy Tab-näppäimellä "
+"sisällä ja palautuu suljettaessa. Ensikäynnillä sen sulkee vain valinta; "
+"linkistä avattuna myös Esc ja sulkupainike sulkevat sen. Lisäosa ei arvioi "
+"tekstien lainmukaisuutta."
+
+#: includes/Admin/AdminDashboard.php:356 includes/Admin/AdminDashboard.php:479
+msgid "2-Klick-Platzhalter"
+msgstr "2 napsautuksen paikkamerkit"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid ""
+"Auf jeder Seite der Website (Beitragsinhalt, Widgets, Theme-Vorlagen) wird "
+"jedes iframe dieser Anbieter durch einen Platzhalter ersetzt, solange das "
+"Blockieren eingeschaltet ist; im Beitragsinhalt auch dann:"
+msgstr ""
+"Jokaisella sivuston sivulla (sisältö, vimpaimet, sivupohjat) näiden "
+"tarjoajien jokainen iframe korvataan paikkamerkillä eston ollessa päällä — "
+"ja artikkelisisällössä muulloinkin:"
+
+#: includes/Admin/AdminDashboard.php:363
+msgid ""
+"Iframes eingetragener Dienste der Kategorie Externe Medien bekommen "
+"denselben Platzhalter, iframes anderer Kategorien warten ohne sichtbaren "
+"Platzhalter auf die Einwilligung."
+msgstr ""
+"Ulkoisen median rekisteröityjen palveluiden iframet saavat saman "
+"paikkamerkin; muiden luokkien iframet odottavat suostumusta ilman näkyvää "
+"paikkamerkkiä."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Wie ein Platzhalter lädt"
+msgstr "Miten paikkamerkki latautuu"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid ""
+"Nach einer Einwilligung in Externe Medien laden alle Platzhalter der Seite "
+"von selbst."
+msgstr ""
+"Kun Ulkoinen media on hyväksytty, sivun kaikki paikkamerkit latautuvat "
+"automaattisesti."
+
+#: includes/Admin/AdminDashboard.php:367
+msgid ""
+"Ohne diese Einwilligung lädt ein Klick auf „Inhalt entsperren“ nur diesen "
+"einen Inhalt; der Klick wird nicht protokolliert. Die zweite Schaltfläche "
+"öffnet den Dialog."
+msgstr ""
+"Ilman suostumusta ”Avaa sisältö” -painike lataa vain kyseisen upotuksen "
+"tallentamatta päätöstä. Toinen painike avaa valintaikkunan."
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Nicht erfasst"
+msgstr "Ei kata"
+
+#: includes/Admin/AdminDashboard.php:371
+msgid ""
+"Andere Anbieter und Länderdomains (z. B. google.de/maps), solange sie nicht "
+"als Dienst eingetragen sind."
+msgstr ""
+"Muita tarjoajia ja maakohtaisia verkkotunnuksia (esim. google.de/maps), "
+"ellei niitä ole rekisteröity palveluksi."
+
+#: includes/Admin/AdminDashboard.php:372
+msgid "Player, die ein Skript erst nach dem Laden der Seite einfügt."
+msgstr "Soittimia, jotka komentosarja lisää vasta sivun latauduttua."
+
+#: includes/Admin/AdminDashboard.php:388
+msgid "Protokoll der Entscheidungen"
+msgstr "Päätösloki"
+
+#: includes/Admin/AdminDashboard.php:389
+msgid ""
+"Jede Entscheidung wird mit einem HMAC-SHA256 signiert (Schlüssel: AUTH_KEY "
+"aus wp-config.php, sonst ein Salt aus der Datenbank) und mit dem vorherigen "
+"Eintrag verkettet; die Spitze der Kette steht zusätzlich signiert in einer "
+"Option. Die Prüfung erkennt geänderte, gelöschte, nachträglich eingefügte "
+"und abgeschnittene Einträge, solange der Schlüssel nicht bekannt ist. Sie "
+"beweist nicht, dass ein Eintrag von einem echten Besucher stammt: jeder kann "
+"den Token abrufen und eine Entscheidung senden."
+msgstr ""
+"Jokainen päätös allekirjoitetaan HMAC-SHA256:lla (avain: wp-config.php:n "
+"AUTH_KEY tai tietokannan suola) ja ketjutetaan edelliseen merkintään; ketjun "
+"kärki tallennetaan myös allekirjoitettuna asetukseen. Tarkistus havaitsee "
+"muutetut, poistetut, lisätyt ja katkaistut rivit niin kauan kuin avain pysyy "
+"salassa. Se ei todista, että merkintä tuli oikealta kävijältä."
+
+#: includes/Admin/AdminDashboard.php:391
+msgid "Kette jetzt prüfen"
+msgstr "Tarkista ketju nyt"
+
+#: includes/Admin/AdminDashboard.php:398
+msgid "Knoten"
+msgstr "Solmu"
+
+#: includes/Admin/AdminDashboard.php:399
+msgid "Vorgänger"
+msgstr "Edellinen"
+
+#: includes/Admin/AdminDashboard.php:400
+msgid "Signatur des Eintrags"
+msgstr "Merkinnän allekirjoitus"
+
+#: includes/Admin/AdminDashboard.php:401
+msgid "Verkettung"
+msgstr "Ketjutus"
+
+#: includes/Admin/AdminDashboard.php:402
+msgid "Zeitpunkt"
+msgstr "Ajankohta"
+
+#: includes/Admin/AdminDashboard.php:408
+msgid "Noch keine Einträge."
+msgstr "Ei vielä merkintöjä."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid "Prüfe die Kette …"
+msgstr "Tarkistetaan ketjua …"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "Prüfung fehlgeschlagen:"
+msgstr "Tarkistus epäonnistui:"
+
+#: includes/Admin/AdminDashboard.php:446
+msgid "Noch keine Entscheidung protokolliert: nichts zu prüfen."
+msgstr "Yhtään päätöstä ei ole kirjattu: ei tarkistettavaa."
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Kette unverändert. Geprüfte Knoten:"
+msgstr "Ketju muuttumaton. Tarkistetut solmut:"
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Schlüsselquelle:"
+msgstr "Avaimen lähde:"
+
+#: includes/Admin/AdminDashboard.php:451
+msgid "Fehler:"
+msgstr "Virhe:"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "localStorage"
+msgstr "localStorage"
+
+#: includes/Admin/AdminDashboard.php:464
+msgid ""
+"Speicher im Browser des Besuchers. Das Plugin legt dort die Entscheidung ab; "
+"dazu setzt es ein einziges Cookie, wm_consent, damit auch PHP die "
+"Entscheidung lesen kann (wm_consent_has)."
+msgstr ""
+"Kävijän selaimen tallennustila. Lisäosa tallentaa päätöksen sinne ja asettaa "
+"yhden evästeen, wm_consent, jotta myös PHP voi lukea valinnan "
+"(wm_consent_has)."
+
+#: includes/Admin/AdminDashboard.php:467 includes/Admin/SettingsScreen.php:184
+#: includes/Admin/SettingsScreen.php:393 includes/Admin/SettingsScreen.php:447
+#: includes/Admin/SettingsScreen.php:490
+msgid "Kategorie"
+msgstr "Kategoria"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid ""
+"Notwendig (immer aktiv), Statistik, Marketing oder Externe Medien. Jeder "
+"eingetragene Dienst gehört zu genau einer; seine Skripte und iframes warten "
+"auf die Einwilligung in diese Kategorie."
+msgstr ""
+"Välttämättömät (aina käytössä), Tilastot, Markkinointi tai Ulkoinen media. "
+"Jokainen rekisteröity palvelu kuuluu yhteen luokkaan; sen skriptit ja "
+"iframet odottavat kyseisen luokan suostumusta."
+
+#: includes/Admin/AdminDashboard.php:471 includes/Admin/SettingsScreen.php:181
+#: includes/Admin/SettingsScreen.php:330
+msgid "Version der Richtlinie"
+msgstr "Käytännön versio"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid ""
+"Kennzeichen unter „Einstellungen“. Eine Entscheidung gilt nur für die "
+"Version, zu der sie gegeben wurde; eine neue Version fragt alle Besucher "
+"erneut."
+msgstr ""
+"Tunniste ”Asetukset”-kohdassa. Päätös koskee vain versiota, jolle se "
+"annettiin; uusi versio kysyy kaikilta kävijöiltä uudelleen."
+
+#: includes/Admin/AdminDashboard.php:475
+msgid "Signaturformat"
+msgstr "Allekirjoitusmuoto"
+
+#: includes/Admin/AdminDashboard.php:476
+msgid ""
+"Einträge vor dem 17.09.2026 tragen Format 1 (Kennung, IP-Hash, drei Werte, "
+"Zeitpunkt). Neue Einträge tragen Format 2, das zusätzlich Kategorien, "
+"Version der Richtlinie und User-Agent signiert. Jeder Eintrag wird mit "
+"seinem Format geprüft."
+msgstr ""
+"Ennen 17.9.2026 kirjatut rivit käyttävät muotoa 1 (tunniste, IP-tiiviste, "
+"kolme arvoa, aika). Uudet rivit käyttävät muotoa 2, joka allekirjoittaa myös "
+"luokat, käytäntöversion ja User-Agentin. Jokainen rivi tarkistetaan omalla "
+"muodollaan."
+
+#: includes/Admin/AdminDashboard.php:480
+msgid ""
+"Ersetzt ein eingebettetes Video oder eine Karte, bis der Besucher klickt; "
+"vorher baut der Browser keine Verbindung zum Anbieter auf."
+msgstr ""
+"Korvaa upotetun videon tai kartan, kunnes kävijä napsauttaa; sitä ennen "
+"selain ei muodosta yhteyttä tarjoajaan."
+
+#: includes/Admin/AdminDashboard.php:483
+msgid "HMAC-Kette"
+msgstr "HMAC-ketju"
+
+#: includes/Admin/AdminDashboard.php:484
+msgid ""
+"Jeder Eintrag trägt eine Signatur mit einem geheimen Schlüssel und die des "
+"vorherigen. Wer die Daten ohne den Schlüssel ändert, fällt bei der Prüfung "
+"auf; wer den Schlüssel kennt, nicht. Trotz des Klassennamens ist es kein "
+"Merkle-Baum."
+msgstr ""
+"Jokaisessa rivissä on salaisella avaimella laskettu allekirjoitus ja linkki "
+"edelliseen. Ilman avainta tehdyt muutokset paljastuvat tarkistuksessa. "
+"Luokan nimestä huolimatta kyseessä ei ole Merkle-puu."
+
+#: includes/Admin/SettingsScreen.php:66 includes/Admin/SettingsScreen.php:100
+#: includes/Admin/SettingsScreen.php:111 includes/Admin/SettingsScreen.php:137
+#: includes/Admin/SettingsScreen.php:147
+msgid "Keine Berechtigung."
+msgstr "Ei käyttöoikeutta."
+
+#: includes/Admin/SettingsScreen.php:179 includes/Admin/SettingsScreen.php:289
+msgid "Datenschutzerklärung (URL)"
+msgstr "Tietosuojaseloste (URL)"
+
+#: includes/Admin/SettingsScreen.php:180 includes/Admin/SettingsScreen.php:303
+msgid "Impressum (URL)"
+msgstr "Julkaisutiedot / Impressum (URL)"
+
+#: includes/Admin/SettingsScreen.php:182 includes/Admin/SettingsScreen.php:335
+msgid "Gültigkeit in Tagen"
+msgstr "Voimassaolo päivinä"
+
+#: includes/Admin/SettingsScreen.php:183 includes/Admin/SettingsScreen.php:433
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/Admin/SettingsScreen.php:185 includes/Admin/SettingsScreen.php:463
+msgid "Host- oder Dateimuster"
+msgstr "Verkkotunnus- tai tiedostomallit"
+
+#: includes/Admin/SettingsScreen.php:186 includes/Admin/SettingsScreen.php:468
+msgid "Cookie-Namen"
+msgstr "Evästeiden nimet"
+
+#: includes/Admin/SettingsScreen.php:187 includes/Admin/SettingsScreen.php:437
+msgid "Kennung"
+msgstr "Tunniste"
+
+#: includes/Admin/SettingsScreen.php:188
+msgid "Kennung (schon vergeben)"
+msgstr "Tunniste (jo käytössä)"
+
+#: includes/Admin/SettingsScreen.php:189
+msgid "Dienst (nicht mehr vorhanden)"
+msgstr "Palvelu (ei enää olemassa)"
+
+#: includes/Admin/SettingsScreen.php:199
+msgid "Einstellungen gespeichert."
+msgstr "Asetukset tallennettu."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:202
+#, php-format
+msgid ""
+"Gespeichert, bis auf diese Felder, die ihren bisherigen Wert behalten: %s"
+msgstr ""
+"Tallennettu lukuun ottamatta näitä kenttiä, jotka säilyttivät aiemman "
+"arvonsa: %s"
+
+#. translators: %s: new policy version
+#: includes/Admin/SettingsScreen.php:205
+#, php-format
+msgid ""
+"Version der Richtlinie ist jetzt „%s“. Besucher sehen das Banner beim "
+"nächsten Seitenaufruf erneut."
+msgstr ""
+"Käytännön versio on nyt ”%s”. Kävijät näkevät bannerin uudelleen seuraavalla "
+"sivulatauksella."
+
+#: includes/Admin/SettingsScreen.php:207
+msgid "Dienst hinzugefügt."
+msgstr "Palvelu lisätty."
+
+#: includes/Admin/SettingsScreen.php:209
+msgid "Dienst gespeichert."
+msgstr "Palvelu tallennettu."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:212
+#, php-format
+msgid "Der Dienst wurde nicht gespeichert. Bitte prüfen: %s"
+msgstr "Palvelua ei tallennettu. Tarkista: %s"
+
+#: includes/Admin/SettingsScreen.php:214
+msgid "Dienst entfernt."
+msgstr "Palvelu poistettu."
+
+#: includes/Admin/SettingsScreen.php:216
+msgid "Diesen Dienst gibt es nicht mehr."
+msgstr "Tätä palvelua ei enää ole."
+
+#: includes/Admin/SettingsScreen.php:218
+msgid ""
+"Vorlage als Dienst hinzugefügt. Bitte Anbieter und Angaben für Ihre Website "
+"prüfen."
+msgstr ""
+"Pohja lisätty palveluksi. Tarkista palveluntarjoaja ja sivustoasi koskevat "
+"tiedot."
+
+#: includes/Admin/SettingsScreen.php:220
+msgid ""
+"Ein Dienst mit dieser Kennung ist schon eingetragen; er wurde nicht "
+"überschrieben."
+msgstr "Tällä tunnisteella on jo palvelu; sitä ei korvattu."
+
+#: includes/Admin/SettingsScreen.php:222
+msgid "Unbekannte Vorlage."
+msgstr "Tuntematon pohja."
+
+#: includes/Admin/SettingsScreen.php:249
+msgid "Schaltfläche „alle akzeptieren“"
+msgstr "Painike ”Hyväksy kaikki”"
+
+#: includes/Admin/SettingsScreen.php:250
+msgid "Schaltfläche „nur notwendige“"
+msgstr "Painike ”Vain välttämättömät”"
+
+#: includes/Admin/SettingsScreen.php:251
+msgid "Schaltfläche „Einstellungen“"
+msgstr "Painike ”Asetukset”"
+
+#: includes/Admin/SettingsScreen.php:252
+msgid "Schaltfläche „Auswahl speichern“"
+msgstr "Painike ”Tallenna valinta”"
+
+#: includes/Admin/SettingsScreen.php:253
+msgid "Linktext Datenschutzerklärung"
+msgstr "Tietosuojaselosteen linkkiteksti"
+
+#: includes/Admin/SettingsScreen.php:254
+msgid "Linktext Impressum"
+msgstr "Julkaisutietojen linkkiteksti"
+
+#: includes/Admin/SettingsScreen.php:265
+msgid "Texte des Banners"
+msgstr "Bannerin tekstit"
+
+#: includes/Admin/SettingsScreen.php:266
+msgid ""
+"Ein leeres Feld verwendet den Standardtext, der unter dem Feld steht und mit "
+"der Sprache der Website übersetzt wird. Die Standardtexte beschreiben, was "
+"das Plugin speichert; ob sie für Ihre Website rechtlich genügen, prüft das "
+"Plugin nicht."
+msgstr ""
+"Tyhjä kenttä käyttää alla näkyvää oletustekstiä käännettynä sivuston "
+"kielelle. Oletustekstit kuvaavat mitä lisäosa tallentaa ilman oikeudellista "
+"arviota."
+
+#. translators: %s: default text
+#: includes/Admin/SettingsScreen.php:279 includes/Admin/SettingsScreen.php:320
+#, php-format
+msgid "Standard: %s"
+msgstr "Oletus: %s"
+
+#: includes/Admin/SettingsScreen.php:287
+msgid "Links im Banner"
+msgstr "Bannerin linkit"
+
+#. translators: %s: URL of the privacy policy page set in WordPress
+#: includes/Admin/SettingsScreen.php:296
+#, php-format
+msgid "Leer: die unter Einstellungen › Datenschutz gewählte Seite (%s)."
+msgstr "Tyhjä: käyttää Asetukset › Tietosuoja -kohdassa valittua sivua (%s)."
+
+#: includes/Admin/SettingsScreen.php:297
+msgid ""
+"Leer: die unter Einstellungen › Datenschutz gewählte Seite. Dort ist derzeit "
+"keine veröffentlichte Seite gewählt, also zeigt das Banner keinen Link."
+msgstr ""
+"Tyhjä: käyttää Asetukset › Tietosuoja -kohdassa valittua sivua. Julkaistua "
+"sivua ei ole valittu, joten linkkiä ei näytetä."
+
+#: includes/Admin/SettingsScreen.php:305
+msgid "Leer: kein Impressum-Link im Banner."
+msgstr "Tyhjä: ei julkaisutietolinkkiä bannerissa."
+
+#: includes/Admin/SettingsScreen.php:307
+msgid ""
+"Auf diesen beiden Seiten öffnet sich das Banner nicht von selbst, damit "
+"Besucher sie vor ihrer Entscheidung lesen können."
+msgstr ""
+"Näillä kahdella sivulla banneri ei avaudu itsestään, jotta kävijät voivat "
+"lukea ne ennen päätöstä."
+
+#: includes/Admin/SettingsScreen.php:311
+msgid "Beschreibungen der Kategorien"
+msgstr "Luokkien kuvaukset"
+
+#: includes/Admin/SettingsScreen.php:328
+msgid "Einwilligung"
+msgstr "Suostumus"
+
+#: includes/Admin/SettingsScreen.php:332
+msgid ""
+"Jede gespeicherte Entscheidung gilt für diese Version. Ändern Sie sie, sehen "
+"alle Besucher das Banner erneut, und das Protokoll hält fest, für welche "
+"Version entschieden wurde. Erlaubt: Buchstaben, Ziffern, Punkt, Bindestrich, "
+"Unterstrich (höchstens 32 Zeichen)."
+msgstr ""
+"Jokainen tallennettu päätös koskee tätä versiota. Jos muutat sitä, kaikki "
+"kävijät näkevät bannerin uudelleen ja lokiin kirjataan valittu versio. "
+"Sallitut: kirjaimet, numerot, piste, yhdysmerkki ja alaviiva (enintään 32 "
+"merkkiä)."
+
+#: includes/Admin/SettingsScreen.php:337
+msgid ""
+"Nach so vielen Tagen fragt das Banner erneut; so lange lebt auch das Cookie "
+"wm_consent."
+msgstr ""
+"Näin monen päivän kuluttua banneri kysyy uudelleen; wm_consent-eväste säilyy "
+"yhtä kauan."
+
+#: includes/Admin/SettingsScreen.php:342
+msgid ""
+"Skripte und iframes eingetragener Dienste bis zur Einwilligung blockieren"
+msgstr ""
+"Estä rekisteröityjen palveluiden skriptit ja iframet suostumukseen asti"
+
+#: includes/Admin/SettingsScreen.php:344
+msgid ""
+"Ausgeschaltet schreibt das Plugin die Seite nicht mehr um: eingetragene "
+"Dienste laden sofort, auch ohne Entscheidung. Banner, Protokoll und die "
+"Platzhalter im Beitragsinhalt bleiben aktiv."
+msgstr ""
+"Pois käytöstä lisäosa ei enää muokkaa sivua: rekisteröidyt palvelut "
+"latautuvat heti myös ilman päätöstä. Banneri, loki ja sisällön paikkamerkit "
+"pysyvät käytössä."
+
+#: includes/Admin/SettingsScreen.php:349
+msgid ""
+"Alle Protokolle, Tabellen und Einstellungen beim Löschen des Plugins "
+"entfernen"
+msgstr "Poista kaikki lokit, taulut ja asetukset lisäosaa poistettaessa"
+
+#: includes/Admin/SettingsScreen.php:351
+msgid ""
+"Standardmäßig bleiben das Einwilligungsprotokoll, die HMAC-Kette und alle "
+"Einstellungen bei der Deinstallation erhalten, damit dokumentierte "
+"Entscheidungen nicht unbeabsichtigt gelöscht werden."
+msgstr ""
+"Oletuksena suostumusloki, HMAC-ketju ja asetukset säilytetään poiston "
+"yhteydessä, jotta dokumentoituja päätöksiä ei poisteta vahingossa."
+
+#: includes/Admin/SettingsScreen.php:355
+msgid "Einstellungen speichern"
+msgstr "Tallenna asetukset"
+
+#: includes/Admin/SettingsScreen.php:359
+msgid "Alle Besucher erneut fragen"
+msgstr "Kysy kaikilta kävijöiltä uudelleen"
+
+#: includes/Admin/SettingsScreen.php:360
+msgid ""
+"Erhöht die Version der Richtlinie um einen Schritt (eine Zahl am Ende wird "
+"hochgezählt). Bestehende Entscheidungen bleiben im Protokoll, gelten im "
+"Browser aber nicht mehr."
+msgstr ""
+"Korottaa käytäntöversiota yhdellä askeleella (lopussa oleva numero kasvaa). "
+"Aiemmat päätökset jäävät lokiin, mutta eivät enää päde selaimessa."
+
+#: includes/Admin/SettingsScreen.php:364
+msgid "Version erhöhen"
+msgstr "Korota versiota"
+
+#: includes/Admin/SettingsScreen.php:383
+msgid ""
+"Skripte und iframes, deren Quelle oder Code eines der Muster enthält, warten "
+"auf die Einwilligung in die Kategorie des Dienstes. Das Banner listet die "
+"Dienste je Kategorie; beim Widerruf löscht es die angegebenen Cookies dieser "
+"Website."
+msgstr ""
+"Skriptit ja iframet, joiden lähde tai koodi sisältää jonkin malleista, "
+"odottavat palvelun luokan suostumusta. Banneri listaa palvelut luokittain; "
+"peruutettaessa määritetyt evästeet poistetaan tältä sivustolta."
+
+#: includes/Admin/SettingsScreen.php:385
+msgid ""
+"Noch keine Dienste eingetragen: außer den Platzhaltern für YouTube, Vimeo "
+"und Google Maps und dem Markup mit data-wm-consent wird nichts blockiert."
+msgstr ""
+"Palveluita ei ole vielä rekisteröity: YouTube-, Vimeo- ja Google Maps "
+"-paikkamerkkejä sekä data-wm-consent-merkintää lukuun ottamatta mitään ei "
+"estetä."
+
+#: includes/Admin/SettingsScreen.php:392 includes/Admin/SettingsScreen.php:489
+msgid "Dienst"
+msgstr "Palvelu"
+
+#: includes/Admin/SettingsScreen.php:394 includes/Admin/SettingsScreen.php:491
+msgid "Muster"
+msgstr "Mallit"
+
+#: includes/Admin/SettingsScreen.php:395
+#: includes/Frontend/ConsentBanner.php:219
+msgid "Cookies"
+msgstr "Evästeet"
+
+#: includes/Admin/SettingsScreen.php:396 includes/Admin/SettingsScreen.php:526
+msgid "Aktionen"
+msgstr "Toiminnot"
+
+#: includes/Admin/SettingsScreen.php:408
+msgid "Bearbeiten"
+msgstr "Muokkaa"
+
+#: includes/Admin/SettingsScreen.php:414
+msgid "Entfernen"
+msgstr "Poista"
+
+#: includes/Admin/SettingsScreen.php:426
+msgid "Dienst bearbeiten"
+msgstr "Muokkaa palvelua"
+
+#: includes/Admin/SettingsScreen.php:426 includes/Admin/SettingsScreen.php:473
+msgid "Dienst hinzufügen"
+msgstr "Lisää palvelu"
+
+#: includes/Admin/SettingsScreen.php:439
+msgid ""
+"Kleinbuchstaben, Ziffern, Bindestrich und Unterstrich. Leer: aus dem Namen "
+"gebildet."
+msgstr ""
+"Pienet kirjaimet, numerot, yhdysmerkki ja alaviiva. Tyhjä: muodostetaan "
+"nimestä."
+
+#: includes/Admin/SettingsScreen.php:442
+#: includes/Frontend/ConsentBanner.php:211
+msgid "Anbieter"
+msgstr "Palveluntarjoaja"
+
+#: includes/Admin/SettingsScreen.php:444
+msgid ""
+"Wie Besucher den Anbieter im Banner sehen, zum Beispiel mit Firma und Sitz."
+msgstr ""
+"Miten kävijät näkevät tarjoajan bannerissa, esimerkiksi yrityksen nimi ja "
+"kotipaikka."
+
+#: includes/Admin/SettingsScreen.php:455
+#: includes/Frontend/ConsentBanner.php:215
+msgid "Zweck"
+msgstr "Tarkoitus"
+
+#: includes/Admin/SettingsScreen.php:459
+msgid "Datenschutzerklärung des Anbieters (URL)"
+msgstr "Tarjoajan tietosuojaseloste (URL)"
+
+#: includes/Admin/SettingsScreen.php:465
+msgid ""
+"Ein Muster je Zeile, zum Beispiel googletagmanager.com oder matomo.js: 4 bis "
+"100 Zeichen aus Kleinbuchstaben, Ziffern und . _ - /, mit mindestens einem "
+"Punkt oder Schrägstrich. Ein Muster trifft, wo es als ganzer Host- oder "
+"Dateiname in der Quelle eines Skripts oder iframes oder im Code eines Inline-"
+"Skripts steht. Pflicht, außer in der Kategorie Notwendig."
+msgstr ""
+"Yksi malli riviä kohti, esim. googletagmanager.com tai matomo.js: 4–100 "
+"merkkiä pienistä kirjaimista, numeroista ja merkeistä . _ - /, vähintään "
+"yksi piste tai kauttaviiva. Pakollinen paitsi Välttämättömät-luokassa."
+
+#: includes/Admin/SettingsScreen.php:470
+msgid ""
+"Ein Name je Zeile; ein * am Ende steht für jede Fortsetzung (_ga_*). Werden "
+"beim Widerruf der Kategorie auf dieser Website gelöscht."
+msgstr ""
+"Yksi nimi riviä kohti; lopussa oleva * kattaa kaikki jatkeet (_ga_*). "
+"Poistetaan tältä sivustolta luokan peruutuksen yhteydessä."
+
+#: includes/Admin/SettingsScreen.php:473
+msgid "Dienst speichern"
+msgstr "Tallenna palvelu"
+
+#: includes/Admin/SettingsScreen.php:475
+msgid "Abbrechen"
+msgstr "Peruuta"
+
+#: includes/Admin/SettingsScreen.php:482 includes/Admin/SettingsScreen.php:486
+msgid "Vorlagen"
+msgstr "Pohjat"
+
+#: includes/Admin/SettingsScreen.php:483
+msgid ""
+"Häufige Dienste mit den Hosts, Dateinamen und Cookies, die ihre Anbieter "
+"dokumentieren (geprüft am 17.09.2026). Eine Vorlage wird erst mit "
+"„Hinzufügen“ zum Dienst; tragen Sie nur Dienste ein, die Ihre Website "
+"tatsächlich verwendet, und ergänzen Sie den Anbieter."
+msgstr ""
+"Yleiset palvelut tarjoajiensa dokumentoimilla verkko-osoitteilla, "
+"tiedostoilla ja evästeillä (tarkistettu 17.9.2026). Pohjasta tulee palvelu "
+"vasta ”Lisää”-painikkeella; lisää vain sivustosi todella käyttämät palvelut."
+
+#: includes/Admin/SettingsScreen.php:492
+msgid "Aktion"
+msgstr "Toiminto"
+
+#: includes/Admin/SettingsScreen.php:503
+msgid "eingetragen"
+msgstr "rekisteröity"
+
+#: includes/Admin/SettingsScreen.php:509
+msgid "Hinzufügen"
+msgstr "Lisää"
+
+#: includes/Admin/SettingsScreen.php:521
+msgid "Für Entwickler"
+msgstr "Kehittäjille"
+
+#: includes/Admin/SettingsScreen.php:523
+msgid "läuft erst nach Einwilligung in die Kategorie (auch mit src)."
+msgstr ""
+"suoritetaan vasta luokan suostumuksen jälkeen (myös src-attribuutilla)."
+
+#: includes/Admin/SettingsScreen.php:524
+msgid ""
+"PHP: ob der Besucher eingewilligt hat; die Antwort wird nicht "
+"zwischengespeichert."
+msgstr ""
+"PHP: onko kävijä antanut suostumuksen; vastausta ei tallenneta välimuistiin."
+
+#: includes/Admin/SettingsScreen.php:525
+msgid "Ereignis"
+msgstr "Tapahtuma"
+
+#: includes/Admin/SettingsScreen.php:526
+msgid "Filter"
+msgstr "Suodattimet"
+
+#: includes/Admin/SettingsScreen.php:527
+msgid "Block Bindings & Dynamic Tags"
+msgstr "Block Bindings ja dynaamiset tunnisteet"
+
+#: includes/API/RestController.php:121 includes/API/RestController.php:155
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "Liian monta pyyntöä. Yritä uudelleen minuutin kuluttua."
+
+#: includes/API/RestController.php:145
+msgid ""
+"Einwilligung nicht gespeichert: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr "Suostumusta ei tallennettu: puuttuva tai vanhentunut turvatunniste."
+
+#: includes/Blocker/OutputBlocker.php:392
+msgid "externer Anbieter"
+msgstr "ulkoinen tarjoaja"
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:79
+#, php-format
+msgid "Externer Inhalt blockiert (%s)"
+msgstr "Ulkoinen sisältö estetty (%s)"
+
+#. translators: 1: provider name, 2: provider name
+#: includes/Blocker/ScriptIframeBlocker.php:85
+#, php-format
+msgid ""
+"Dieser Inhalt liegt bei %1$s. Erst ein Klick auf die Schaltfläche lädt ihn "
+"nach; dabei baut Ihr Browser eine Verbindung zu %2$s auf und übermittelt "
+"unter anderem Ihre IP-Adresse."
+msgstr ""
+"Tämä sisältö sijaitsee palvelussa %1$s. Vasta painikkeen napsautus lataa "
+"sen; samalla selaimesi muodostaa yhteyden palveluun %2$s ja välittää muun "
+"muassa IP-osoitteesi."
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:90
+#, php-format
+msgid "Inhalt entsperren & %s laden"
+msgstr "Avaa sisältö ja lataa %s"
+
+#: includes/Blocker/ScriptIframeBlocker.php:91
+#: includes/Frontend/ConsentBanner.php:273
+msgid "Datenschutzeinstellungen anpassen"
+msgstr "Muokkaa tietosuoja-asetuksia"
+
+#: includes/Core/Categories.php:120
+msgid "Notwendig"
+msgstr "Välttämättömät"
+
+#: includes/Core/Categories.php:121
+msgid ""
+"Für den Betrieb der Website erforderlich, zum Beispiel das Speichern dieser "
+"Auswahl. Diese Kategorie lässt sich nicht abschalten."
+msgstr ""
+"Sivuston toiminnalle välttämättömät, kuten tämän valinnan tallentaminen. "
+"Tätä luokkaa ei voi poistaa käytöstä."
+
+#: includes/Core/Categories.php:124
+msgid "Statistik"
+msgstr "Tilastot"
+
+#: includes/Core/Categories.php:125
+msgid ""
+"Dienste, die erfassen, wie die Website genutzt wird, um sie auszuwerten."
+msgstr ""
+"Palvelut, jotka mittaavat miten sivustoa käytetään käytön analysoimiseksi."
+
+#: includes/Core/Categories.php:128
+msgid "Marketing"
+msgstr "Markkinointi"
+
+#: includes/Core/Categories.php:129
+msgid ""
+"Dienste, die Besuche für Werbung und deren Erfolgsmessung auswerten, auch "
+"über diese Website hinaus."
+msgstr ""
+"Palvelut, jotka arvioivat käyntejä mainontaa ja kampanjamittausta varten "
+"myös tämän sivuston ulkopuolella."
+
+#: includes/Core/Categories.php:132
+msgid "Externe Medien"
+msgstr "Ulkoinen media"
+
+#: includes/Core/Categories.php:133
+msgid ""
+"Eingebettete Inhalte anderer Anbieter wie Videos und Karten. Beim Laden baut "
+"Ihr Browser eine Verbindung zu diesem Anbieter auf."
+msgstr ""
+"Muiden tarjoajien upotetut sisällöt kuten videot ja kartat. Ladattaessa "
+"selaimesi ottaa yhteyden kyseiseen tarjoajaan."
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:49
+#, php-format
+msgid ""
+"WM Sovereign Consent Vault konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen fehlen: %s."
+msgstr ""
+"WM Sovereign Consent Vaultia ei voitu ottaa käyttöön, koska seuraavat "
+"vaaditut PHP-laajennukset puuttuvat: %s."
+
+#: includes/Database/Schema.php:53
+msgid "Fehlende PHP-Erweiterung"
+msgstr "Puuttuva PHP-laajennus"
+
+#: includes/Frontend/ConsentBanner.php:54
+msgid "Datenschutz-Einstellungen"
+msgstr "Tietosuoja-asetukset"
+
+#: includes/Frontend/ConsentBanner.php:57
+msgid ""
+"Sie entscheiden, welche Kategorien von Diensten diese Website verwenden "
+"darf. Ihre Auswahl wird in Ihrem Browser gespeichert und auf diesem Server "
+"protokolliert: mit einem Hash Ihrer IP-Adresse, der Kennung Ihres Browsers "
+"(User-Agent) im Klartext und dem Zeitpunkt."
+msgstr ""
+"Päätät itse, mitä palveluluokkia tämä sivusto saa käyttää. Valintasi "
+"tallennetaan selaimeesi ja kirjataan tälle palvelimelle IP-osoitteesi "
+"tiivisteen, selaimesi tunnisteen (User-Agent) selväkielisenä ja ajankohdan "
+"kera."
+
+#: includes/Frontend/ConsentBanner.php:58
+msgid "Alle akzeptieren"
+msgstr "Hyväksy kaikki"
+
+#: includes/Frontend/ConsentBanner.php:59
+msgid "Nur notwendige"
+msgstr "Vain välttämättömät"
+
+#: includes/Frontend/ConsentBanner.php:61
+msgid "Auswahl speichern"
+msgstr "Tallenna valinta"
+
+#: includes/Frontend/ConsentBanner.php:62
+msgid "Datenschutzerklärung"
+msgstr "Tietosuojaseloste"
+
+#: includes/Frontend/ConsentBanner.php:63
+msgid "Impressum"
+msgstr "Julkaisutiedot"
+
+#: includes/Frontend/ConsentBanner.php:156
+msgid "(öffnet in einem neuen Tab)"
+msgstr "(avautuu uuteen välilehteen)"
+
+#: includes/Frontend/ConsentBanner.php:175
+msgid "Auswahl nach Kategorien"
+msgstr "Valinta luokittain"
+
+#: includes/Frontend/ConsentBanner.php:192
+msgid "Immer aktiv"
+msgstr "Aina käytössä"
+
+#. translators: %d: number of services in this category
+#: includes/Frontend/ConsentBanner.php:202
+#, php-format
+msgid "%d Dienst in dieser Kategorie"
+msgid_plural "%d Dienste in dieser Kategorie"
+msgstr[0] "%d palvelu tässä luokassa"
+msgstr[1] "%d palvelua tässä luokassa"
+
+#: includes/Frontend/ConsentBanner.php:223
+msgid "Datenschutz"
+msgstr "Tietosuoja"
+
+#: includes/Frontend/ConsentBanner.php:224
+msgid "Datenschutzerklärung des Anbieters"
+msgstr "Tarjoajan tietosuojaseloste"
+
+#: includes/Frontend/ConsentBanner.php:238
+msgid "Zurück"
+msgstr "Takaisin"
+
+#: includes/Frontend/ConsentBanner.php:255
+msgid "Schließen, ohne die Auswahl zu ändern"
+msgstr "Sulje muuttamatta valintaa"
+
+#: includes/Frontend/EcosystemIntegration.php:46
+#: includes/Frontend/EcosystemIntegration.php:63
+msgid "WM Consent Status"
+msgstr "WM Consent -tila"
+
+#: includes/Frontend/EcosystemIntegration.php:67
+msgid "Gibt die aktuelle Richtlinien-Version oder den Kategorien-Status aus."
+msgstr "Näyttää aktiivisen käytäntöversion tai suostumusluokan tilan."
+
+#: includes/Frontend/EcosystemIntegration.php:129
+msgid "Freigegeben"
+msgstr "Sallittu"
+
+#: includes/Frontend/EcosystemIntegration.php:130
+msgid "Blockiert"
+msgstr "Estetty"
+
+#. translators: %s: active consent policy version
+#: includes/Frontend/EcosystemIntegration.php:138
+#, php-format
+msgid "Richtlinie v%s"
+msgstr "Käytäntö v%s"
+
+#: includes/Services/ServiceRegistry.php:99
+#: includes/Services/ServiceRegistry.php:117
+msgid "Auswertung der Nutzung der Website (Reichweitenmessung)."
+msgstr "Sivuston käytön analysointi (kävijämittaus)."
+
+#: includes/Services/ServiceRegistry.php:108
+msgid "Messung und Ausspielung von Werbung auf Plattformen von Meta."
+msgstr "Mainonnan mittaus ja näyttäminen Metan alustoilla."
+
+#: includes/Services/ServiceRegistry.php:126
+#: includes/Services/ServiceRegistry.php:135
+msgid ""
+"Auswertung, wie Besucher die Seiten nutzen (Heatmaps, "
+"Sitzungsaufzeichnungen)."
+msgstr "Kävijöiden sivukäytön analysointi (lämpökartat, istuntotallenteet)."
+
+#: includes/Services/ServiceRegistry.php:144
+msgid "Messung von Werbekampagnen auf LinkedIn."
+msgstr "Mainoskampanjoiden mittaus LinkedInissä."
+
+#: includes/Services/ServiceRegistry.php:153
+msgid "Messung und Ausspielung von Werbung auf TikTok."
+msgstr "Mainonnan mittaus ja näyttäminen TikTokissa."
+
+#: includes/Services/ServiceRegistry.php:162
+#: includes/Services/ServiceRegistry.php:171
+msgid "Einbettung von Videos."
+msgstr "Videoiden upotus."
+
+#: includes/Services/ServiceRegistry.php:180
+msgid "Einbettung von Karten."
+msgstr "Karttojen upotus."

@@ -1,0 +1,1249 @@
+# Translation of wm-sovereign-consent-vault in ar
+# Copyright (C) 2026 Arnold Wender
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: wm-sovereign-consent-vault 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wm-sovereign-"
+"consent-vault\n"
+"POT-Creation-Date: 2026-11-21T12:37:00+00:00\n"
+"PO-Revision-Date: 2026-11-21 18:10+0100\n"
+"Last-Translator: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language-Team: WM Suite <https://github.com/arnoldwender/wm-wp-sovereign-"
+"consent-vault/issues>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: WM Suite i18n Compiler 2026\n"
+"X-Domain: wm-sovereign-consent-vault\n"
+
+#. Plugin Name of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "WM Sovereign Consent Vault (TDDDG § 25 & DSGVO)"
+msgstr "WM Sovereign Consent Vault (TDDDG § 25 و GDPR)"
+
+#. Plugin URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+msgstr "https://arnoldwender.com/wordpress-plugins/wm-sovereign-consent-vault/"
+
+#. Description of the plugin
+#: wm-sovereign-consent-vault.php
+msgid ""
+"Einwilligungsdialog nach Kategorien, der Skripte und iframes eingetragener "
+"Dienste bis zur Einwilligung zurückhält, 2-Klick-Platzhalter für YouTube, "
+"Vimeo und Google Maps und HMAC-verkettetes Protokoll der Entscheidungen in "
+"der eigenen Datenbank. Keine rechtliche Bewertung."
+msgstr ""
+"نافذة موافقة حسب الفئات تحتجز نصوص البرمجة وإطارات iframe للخدمات المسجلة "
+"حتى صدور الموافقة، وعناصر نائبة بنقرتين لـ YouTube وVimeo وخرائط Google، "
+"وسجل قرارات متسلسل بتوقيع HMAC في قاعدة بياناتك الخاصة. دون تقييم قانوني."
+
+#. Author of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "Arnold Wender"
+msgstr "Arnold Wender"
+
+#. Author URI of the plugin
+#: wm-sovereign-consent-vault.php
+msgid "https://arnoldwender.com"
+msgstr "https://arnoldwender.com"
+
+#: includes/Admin/AdminDashboard.php:89
+msgid "WM Consent Vault — protokollierte Entscheidungen"
+msgstr "WM Consent Vault — القرارات المسجلة"
+
+#: includes/Admin/AdminDashboard.php:105
+msgid "Tabelle für Entscheidungen fehlt"
+msgstr "جدول القرارات مفقود"
+
+#: includes/Admin/AdminDashboard.php:107
+msgid "Noch keine Entscheidung protokolliert"
+msgstr "لم يُسجَّل أي قرار بعد"
+
+#. translators: %s: date and time of the newest decision
+#: includes/Admin/AdminDashboard.php:110
+#, php-format
+msgid "Letzte Entscheidung: %s"
+msgstr "آخر قرار: %s"
+
+#: includes/Admin/AdminDashboard.php:114
+msgid "Kettenprüfung im Tab „Protokoll“"
+msgstr "التحقق من السلسلة في تبويب «السجل»"
+
+#: includes/Admin/AdminDashboard.php:121
+msgid "Entscheidungen"
+msgstr "القرارات"
+
+#: includes/Admin/AdminDashboard.php:125
+msgid "mit Statistik"
+msgstr "مع الإحصاءات"
+
+#: includes/Admin/AdminDashboard.php:129
+msgid "mit Marketing"
+msgstr "مع التسويق"
+
+#: includes/Admin/AdminDashboard.php:135
+msgid "Consent Vault öffnen"
+msgstr "فتح Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:154
+msgid "WM Consent Vault"
+msgstr "WM Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:155
+msgid "Consent Vault"
+msgstr "Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:193
+msgid "Übersicht"
+msgstr "نظرة عامة"
+
+#: includes/Admin/AdminDashboard.php:194 includes/Frontend/ConsentBanner.php:60
+msgid "Einstellungen"
+msgstr "الإعدادات"
+
+#: includes/Admin/AdminDashboard.php:195
+msgid "Dienste"
+msgstr "الخدمات"
+
+#: includes/Admin/AdminDashboard.php:196
+msgid "Banner"
+msgstr "الشريط"
+
+#: includes/Admin/AdminDashboard.php:197
+msgid "Eingebettete Inhalte"
+msgstr "المحتوى المضمّن"
+
+#: includes/Admin/AdminDashboard.php:198
+msgid "Protokoll"
+msgstr "السجل"
+
+#: includes/Admin/AdminDashboard.php:199 includes/Admin/AdminDashboard.php:460
+msgid "Begriffe"
+msgstr "المصطلحات"
+
+#: includes/Admin/AdminDashboard.php:225
+msgid "WM Sovereign Consent Vault"
+msgstr "WM Sovereign Consent Vault"
+
+#: includes/Admin/AdminDashboard.php:226
+msgid ""
+"Einwilligungsdialog nach Kategorien &bull; Blockieren eingetragener Dienste "
+"bis zur Einwilligung &bull; verkettetes Protokoll der Entscheidungen"
+msgstr ""
+"نافذة موافقة حسب الفئات &bull; حظر الخدمات المسجلة حتى الموافقة &bull; سجل "
+"متسلسل للقرارات"
+
+#: includes/Admin/AdminDashboard.php:230
+msgid "Part of the WM Suite plugin family"
+msgstr "جزء من عائلة إضافات WM Suite"
+
+#: includes/Admin/AdminDashboard.php:232
+msgid "WM Suite"
+msgstr "WM Suite"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Hub"
+msgstr "وضع المركز"
+
+#: includes/Admin/AdminDashboard.php:233
+msgid "Standalone"
+msgstr "مستقل"
+
+#: includes/Admin/AdminDashboard.php:242
+msgid "Was dieses Plugin tut"
+msgstr "ما الذي تفعله هذه الإضافة"
+
+#: includes/Admin/AdminDashboard.php:245
+msgid ""
+"Es zeigt Besuchern ohne gültige Entscheidung einen Dialog mit „Alle "
+"akzeptieren“, „Nur notwendige“ und einer Auswahl nach Kategorien (Statistik, "
+"Marketing, Externe Medien). Bis zur Einwilligung in die jeweilige Kategorie "
+"hält es Skripte und iframes der unter „Dienste“ eingetragenen Anbieter, mit "
+"data-wm-consent markiertes Markup und Videos und Karten von YouTube, Vimeo "
+"und Google Maps zurück; danach lädt der Browser sie ohne neuen Seitenaufruf. "
+"Jede Entscheidung wird mit ihren Kategorien und der Version der Richtlinie "
+"in zwei eigenen Tabellen protokolliert, deren Einträge per HMAC verkettet "
+"sind."
+msgstr ""
+"تعرض للزوار الذين ليس لديهم قرار صالح نافذة تحتوي على «قبول الكل» و«الضرورية "
+"فقط» واختيار حسب الفئات (الإحصاءات، التسويق، الوسائط الخارجية). وحتى تتم "
+"الموافقة على الفئة المعنية، تحتجز النصوص البرمجية وإطارات iframe الخاصة "
+"بالمزودين المدرجين ضمن «الخدمات»، والترميز الموسوم بـ data-wm-consent، "
+"ومقاطع الفيديو والخرائط من YouTube وVimeo وخرائط Google؛ وبعد الموافقة "
+"يحمّلها المتصفح دون إعادة تحميل الصفحة. يُسجَّل كل قرار مع فئاته وإصدار السياسة "
+"في جدولين مترابطين عبر HMAC."
+
+#: includes/Admin/AdminDashboard.php:249
+msgid "Module Tabs"
+msgstr "علامات تبويب الوحدة"
+
+#: includes/Admin/AdminDashboard.php:260
+msgid ""
+"Die Tabelle für Entscheidungen existiert nicht. Plugin deaktivieren und "
+"wieder aktivieren legt sie an."
+msgstr "جدول القرارات غير موجود. تعطيل الإضافة ثم إعادة تفعيلها ينشئه."
+
+#: includes/Admin/AdminDashboard.php:264
+msgid "Protokollierte Entscheidungen"
+msgstr "القرارات المسجلة"
+
+#: includes/Admin/AdminDashboard.php:266
+msgid "je Klick im Banner ein Eintrag"
+msgstr "قيد واحد لكل اختيار في الشريط"
+
+#: includes/Admin/AdminDashboard.php:269
+msgid "Mit Statistik"
+msgstr "مع الإحصاءات"
+
+#: includes/Admin/AdminDashboard.php:271
+msgid "Kategorie Statistik gewählt"
+msgstr "تم اختيار فئة الإحصاءات"
+
+#: includes/Admin/AdminDashboard.php:274
+msgid "Mit Marketing"
+msgstr "مع التسويق"
+
+#: includes/Admin/AdminDashboard.php:276
+msgid "Kategorie Marketing gewählt"
+msgstr "تم اختيار فئة التسويق"
+
+#: includes/Admin/AdminDashboard.php:279
+msgid "Mit externen Medien"
+msgstr "مع الوسائط الخارجية"
+
+#: includes/Admin/AdminDashboard.php:281
+msgid "nur Entscheidungen mit Kategorien"
+msgstr "القرارات التي تتضمن فئات فقط"
+
+#: includes/Admin/AdminDashboard.php:286
+msgid "Zur aktuellen Richtlinie"
+msgstr "السياسة الحالية"
+
+#. translators: %s: current policy version
+#: includes/Admin/AdminDashboard.php:291
+#, php-format
+msgid "Version %s"
+msgstr "الإصدار %s"
+
+#: includes/Admin/AdminDashboard.php:296 includes/Admin/SettingsScreen.php:382
+#: includes/Admin/SettingsScreen.php:389
+msgid "Eingetragene Dienste"
+msgstr "الخدمات المسجلة"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren eingeschaltet"
+msgstr "الحظر مفعّل"
+
+#: includes/Admin/AdminDashboard.php:298
+msgid "Blockieren ausgeschaltet"
+msgstr "الحظر معطّل"
+
+#: includes/Admin/AdminDashboard.php:301
+msgid "Letzte Entscheidung"
+msgstr "آخر قرار"
+
+#: includes/Admin/AdminDashboard.php:303
+msgid "Serverzeit"
+msgstr "توقيت الخادم"
+
+#: includes/Admin/AdminDashboard.php:308
+msgid "Was nicht enthalten ist"
+msgstr "ما لا تشمله الإضافة"
+
+#: includes/Admin/AdminDashboard.php:310
+msgid ""
+"Keine automatische Erkennung von Diensten: zurückgehalten wird, was unter "
+"„Dienste“ eingetragen oder mit data-wm-consent markiert ist, dazu iframes "
+"von YouTube, Vimeo und Google Maps."
+msgstr ""
+"لا يوجد اكتشاف تلقائي للخدمات: يتم احتجاز ما أُدرج تحت «الخدمات» أو وُسم بـ "
+"data-wm-consent فقط، إضافة إلى إطارات YouTube وVimeo وخرائط Google."
+
+#: includes/Admin/AdminDashboard.php:311
+msgid ""
+"Nichts, was ein Skript erst nach dem Laden der Seite einfügt, und keine "
+"Bilder oder Pixel in noscript-Bereichen."
+msgstr ""
+"لا يشمل أي عنصر يدرجه نص برمجي بعد تحميل الصفحة ولا الصور أو وحدات البكسل "
+"داخل noscript."
+
+#: includes/Admin/AdminDashboard.php:312
+msgid ""
+"Keine Farbeinstellungen im Backend: das Aussehen folgt CSS-Variablen, die "
+"ein Theme überschreiben kann."
+msgstr ""
+"لا توجد إعدادات ألوان في لوحة التحكم: يتبع المظهر متغيرات CSS التي يمكن "
+"للقالب تجاوزها."
+
+#: includes/Admin/AdminDashboard.php:313
+msgid ""
+"Kein Export und keine rechtliche Bewertung Ihres Einwilligungsverfahrens."
+msgstr "لا يوجد تصدير ولا تقييم قانوني لآلية الموافقة لديك."
+
+#: includes/Admin/AdminDashboard.php:327
+msgid "Das Banner, wie Besucher es sehen"
+msgstr "الشريط كما يراه الزوار"
+
+#: includes/Admin/AdminDashboard.php:328
+msgid ""
+"Ein Dialog in der Mitte des Fensters (auf schmalen Bildschirmen unten), für "
+"jeden Besucher ohne gültige Entscheidung in diesem Browser. Die Texte "
+"stammen aus den Einstellungen:"
+msgstr ""
+"نافذة في وسط الشاشة (في الأسفل على الشاشات الضيقة) لكل زائر دون قرار صالح في "
+"هذا المتصفح. تأتي النصوص من الإعدادات:"
+
+#: includes/Admin/AdminDashboard.php:330 includes/Admin/SettingsScreen.php:247
+msgid "Überschrift"
+msgstr "العنوان"
+
+#: includes/Admin/AdminDashboard.php:332 includes/Admin/SettingsScreen.php:248
+msgid "Text"
+msgstr "النص"
+
+#: includes/Admin/AdminDashboard.php:334
+msgid "Schaltflächen"
+msgstr "الأزرار"
+
+#: includes/Admin/AdminDashboard.php:336
+msgid "Links"
+msgstr "الروابط"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "keine Datenschutzerklärung"
+msgstr "لا توجد سياسة خصوصية"
+
+#: includes/Admin/AdminDashboard.php:337
+msgid "kein Impressum"
+msgstr "لا توجد بيانات قانونية"
+
+#: includes/Admin/AdminDashboard.php:340
+msgid "Was eine Entscheidung bewirkt"
+msgstr "ما الذي يفعله القرار"
+
+#: includes/Admin/AdminDashboard.php:342
+msgid ""
+"„Alle akzeptieren“ wählt alle Kategorien, „Nur notwendige“ keine "
+"zusätzliche; unter „Einstellungen“ schaltet der Besucher Statistik, "
+"Marketing und Externe Medien einzeln und sieht die eingetragenen Dienste je "
+"Kategorie. Beide Hauptschaltflächen sind gleich gestaltet."
+msgstr ""
+"«قبول الكل» يحدد جميع الفئات، و«الضرورية فقط» لا يحدد أي فئة إضافية؛ وتحت "
+"«الإعدادات» يفعّل الزائر الإحصاءات والتسويق والوسائط الخارجية كلًا على حدة "
+"ويرى الخدمات المسجلة لكل فئة. يحمل الزران الرئيسيان التصميم نفسه."
+
+#: includes/Admin/AdminDashboard.php:343
+msgid ""
+"Der Browser speichert eine zufällige Kennung, die Kategorien, die Version "
+"der Richtlinie und den Zeitpunkt in localStorage (wm_consent_uuid, "
+"wm_consent_categories, wm_consent_policy_version, wm_consent_decided_at, "
+"weiterhin auch wm_consent_analytics und wm_consent_marketing) und im Cookie "
+"wm_consent."
+msgstr ""
+"يحفظ المتصفح معرّفًا عشوائيًا والفئات وإصدار السياسة والوقت في localStorage "
+"(wm_consent_uuid وwm_consent_categories وwm_consent_policy_version "
+"وwm_consent_decided_at وكذلك wm_consent_analytics وwm_consent_marketing) وفي "
+"ملف تعريف الارتباط wm_consent."
+
+#: includes/Admin/AdminDashboard.php:344
+msgid ""
+"Das Skript holt einen REST-Token und sendet die Entscheidung an wm-consent/"
+"v1/record; der Server speichert sie mit einem HMAC der IP-Adresse, dem User-"
+"Agent, den Kategorien, der Version der Richtlinie und einer Signatur und "
+"hängt sie an die Kette an."
+msgstr ""
+"يجلب النص البرمجي رمز REST ويرسل القرار إلى wm-consent/v1/record؛ فيحفظه "
+"الخادم مع تجزئة HMAC لعنوان IP ومعرّف المتصفح User-Agent والفئات وإصدار "
+"السياسة وتوقيع، ويضيفه إلى السلسلة."
+
+#: includes/Admin/AdminDashboard.php:345
+msgid ""
+"Zurückgehaltene Skripte und iframes der gewählten Kategorien laden sofort, "
+"ohne neuen Seitenaufruf. Wird eine Kategorie zurückgenommen, löscht das "
+"Skript die eingetragenen Cookies ihrer Dienste auf dieser Website und lädt "
+"die Seite neu."
+msgstr ""
+"تُحمَّل النصوص البرمجية وإطارات iframe المحتجزة للفئات المقبولة فورًا دون إعادة "
+"تحميل الصفحة. وعند سحب فئة، يحذف النص البرمجي ملفات تعريف الارتباط المسجلة "
+"على هذا الموقع ويعيد تحميل الصفحة."
+
+#: includes/Admin/AdminDashboard.php:346
+msgid ""
+"Nach Ablauf der Gültigkeit oder nach einer neuen Version der Richtlinie "
+"fragt der Dialog erneut."
+msgstr "بعد انتهاء الصلاحية أو رفع إصدار السياسة تسأل النافذة من جديد."
+
+#: includes/Admin/AdminDashboard.php:348
+msgid ""
+"Erneut öffnen: Shortcode [wm_consent_settings], ein Link auf #wm-consent-"
+"settings (zum Beispiel im Menü) oder die zweite Schaltfläche jedes "
+"Platzhalters."
+msgstr ""
+"إعادة الفتح: الرمز القصير [wm_consent_settings]، أو رابط إلى #wm-consent-"
+"settings (في القائمة مثلًا) أو الزر الثاني في كل عنصر نائب."
+
+#: includes/Admin/AdminDashboard.php:349
+msgid ""
+"Der Dialog ist ein modaler Dialog: der Fokus springt hinein, bleibt beim "
+"Tabben darin und kehrt beim Schließen zurück. Beim ersten Besuch schließt "
+"ihn nur eine Wahl; geöffnet über einen Link schließen ihn auch Escape und "
+"die Schließen-Schaltfläche. Ob die Texte für Ihre Website rechtlich genügen, "
+"beantwortet das Plugin nicht."
+msgstr ""
+"النافذة مشروطة (Modal): ينتقل التركيز إليها ويبقى بداخلها مع مفتاح Tab ويعود "
+"عند الإغلاق. في الزيارة الأولى لا يغلقها إلا الاختيار؛ وعند فتحها عبر رابط "
+"يغلقها أيضًا مفتاح Escape وزر الإغلاق. لا تقيّم الإضافة الكفاية القانونية "
+"للنصوص."
+
+#: includes/Admin/AdminDashboard.php:356 includes/Admin/AdminDashboard.php:479
+msgid "2-Klick-Platzhalter"
+msgstr "عناصر نائبة بنقرتين"
+
+#: includes/Admin/AdminDashboard.php:357
+msgid ""
+"Auf jeder Seite der Website (Beitragsinhalt, Widgets, Theme-Vorlagen) wird "
+"jedes iframe dieser Anbieter durch einen Platzhalter ersetzt, solange das "
+"Blockieren eingeschaltet ist; im Beitragsinhalt auch dann:"
+msgstr ""
+"في كل صفحة من الموقع (المحتوى، الودجات، القوالب) يُستبدل كل إطار iframe "
+"لهؤلاء المزودين بعنصر نائب طالما الحظر مفعّل — وفي محتوى المقالات حتى عند "
+"تعطيله:"
+
+#: includes/Admin/AdminDashboard.php:363
+msgid ""
+"Iframes eingetragener Dienste der Kategorie Externe Medien bekommen "
+"denselben Platzhalter, iframes anderer Kategorien warten ohne sichtbaren "
+"Platzhalter auf die Einwilligung."
+msgstr ""
+"إطارات iframe للخدمات المسجلة ضمن الوسائط الخارجية تحصل على العنصر النائب "
+"نفسه؛ بينما تنتظر الفئات الأخرى الموافقة دون عنصر نائب مرئي."
+
+#: includes/Admin/AdminDashboard.php:364
+msgid "Wie ein Platzhalter lädt"
+msgstr "كيف يُحمَّل العنصر النائب"
+
+#: includes/Admin/AdminDashboard.php:366
+msgid ""
+"Nach einer Einwilligung in Externe Medien laden alle Platzhalter der Seite "
+"von selbst."
+msgstr ""
+"بعد الموافقة على الوسائط الخارجية تُحمَّل جميع العناصر النائبة في الصفحة "
+"تلقائيًا."
+
+#: includes/Admin/AdminDashboard.php:367
+msgid ""
+"Ohne diese Einwilligung lädt ein Klick auf „Inhalt entsperren“ nur diesen "
+"einen Inhalt; der Klick wird nicht protokolliert. Die zweite Schaltfläche "
+"öffnet den Dialog."
+msgstr ""
+"ودون هذه الموافقة تؤدي النقرة على «إلغاء قفل المحتوى» إلى تحميل ذلك العنصر "
+"وحده دون تسجيل القرار. يفتح الزر الثاني نافذة الموافقة."
+
+#: includes/Admin/AdminDashboard.php:369
+msgid "Nicht erfasst"
+msgstr "غير مشمول"
+
+#: includes/Admin/AdminDashboard.php:371
+msgid ""
+"Andere Anbieter und Länderdomains (z. B. google.de/maps), solange sie nicht "
+"als Dienst eingetragen sind."
+msgstr "مزودون آخرون ونطاقات دولية (مثل google.de/maps) ما لم يُسجَّلوا كخدمة."
+
+#: includes/Admin/AdminDashboard.php:372
+msgid "Player, die ein Skript erst nach dem Laden der Seite einfügt."
+msgstr "المشغّلات التي يدرجها نص برمجي بعد اكتمال تحميل الصفحة."
+
+#: includes/Admin/AdminDashboard.php:388
+msgid "Protokoll der Entscheidungen"
+msgstr "سجل القرارات"
+
+#: includes/Admin/AdminDashboard.php:389
+msgid ""
+"Jede Entscheidung wird mit einem HMAC-SHA256 signiert (Schlüssel: AUTH_KEY "
+"aus wp-config.php, sonst ein Salt aus der Datenbank) und mit dem vorherigen "
+"Eintrag verkettet; die Spitze der Kette steht zusätzlich signiert in einer "
+"Option. Die Prüfung erkennt geänderte, gelöschte, nachträglich eingefügte "
+"und abgeschnittene Einträge, solange der Schlüssel nicht bekannt ist. Sie "
+"beweist nicht, dass ein Eintrag von einem echten Besucher stammt: jeder kann "
+"den Token abrufen und eine Entscheidung senden."
+msgstr ""
+"يُوقَّع كل قرار بـ HMAC-SHA256 (المفتاح: AUTH_KEY من wp-config.php أو ملح من "
+"قاعدة البيانات) ويُربط بالقيد السابق؛ كما تُحفظ قمة السلسلة موقَّعة في خيار "
+"مستقل. يكشف التحقق القيود المعدّلة أو المحذوفة أو المضافة أو المقتطعة ما دام "
+"المفتاح سريًا. وهو لا يثبت أن القيد صادر عن زائر حقيقي."
+
+#: includes/Admin/AdminDashboard.php:391
+msgid "Kette jetzt prüfen"
+msgstr "التحقق من السلسلة الآن"
+
+#: includes/Admin/AdminDashboard.php:398
+msgid "Knoten"
+msgstr "العقدة"
+
+#: includes/Admin/AdminDashboard.php:399
+msgid "Vorgänger"
+msgstr "السابق"
+
+#: includes/Admin/AdminDashboard.php:400
+msgid "Signatur des Eintrags"
+msgstr "توقيع القيد"
+
+#: includes/Admin/AdminDashboard.php:401
+msgid "Verkettung"
+msgstr "الربط"
+
+#: includes/Admin/AdminDashboard.php:402
+msgid "Zeitpunkt"
+msgstr "التوقيت"
+
+#: includes/Admin/AdminDashboard.php:408
+msgid "Noch keine Einträge."
+msgstr "لا توجد قيود بعد."
+
+#: includes/Admin/AdminDashboard.php:435
+msgid "Prüfe die Kette …"
+msgstr "جارٍ التحقق من السلسلة …"
+
+#: includes/Admin/AdminDashboard.php:444
+msgid "Prüfung fehlgeschlagen:"
+msgstr "فشل التحقق:"
+
+#: includes/Admin/AdminDashboard.php:446
+msgid "Noch keine Entscheidung protokolliert: nichts zu prüfen."
+msgstr "لم يُسجَّل أي قرار بعد: لا شيء للتحقق منه."
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Kette unverändert. Geprüfte Knoten:"
+msgstr "السلسلة سليمة. العقد المتحقَّق منها:"
+
+#: includes/Admin/AdminDashboard.php:448
+msgid "Schlüsselquelle:"
+msgstr "مصدر المفتاح:"
+
+#: includes/Admin/AdminDashboard.php:451
+msgid "Fehler:"
+msgstr "خطأ:"
+
+#: includes/Admin/AdminDashboard.php:463
+msgid "localStorage"
+msgstr "localStorage"
+
+#: includes/Admin/AdminDashboard.php:464
+msgid ""
+"Speicher im Browser des Besuchers. Das Plugin legt dort die Entscheidung ab; "
+"dazu setzt es ein einziges Cookie, wm_consent, damit auch PHP die "
+"Entscheidung lesen kann (wm_consent_has)."
+msgstr ""
+"مساحة تخزين في متصفح الزائر. تحفظ الإضافة القرار هناك وتضبط ملف تعريف ارتباط "
+"واحدًا هو wm_consent لكي تتمكن PHP أيضًا من قراءة الاختيار (wm_consent_has)."
+
+#: includes/Admin/AdminDashboard.php:467 includes/Admin/SettingsScreen.php:184
+#: includes/Admin/SettingsScreen.php:393 includes/Admin/SettingsScreen.php:447
+#: includes/Admin/SettingsScreen.php:490
+msgid "Kategorie"
+msgstr "الفئة"
+
+#: includes/Admin/AdminDashboard.php:468
+msgid ""
+"Notwendig (immer aktiv), Statistik, Marketing oder Externe Medien. Jeder "
+"eingetragene Dienst gehört zu genau einer; seine Skripte und iframes warten "
+"auf die Einwilligung in diese Kategorie."
+msgstr ""
+"ضرورية (نشطة دائمًا)، إحصاءات، تسويق أو وسائط خارجية. تنتمي كل خدمة مسجلة إلى "
+"فئة واحدة فقط؛ وتنتظر نصوصها البرمجية وإطاراتها الموافقة على تلك الفئة."
+
+#: includes/Admin/AdminDashboard.php:471 includes/Admin/SettingsScreen.php:181
+#: includes/Admin/SettingsScreen.php:330
+msgid "Version der Richtlinie"
+msgstr "إصدار السياسة"
+
+#: includes/Admin/AdminDashboard.php:472
+msgid ""
+"Kennzeichen unter „Einstellungen“. Eine Entscheidung gilt nur für die "
+"Version, zu der sie gegeben wurde; eine neue Version fragt alle Besucher "
+"erneut."
+msgstr ""
+"معرّف ضمن «الإعدادات». يسري القرار فقط على الإصدار الذي مُنح له؛ وإصدار جديد "
+"يعيد سؤال جميع الزوار."
+
+#: includes/Admin/AdminDashboard.php:475
+msgid "Signaturformat"
+msgstr "صيغة التوقيع"
+
+#: includes/Admin/AdminDashboard.php:476
+msgid ""
+"Einträge vor dem 17.09.2026 tragen Format 1 (Kennung, IP-Hash, drei Werte, "
+"Zeitpunkt). Neue Einträge tragen Format 2, das zusätzlich Kategorien, "
+"Version der Richtlinie und User-Agent signiert. Jeder Eintrag wird mit "
+"seinem Format geprüft."
+msgstr ""
+"تحمل القيود قبل 17.09.2026 الصيغة 1 (المعرّف، تجزئة IP، ثلاث قيم، الوقت). "
+"وتحمل القيود الجديدة الصيغة 2 التي توقّع أيضًا الفئات وإصدار السياسة وUser-"
+"Agent. يُفحص كل قيد بصيغته."
+
+#: includes/Admin/AdminDashboard.php:480
+msgid ""
+"Ersetzt ein eingebettetes Video oder eine Karte, bis der Besucher klickt; "
+"vorher baut der Browser keine Verbindung zum Anbieter auf."
+msgstr ""
+"يحل محل فيديو أو خريطة مضمّنة حتى ينقر الزائر؛ وقبل ذلك لا يتصل المتصفح "
+"بالمزود."
+
+#: includes/Admin/AdminDashboard.php:483
+msgid "HMAC-Kette"
+msgstr "سلسلة HMAC"
+
+#: includes/Admin/AdminDashboard.php:484
+msgid ""
+"Jeder Eintrag trägt eine Signatur mit einem geheimen Schlüssel und die des "
+"vorherigen. Wer die Daten ohne den Schlüssel ändert, fällt bei der Prüfung "
+"auf; wer den Schlüssel kennt, nicht. Trotz des Klassennamens ist es kein "
+"Merkle-Baum."
+msgstr ""
+"يحمل كل قيد توقيعًا بمفتاح سري وتوقيع القيد السابق. أي تعديل دون المفتاح "
+"ينكشف عند التحقق. ورغم اسم الفئة البرمجية فهذه سلسلة خطية وليست شجرة Merkle."
+
+#: includes/Admin/SettingsScreen.php:66 includes/Admin/SettingsScreen.php:100
+#: includes/Admin/SettingsScreen.php:111 includes/Admin/SettingsScreen.php:137
+#: includes/Admin/SettingsScreen.php:147
+msgid "Keine Berechtigung."
+msgstr "ليست لديك صلاحية."
+
+#: includes/Admin/SettingsScreen.php:179 includes/Admin/SettingsScreen.php:289
+msgid "Datenschutzerklärung (URL)"
+msgstr "سياسة الخصوصية (URL)"
+
+#: includes/Admin/SettingsScreen.php:180 includes/Admin/SettingsScreen.php:303
+msgid "Impressum (URL)"
+msgstr "البيانات القانونية / Impressum (URL)"
+
+#: includes/Admin/SettingsScreen.php:182 includes/Admin/SettingsScreen.php:335
+msgid "Gültigkeit in Tagen"
+msgstr "الصلاحية بالأيام"
+
+#: includes/Admin/SettingsScreen.php:183 includes/Admin/SettingsScreen.php:433
+msgid "Name"
+msgstr "الاسم"
+
+#: includes/Admin/SettingsScreen.php:185 includes/Admin/SettingsScreen.php:463
+msgid "Host- oder Dateimuster"
+msgstr "أنماط المضيف أو الملف"
+
+#: includes/Admin/SettingsScreen.php:186 includes/Admin/SettingsScreen.php:468
+msgid "Cookie-Namen"
+msgstr "أسماء ملفات تعريف الارتباط"
+
+#: includes/Admin/SettingsScreen.php:187 includes/Admin/SettingsScreen.php:437
+msgid "Kennung"
+msgstr "المعرّف"
+
+#: includes/Admin/SettingsScreen.php:188
+msgid "Kennung (schon vergeben)"
+msgstr "المعرّف (مستخدم بالفعل)"
+
+#: includes/Admin/SettingsScreen.php:189
+msgid "Dienst (nicht mehr vorhanden)"
+msgstr "الخدمة (لم تعد موجودة)"
+
+#: includes/Admin/SettingsScreen.php:199
+msgid "Einstellungen gespeichert."
+msgstr "تم حفظ الإعدادات."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:202
+#, php-format
+msgid ""
+"Gespeichert, bis auf diese Felder, die ihren bisherigen Wert behalten: %s"
+msgstr "تم الحفظ باستثناء هذه الحقول التي احتفظت بقيمتها السابقة: %s"
+
+#. translators: %s: new policy version
+#: includes/Admin/SettingsScreen.php:205
+#, php-format
+msgid ""
+"Version der Richtlinie ist jetzt „%s“. Besucher sehen das Banner beim "
+"nächsten Seitenaufruf erneut."
+msgstr ""
+"أصبح إصدار السياسة الآن «%s». سيرى الزوار الشريط مجددًا عند تصفح الصفحة "
+"التالية."
+
+#: includes/Admin/SettingsScreen.php:207
+msgid "Dienst hinzugefügt."
+msgstr "تمت إضافة الخدمة."
+
+#: includes/Admin/SettingsScreen.php:209
+msgid "Dienst gespeichert."
+msgstr "تم حفظ الخدمة."
+
+#. translators: %s: list of fields
+#: includes/Admin/SettingsScreen.php:212
+#, php-format
+msgid "Der Dienst wurde nicht gespeichert. Bitte prüfen: %s"
+msgstr "لم يتم حفظ الخدمة. يرجى التحقق من: %s"
+
+#: includes/Admin/SettingsScreen.php:214
+msgid "Dienst entfernt."
+msgstr "تمت إزالة الخدمة."
+
+#: includes/Admin/SettingsScreen.php:216
+msgid "Diesen Dienst gibt es nicht mehr."
+msgstr "هذه الخدمة لم تعد موجودة."
+
+#: includes/Admin/SettingsScreen.php:218
+msgid ""
+"Vorlage als Dienst hinzugefügt. Bitte Anbieter und Angaben für Ihre Website "
+"prüfen."
+msgstr "تمت إضافة القالب كخدمة. يرجى مراجعة المزود والبيانات الخاصة بموقعك."
+
+#: includes/Admin/SettingsScreen.php:220
+msgid ""
+"Ein Dienst mit dieser Kennung ist schon eingetragen; er wurde nicht "
+"überschrieben."
+msgstr "توجد خدمة مسجلة بهذا المعرّف بالفعل؛ لم تتم الكتابة فوقها."
+
+#: includes/Admin/SettingsScreen.php:222
+msgid "Unbekannte Vorlage."
+msgstr "قالب غير معروف."
+
+#: includes/Admin/SettingsScreen.php:249
+msgid "Schaltfläche „alle akzeptieren“"
+msgstr "زر «قبول الكل»"
+
+#: includes/Admin/SettingsScreen.php:250
+msgid "Schaltfläche „nur notwendige“"
+msgstr "زر «الضرورية فقط»"
+
+#: includes/Admin/SettingsScreen.php:251
+msgid "Schaltfläche „Einstellungen“"
+msgstr "زر «الإعدادات»"
+
+#: includes/Admin/SettingsScreen.php:252
+msgid "Schaltfläche „Auswahl speichern“"
+msgstr "زر «حفظ الاختيار»"
+
+#: includes/Admin/SettingsScreen.php:253
+msgid "Linktext Datenschutzerklärung"
+msgstr "نص رابط سياسة الخصوصية"
+
+#: includes/Admin/SettingsScreen.php:254
+msgid "Linktext Impressum"
+msgstr "نص رابط البيانات القانونية"
+
+#: includes/Admin/SettingsScreen.php:265
+msgid "Texte des Banners"
+msgstr "نصوص الشريط"
+
+#: includes/Admin/SettingsScreen.php:266
+msgid ""
+"Ein leeres Feld verwendet den Standardtext, der unter dem Feld steht und mit "
+"der Sprache der Website übersetzt wird. Die Standardtexte beschreiben, was "
+"das Plugin speichert; ob sie für Ihre Website rechtlich genügen, prüft das "
+"Plugin nicht."
+msgstr ""
+"يستخدم الحقل الفارغ النص الافتراضي المعروض أسفله مترجمًا إلى لغة الموقع. تصف "
+"النصوص الافتراضية ما تخزنه الإضافة دون تقييم قانوني."
+
+#. translators: %s: default text
+#: includes/Admin/SettingsScreen.php:279 includes/Admin/SettingsScreen.php:320
+#, php-format
+msgid "Standard: %s"
+msgstr "الافتراضي: %s"
+
+#: includes/Admin/SettingsScreen.php:287
+msgid "Links im Banner"
+msgstr "الروابط في الشريط"
+
+#. translators: %s: URL of the privacy policy page set in WordPress
+#: includes/Admin/SettingsScreen.php:296
+#, php-format
+msgid "Leer: die unter Einstellungen › Datenschutz gewählte Seite (%s)."
+msgstr "فارغ: الصفحة المختارة ضمن الإعدادات › الخصوصية (%s)."
+
+#: includes/Admin/SettingsScreen.php:297
+msgid ""
+"Leer: die unter Einstellungen › Datenschutz gewählte Seite. Dort ist derzeit "
+"keine veröffentlichte Seite gewählt, also zeigt das Banner keinen Link."
+msgstr ""
+"فارغ: الصفحة المختارة ضمن الإعدادات › الخصوصية. لا توجد صفحة منشورة محددة "
+"هناك حاليًا، لذا لن يظهر رابط."
+
+#: includes/Admin/SettingsScreen.php:305
+msgid "Leer: kein Impressum-Link im Banner."
+msgstr "فارغ: بلا رابط بيانات قانونية في الشريط."
+
+#: includes/Admin/SettingsScreen.php:307
+msgid ""
+"Auf diesen beiden Seiten öffnet sich das Banner nicht von selbst, damit "
+"Besucher sie vor ihrer Entscheidung lesen können."
+msgstr ""
+"في هاتين الصفحتين لا يُفتح الشريط تلقائيًا ليتمكن الزوار من قراءتهما قبل اتخاذ "
+"القرار."
+
+#: includes/Admin/SettingsScreen.php:311
+msgid "Beschreibungen der Kategorien"
+msgstr "أوصاف الفئات"
+
+#: includes/Admin/SettingsScreen.php:328
+msgid "Einwilligung"
+msgstr "الموافقة"
+
+#: includes/Admin/SettingsScreen.php:332
+msgid ""
+"Jede gespeicherte Entscheidung gilt für diese Version. Ändern Sie sie, sehen "
+"alle Besucher das Banner erneut, und das Protokoll hält fest, für welche "
+"Version entschieden wurde. Erlaubt: Buchstaben, Ziffern, Punkt, Bindestrich, "
+"Unterstrich (höchstens 32 Zeichen)."
+msgstr ""
+"يسري كل قرار محفوظ على هذا الإصدار. عند تغييره يرى جميع الزوار الشريط من "
+"جديد ويسجل السجل الإصدار المختار. المسموح: أحرف وأرقام ونقطة وشرطة وشرطة "
+"سفلية (حتى 32 حرفًا)."
+
+#: includes/Admin/SettingsScreen.php:337
+msgid ""
+"Nach so vielen Tagen fragt das Banner erneut; so lange lebt auch das Cookie "
+"wm_consent."
+msgstr ""
+"بعد هذا العدد من الأيام يسأل الشريط مجددًا؛ ويعيش ملف تعريف الارتباط "
+"wm_consent المدة نفسها."
+
+#: includes/Admin/SettingsScreen.php:342
+msgid ""
+"Skripte und iframes eingetragener Dienste bis zur Einwilligung blockieren"
+msgstr "حظر النصوص البرمجية وإطارات iframe للخدمات المسجلة حتى الموافقة"
+
+#: includes/Admin/SettingsScreen.php:344
+msgid ""
+"Ausgeschaltet schreibt das Plugin die Seite nicht mehr um: eingetragene "
+"Dienste laden sofort, auch ohne Entscheidung. Banner, Protokoll und die "
+"Platzhalter im Beitragsinhalt bleiben aktiv."
+msgstr ""
+"عند الإيقاف تتوقف الإضافة عن إعادة كتابة الصفحة: تُحمَّل الخدمات المسجلة فورًا "
+"حتى دون قرار. ويبقى الشريط والسجل والعناصر النائبة في المحتوى نشطة."
+
+#: includes/Admin/SettingsScreen.php:349
+msgid ""
+"Alle Protokolle, Tabellen und Einstellungen beim Löschen des Plugins "
+"entfernen"
+msgstr "حذف جميع السجلات والجداول والإعدادات عند حذف الإضافة"
+
+#: includes/Admin/SettingsScreen.php:351
+msgid ""
+"Standardmäßig bleiben das Einwilligungsprotokoll, die HMAC-Kette und alle "
+"Einstellungen bei der Deinstallation erhalten, damit dokumentierte "
+"Entscheidungen nicht unbeabsichtigt gelöscht werden."
+msgstr ""
+"افتراضيًا يتم الاحتفاظ بسجل الموافقات وسلسلة HMAC وجميع الإعدادات عند إلغاء "
+"التثبيت لتجنب حذف القرارات الموثقة عن طريق الخطأ."
+
+#: includes/Admin/SettingsScreen.php:355
+msgid "Einstellungen speichern"
+msgstr "حفظ الإعدادات"
+
+#: includes/Admin/SettingsScreen.php:359
+msgid "Alle Besucher erneut fragen"
+msgstr "إعادة سؤال جميع الزوار"
+
+#: includes/Admin/SettingsScreen.php:360
+msgid ""
+"Erhöht die Version der Richtlinie um einen Schritt (eine Zahl am Ende wird "
+"hochgezählt). Bestehende Entscheidungen bleiben im Protokoll, gelten im "
+"Browser aber nicht mehr."
+msgstr ""
+"يرفع إصدار السياسة خطوة واحدة (يزداد الرقم في النهاية). تبقى القرارات "
+"الحالية في السجل لكنها لا تعود سارية في المتصفح."
+
+#: includes/Admin/SettingsScreen.php:364
+msgid "Version erhöhen"
+msgstr "رفع الإصدار"
+
+#: includes/Admin/SettingsScreen.php:383
+msgid ""
+"Skripte und iframes, deren Quelle oder Code eines der Muster enthält, warten "
+"auf die Einwilligung in die Kategorie des Dienstes. Das Banner listet die "
+"Dienste je Kategorie; beim Widerruf löscht es die angegebenen Cookies dieser "
+"Website."
+msgstr ""
+"النصوص البرمجية وإطارات iframe التي يحتوي مصدرها أو كودها على أحد الأنماط "
+"تنتظر الموافقة على فئة الخدمة. يعرض الشريط الخدمات حسب الفئة؛ وعند السحب "
+"يحذف ملفات تعريف الارتباط المحددة على هذا الموقع."
+
+#: includes/Admin/SettingsScreen.php:385
+msgid ""
+"Noch keine Dienste eingetragen: außer den Platzhaltern für YouTube, Vimeo "
+"und Google Maps und dem Markup mit data-wm-consent wird nichts blockiert."
+msgstr ""
+"لا توجد خدمات مسجلة بعد: باستثناء العناصر النائبة لـ YouTube وVimeo وخرائط "
+"Google والترميز بـ data-wm-consent لا يتم حظر أي شيء."
+
+#: includes/Admin/SettingsScreen.php:392 includes/Admin/SettingsScreen.php:489
+msgid "Dienst"
+msgstr "الخدمة"
+
+#: includes/Admin/SettingsScreen.php:394 includes/Admin/SettingsScreen.php:491
+msgid "Muster"
+msgstr "الأنماط"
+
+#: includes/Admin/SettingsScreen.php:395
+#: includes/Frontend/ConsentBanner.php:219
+msgid "Cookies"
+msgstr "ملفات تعريف الارتباط"
+
+#: includes/Admin/SettingsScreen.php:396 includes/Admin/SettingsScreen.php:526
+msgid "Aktionen"
+msgstr "الإجراءات"
+
+#: includes/Admin/SettingsScreen.php:408
+msgid "Bearbeiten"
+msgstr "تحرير"
+
+#: includes/Admin/SettingsScreen.php:414
+msgid "Entfernen"
+msgstr "إزالة"
+
+#: includes/Admin/SettingsScreen.php:426
+msgid "Dienst bearbeiten"
+msgstr "تحرير الخدمة"
+
+#: includes/Admin/SettingsScreen.php:426 includes/Admin/SettingsScreen.php:473
+msgid "Dienst hinzufügen"
+msgstr "إضافة خدمة"
+
+#: includes/Admin/SettingsScreen.php:439
+msgid ""
+"Kleinbuchstaben, Ziffern, Bindestrich und Unterstrich. Leer: aus dem Namen "
+"gebildet."
+msgstr "أحرف صغيرة وأرقام وشرطة وشرطة سفلية. فارغ: يُشتق من الاسم."
+
+#: includes/Admin/SettingsScreen.php:442
+#: includes/Frontend/ConsentBanner.php:211
+msgid "Anbieter"
+msgstr "المزوّد"
+
+#: includes/Admin/SettingsScreen.php:444
+msgid ""
+"Wie Besucher den Anbieter im Banner sehen, zum Beispiel mit Firma und Sitz."
+msgstr "كيف يرى الزوار المزود في الشريط، مثل اسم الشركة ومقرها."
+
+#: includes/Admin/SettingsScreen.php:455
+#: includes/Frontend/ConsentBanner.php:215
+msgid "Zweck"
+msgstr "الغرض"
+
+#: includes/Admin/SettingsScreen.php:459
+msgid "Datenschutzerklärung des Anbieters (URL)"
+msgstr "سياسة خصوصية المزود (URL)"
+
+#: includes/Admin/SettingsScreen.php:465
+msgid ""
+"Ein Muster je Zeile, zum Beispiel googletagmanager.com oder matomo.js: 4 bis "
+"100 Zeichen aus Kleinbuchstaben, Ziffern und . _ - /, mit mindestens einem "
+"Punkt oder Schrägstrich. Ein Muster trifft, wo es als ganzer Host- oder "
+"Dateiname in der Quelle eines Skripts oder iframes oder im Code eines Inline-"
+"Skripts steht. Pflicht, außer in der Kategorie Notwendig."
+msgstr ""
+"نمط واحد في كل سطر، مثل googletagmanager.com أو matomo.js: من 4 إلى 100 حرف "
+"من الأحرف الصغيرة والأرقام و . _ - / مع نقطة أو شرطة مائلة واحدة على الأقل. "
+"إلزامي باستثناء الفئة الضرورية."
+
+#: includes/Admin/SettingsScreen.php:470
+msgid ""
+"Ein Name je Zeile; ein * am Ende steht für jede Fortsetzung (_ga_*). Werden "
+"beim Widerruf der Kategorie auf dieser Website gelöscht."
+msgstr ""
+"اسم واحد في كل سطر؛ الرمز * في النهاية يشمل أي تكملة (_ga_*). تُحذف من هذا "
+"الموقع عند سحب الفئة."
+
+#: includes/Admin/SettingsScreen.php:473
+msgid "Dienst speichern"
+msgstr "حفظ الخدمة"
+
+#: includes/Admin/SettingsScreen.php:475
+msgid "Abbrechen"
+msgstr "إلغاء"
+
+#: includes/Admin/SettingsScreen.php:482 includes/Admin/SettingsScreen.php:486
+msgid "Vorlagen"
+msgstr "القوالب"
+
+#: includes/Admin/SettingsScreen.php:483
+msgid ""
+"Häufige Dienste mit den Hosts, Dateinamen und Cookies, die ihre Anbieter "
+"dokumentieren (geprüft am 17.09.2026). Eine Vorlage wird erst mit "
+"„Hinzufügen“ zum Dienst; tragen Sie nur Dienste ein, die Ihre Website "
+"tatsächlich verwendet, und ergänzen Sie den Anbieter."
+msgstr ""
+"خدمات شائعة مع النطاقات والملفات وملفات تعريف الارتباط الموثقة من مزوديها "
+"(فُحصت في 17.09.2026). لا يصبح القالب خدمة إلا بالنقر على «إضافة»؛ أضف فقط "
+"الخدمات التي يستخدمها موقعك فعليًا."
+
+#: includes/Admin/SettingsScreen.php:492
+msgid "Aktion"
+msgstr "الإجراء"
+
+#: includes/Admin/SettingsScreen.php:503
+msgid "eingetragen"
+msgstr "مسجلة"
+
+#: includes/Admin/SettingsScreen.php:509
+msgid "Hinzufügen"
+msgstr "إضافة"
+
+#: includes/Admin/SettingsScreen.php:521
+msgid "Für Entwickler"
+msgstr "للمطورين"
+
+#: includes/Admin/SettingsScreen.php:523
+msgid "läuft erst nach Einwilligung in die Kategorie (auch mit src)."
+msgstr "يعمل فقط بعد الموافقة على الفئة (بما في ذلك مع src)."
+
+#: includes/Admin/SettingsScreen.php:524
+msgid ""
+"PHP: ob der Besucher eingewilligt hat; die Antwort wird nicht "
+"zwischengespeichert."
+msgstr "PHP: ما إذا كان الزائر قد وافق؛ لا يتم تخزين الاستجابة مؤقتًا."
+
+#: includes/Admin/SettingsScreen.php:525
+msgid "Ereignis"
+msgstr "حدث"
+
+#: includes/Admin/SettingsScreen.php:526
+msgid "Filter"
+msgstr "مرشحات"
+
+#: includes/Admin/SettingsScreen.php:527
+msgid "Block Bindings & Dynamic Tags"
+msgstr "Block Bindings والوسوم الديناميكية"
+
+#: includes/API/RestController.php:121 includes/API/RestController.php:155
+msgid "Zu viele Anfragen. Bitte in einer Minute erneut versuchen."
+msgstr "طلبات كثيرة جدًا. يرجى المحاولة مرة أخرى بعد دقيقة."
+
+#: includes/API/RestController.php:145
+msgid ""
+"Einwilligung nicht gespeichert: fehlender oder abgelaufener Sicherheits-"
+"Token."
+msgstr "لم يتم حفظ الموافقة: رمز الأمان مفقود أو منتهي الصلاحية."
+
+#: includes/Blocker/OutputBlocker.php:392
+msgid "externer Anbieter"
+msgstr "مزود خارجي"
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:79
+#, php-format
+msgid "Externer Inhalt blockiert (%s)"
+msgstr "تم حظر المحتوى الخارجي (%s)"
+
+#. translators: 1: provider name, 2: provider name
+#: includes/Blocker/ScriptIframeBlocker.php:85
+#, php-format
+msgid ""
+"Dieser Inhalt liegt bei %1$s. Erst ein Klick auf die Schaltfläche lädt ihn "
+"nach; dabei baut Ihr Browser eine Verbindung zu %2$s auf und übermittelt "
+"unter anderem Ihre IP-Adresse."
+msgstr ""
+"يُستضاف هذا المحتوى لدى %1$s. لا يُحمَّل إلا بالنقر على الزر؛ وعندئذٍ ينشئ متصفحك "
+"اتصالًا مع %2$s وينقل من بين بيانات أخرى عنوان IP الخاص بك."
+
+#. translators: %s: External service provider name like YouTube or Google Maps
+#: includes/Blocker/ScriptIframeBlocker.php:90
+#, php-format
+msgid "Inhalt entsperren & %s laden"
+msgstr "إلغاء قفل المحتوى وتحميل %s"
+
+#: includes/Blocker/ScriptIframeBlocker.php:91
+#: includes/Frontend/ConsentBanner.php:273
+msgid "Datenschutzeinstellungen anpassen"
+msgstr "تعديل إعدادات الخصوصية"
+
+#: includes/Core/Categories.php:120
+msgid "Notwendig"
+msgstr "ضرورية"
+
+#: includes/Core/Categories.php:121
+msgid ""
+"Für den Betrieb der Website erforderlich, zum Beispiel das Speichern dieser "
+"Auswahl. Diese Kategorie lässt sich nicht abschalten."
+msgstr "لازمة لتشغيل الموقع، مثل حفظ هذا الاختيار. لا يمكن إيقاف هذه الفئة."
+
+#: includes/Core/Categories.php:124
+msgid "Statistik"
+msgstr "الإحصاءات"
+
+#: includes/Core/Categories.php:125
+msgid ""
+"Dienste, die erfassen, wie die Website genutzt wird, um sie auszuwerten."
+msgstr "خدمات تقيس كيفية استخدام الموقع من أجل تحليل الاستخدام."
+
+#: includes/Core/Categories.php:128
+msgid "Marketing"
+msgstr "التسويق"
+
+#: includes/Core/Categories.php:129
+msgid ""
+"Dienste, die Besuche für Werbung und deren Erfolgsmessung auswerten, auch "
+"über diese Website hinaus."
+msgstr ""
+"خدمات تقيّم الزيارات لأغراض الإعلان وقياس الحملات، بما في ذلك خارج هذا الموقع."
+
+#: includes/Core/Categories.php:132
+msgid "Externe Medien"
+msgstr "الوسائط الخارجية"
+
+#: includes/Core/Categories.php:133
+msgid ""
+"Eingebettete Inhalte anderer Anbieter wie Videos und Karten. Beim Laden baut "
+"Ihr Browser eine Verbindung zu diesem Anbieter auf."
+msgstr ""
+"محتوى مضمّن من مزودين آخرين مثل الفيديو والخرائط. عند التحميل يتصل متصفحك "
+"بذلك المزود."
+
+#. translators: %s: comma-separated list of missing PHP extensions
+#: includes/Database/Schema.php:49
+#, php-format
+msgid ""
+"WM Sovereign Consent Vault konnte nicht aktiviert werden, da folgende "
+"erforderliche PHP-Erweiterungen fehlen: %s."
+msgstr ""
+"تعذّر تفعيل WM Sovereign Consent Vault لأن امتدادات PHP المطلوبة التالية "
+"مفقودة: %s."
+
+#: includes/Database/Schema.php:53
+msgid "Fehlende PHP-Erweiterung"
+msgstr "امتداد PHP مفقود"
+
+#: includes/Frontend/ConsentBanner.php:54
+msgid "Datenschutz-Einstellungen"
+msgstr "إعدادات الخصوصية"
+
+#: includes/Frontend/ConsentBanner.php:57
+msgid ""
+"Sie entscheiden, welche Kategorien von Diensten diese Website verwenden "
+"darf. Ihre Auswahl wird in Ihrem Browser gespeichert und auf diesem Server "
+"protokolliert: mit einem Hash Ihrer IP-Adresse, der Kennung Ihres Browsers "
+"(User-Agent) im Klartext und dem Zeitpunkt."
+msgstr ""
+"أنت تقرر فئات الخدمات التي يُسمح لهذا الموقع باستخدامها. يُحفظ اختيارك في "
+"متصفحك ويُسجَّل على هذا الخادم مع تجزئة لعنوان IP الخاص بك ومعرّف المتصفح (User-"
+"Agent) كنص صريح والتوقيت."
+
+#: includes/Frontend/ConsentBanner.php:58
+msgid "Alle akzeptieren"
+msgstr "قبول الكل"
+
+#: includes/Frontend/ConsentBanner.php:59
+msgid "Nur notwendige"
+msgstr "الضرورية فقط"
+
+#: includes/Frontend/ConsentBanner.php:61
+msgid "Auswahl speichern"
+msgstr "حفظ الاختيار"
+
+#: includes/Frontend/ConsentBanner.php:62
+msgid "Datenschutzerklärung"
+msgstr "سياسة الخصوصية"
+
+#: includes/Frontend/ConsentBanner.php:63
+msgid "Impressum"
+msgstr "البيانات القانونية"
+
+#: includes/Frontend/ConsentBanner.php:156
+msgid "(öffnet in einem neuen Tab)"
+msgstr "(يفتح في لسان جديد)"
+
+#: includes/Frontend/ConsentBanner.php:175
+msgid "Auswahl nach Kategorien"
+msgstr "الاختيار حسب الفئات"
+
+#: includes/Frontend/ConsentBanner.php:192
+msgid "Immer aktiv"
+msgstr "نشطة دائمًا"
+
+#. translators: %d: number of services in this category
+#: includes/Frontend/ConsentBanner.php:202
+#, php-format
+msgid "%d Dienst in dieser Kategorie"
+msgid_plural "%d Dienste in dieser Kategorie"
+msgstr[0] "%d خدمة في هذه الفئة"
+msgstr[1] "%d خدمة في هذه الفئة"
+msgstr[2] "%d خدمتان في هذه الفئة"
+msgstr[3] "%d خدمات في هذه الفئة"
+msgstr[4] "%d خدمة في هذه الفئة"
+msgstr[5] "%d خدمة في هذه الفئة"
+
+#: includes/Frontend/ConsentBanner.php:223
+msgid "Datenschutz"
+msgstr "الخصوصية"
+
+#: includes/Frontend/ConsentBanner.php:224
+msgid "Datenschutzerklärung des Anbieters"
+msgstr "سياسة خصوصية المزود"
+
+#: includes/Frontend/ConsentBanner.php:238
+msgid "Zurück"
+msgstr "رجوع"
+
+#: includes/Frontend/ConsentBanner.php:255
+msgid "Schließen, ohne die Auswahl zu ändern"
+msgstr "إغلاق دون تغيير الاختيار"
+
+#: includes/Frontend/EcosystemIntegration.php:46
+#: includes/Frontend/EcosystemIntegration.php:63
+msgid "WM Consent Status"
+msgstr "حالة WM Consent"
+
+#: includes/Frontend/EcosystemIntegration.php:67
+msgid "Gibt die aktuelle Richtlinien-Version oder den Kategorien-Status aus."
+msgstr "يعرض إصدار السياسة النشط أو حالة فئة الموافقة."
+
+#: includes/Frontend/EcosystemIntegration.php:129
+msgid "Freigegeben"
+msgstr "مسموح"
+
+#: includes/Frontend/EcosystemIntegration.php:130
+msgid "Blockiert"
+msgstr "محظور"
+
+#. translators: %s: active consent policy version
+#: includes/Frontend/EcosystemIntegration.php:138
+#, php-format
+msgid "Richtlinie v%s"
+msgstr "السياسة v%s"
+
+#: includes/Services/ServiceRegistry.php:99
+#: includes/Services/ServiceRegistry.php:117
+msgid "Auswertung der Nutzung der Website (Reichweitenmessung)."
+msgstr "تحليل استخدام الموقع (قياس الوصول)."
+
+#: includes/Services/ServiceRegistry.php:108
+msgid "Messung und Ausspielung von Werbung auf Plattformen von Meta."
+msgstr "قياس وعرض الإعلانات على منصات Meta."
+
+#: includes/Services/ServiceRegistry.php:126
+#: includes/Services/ServiceRegistry.php:135
+msgid ""
+"Auswertung, wie Besucher die Seiten nutzen (Heatmaps, "
+"Sitzungsaufzeichnungen)."
+msgstr "تحليل كيفية تفاعل الزوار مع الصفحات (خرائط التفاعل، تسجيلات الجلسات)."
+
+#: includes/Services/ServiceRegistry.php:144
+msgid "Messung von Werbekampagnen auf LinkedIn."
+msgstr "قياس الحملات الإعلانية على LinkedIn."
+
+#: includes/Services/ServiceRegistry.php:153
+msgid "Messung und Ausspielung von Werbung auf TikTok."
+msgstr "قياس وعرض الإعلانات على TikTok."
+
+#: includes/Services/ServiceRegistry.php:162
+#: includes/Services/ServiceRegistry.php:171
+msgid "Einbettung von Videos."
+msgstr "تضمين مقاطع الفيديو."
+
+#: includes/Services/ServiceRegistry.php:180
+msgid "Einbettung von Karten."
+msgstr "تضمين الخرائط."

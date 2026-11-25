@@ -1,0 +1,47 @@
+/* humanstxt.org */
+/* The humans responsible & technology colophon */
+
+# TEAM
+
+    Author: Arnold Wender
+
+    Built with: an agentic workflow (AI coding agents)
+# THANKS
+
+    To My Family -- For unconditional love, strength & continuous inspiration
+    WordPress Community & Core Contributors -- For democratizing publishing and powering the open web
+    Open Source Community -- For making software accessible to everyone
+
+# TECHNOLOGY COLOPHON
+
+    ## Architecture & Core
+    WordPress 6.4+ / 7.x
+    PHP 8.2+ (Strict Types, PSR-12, WPCS)
+    MySQL InnoDB (two plugin tables)
+    WP-CLI command and REST routes
+
+    ## Frontend
+    Vanilla JS (assets/js/wm-consent-vault.js, admin inline scripts)
+    CSS custom properties for the consent dialog and the click-to-load placeholder
+    Self-Hosted Assets (no CDN)
+
+    ## Quality
+    HMAC-SHA256 chained log of consent decisions, two signature formats
+    Output-buffer blocking of registered services before consent
+    Standalone test suites on PHP 8.2 and 8.3, mutation gate
+
+# SITE & PROJECT
+
+    Plugin: wm-sovereign-consent-vault
+    Stack: WordPress Enterprise Extension
+    Standards: Zero External Dependencies
+
+# CONTACT
+
+    Author Website: https://arnoldwender.com
+    Repository: https://github.com/arnoldwender/wm-wp-sovereign-consent-vault
+    Support: Zero support — reproducible bugs on GitHub Issues only (SUPPORT.md)
+
+# DEDICATION
+
+    Dedicated to my family with eternal love and gratitude.
